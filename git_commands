@@ -1,0 +1,26 @@
+Step1.
+echo "# taikhana2" >> README.md
+
+Step2.initialise the git-------->
+type -> git init
+
+
+to create a new file-
+type nano "file-name.extension"
+
+
+General step to add a file to git------>
+git add README.md
+
+add a commit------>
+ type -> git commit -m "first commit"
+
+
+connect to a repositry to git------->
+  type-> git remote add origin https://github.com/shadyStan1/taikhana2.git
+
+Step to push a file to github directory------>
+git push -u origin master
+
+
+g
