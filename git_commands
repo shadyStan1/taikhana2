@@ -22,5 +22,6 @@ connect to a repositry to git------->
 Step to push a file to github directory------>
 git push -u origin master
 
-
+to clone-
+git clone sshurl
 g
