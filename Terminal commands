@@ -1,0 +1,100 @@
+
+1.to get access into file system like "/var/lib"
+	type sudo -i
+	then cd/var......
+
+
+2. to open mysql
+	type mysql -u root -p		
+
+3. to check all the process running
+	type ps -A
+
+4. to install something
+	type sudo apt-get install program-name
+
+
+
+//Setting up jdk environment variable
+1.type -> sudo gedit /etc/profile
+2.write environment details inside gedit
+	as ->
+		JAVA_HOME = /usr/lib/java/jdk1.8.0_151/bin(based upon individual system installation directory)
+		export JAVA_HOME
+		PATH=$PATH:$JAVA_HOME
+		export PATH
+3.execute above as-> . /etc/profile
+4. check if done type -> echo $PATH
+
+
+//setting up MAVEN
+1. type to download -> sudo apt-get install maven
+2. now setup environment variable for this
+  type-> sudo gedit /etc/profile
+3. inside gedit file
+		write as below->
+				M2_HOME=/home/user/Documents/apache-maven-3.5.3
+				export M2_HOME
+				PATH=$PATH:$M2_HOME/bin
+				export $PATH
+4. execute above as-> . /etc/profile
+5. check version-> echo $PATH
+
+
+//steps to create a maven project(without eclipse)
+1.create a directory where you want to store project and move to this dir in terminal
+2.type-> mvn archetype:generate
+		(archetype means model of project structure(directory))
+
+3.step 2 will download few plugins consisting several directory-structure.
+	it will display code representing several project structures with a default one
+	Choose one of them
+
+4.next it will ask to enter the version. choose 6 or as per requirement 
+
+5.then several properties will be asked to enter
+	a. "groupid":(enter here the package eg, com.bangalore.abc)
+	b. "artifactid":(enter here the project name(also the name of war/jar.... file)).
+	c. "version":1.0SNAPSHOT
+	d. "package":same as groupid
+
+6.this will finish the project creation
+
+//steps to compile above project
+
+1.type-> mvn compile
+
+2.then-> mvn package
+	this will create a target folder containing the compiled file in a jar
+
+//now to run class file
+3.then-> java -cp target/FirstMavenProject-1.0-SNAPSHOT.jar com.pckg.demo.App
+
+#output will come
+
+
+		//What does pom.xml contains?
+
+1. Maven coordinates including the artifactid, groupid, version.
+
+2.metadata (what project is and what is version)
+
+3.build information(project is war/jar...)
+
+4.resources and dependencies
+
+
+
+		//repository location for maven
+
+.m2 directory on linux box usually would be $HOME/.m2
+
+you could get the $HOME :
+
+echo $HOME
+
+or simply:
+
+cd .m2/
+
+to go to your home directory.
