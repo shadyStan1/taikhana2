@@ -45,6 +45,14 @@ to clone-
 git clone sshurl
 
 
+****once we create a new repository we get only one branch and it is main branch called as master
+
+##in order to create a new branch---
+git branch "branch-name"
+
+##to switch to this branch---
+git checkout "branch-name"
+
 to check log(commit history)-
 git log
 
