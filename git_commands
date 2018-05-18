@@ -1,22 +1,41 @@
+Install git on system-
+sudo apt-get install git
+
+setup your username on git in the system-
+git config--global user.name"shadyStan1"
+
+setup your email on git in your system-
+git config--global user.email"amaniverma04@gmail.com"
+
+then you can create a repositry over the github by visiting the website.
+
 Step1.
 echo "# taikhana2" >> README.md
 
-Step2.initialise the git-------->
+Step2.initialise the git(means telling the local machine it is a git directory)-------------->
 type -> git init
 
 
 to create a new file-
-type nano "file-name.extension"
+type-> nano "file-name.extension"
 
+type content inside the file created
+to save type-> ctrl + 'O' + Enter
 
-General step to add a file to git------>
+to exit 
+type-> ctrl + 'X'
+
+to read file->
+nano "file-name"
+
+General step to add a file to git(STAGING)------>
 git add README.md
 
 add a commit------>
  type -> git commit -m "first commit"
 
 
-connect to a repositry to git------->
+connect to a remote repositry from local git repository(where to push the file)------->
   type-> git remote add origin https://github.com/shadyStan1/taikhana2.git
 
 Step to push a file to github directory------>
@@ -24,4 +43,15 @@ git push -u origin master
 
 to clone-
 git clone sshurl
-g
+
+
+to check log(commit history)-
+git log
+
+to create more decriptive graph of the commit history-
+git log --all --decorate --oneline --graph
+
+to give a name to this command-
+alias graph="git log --all --decorate --oneline --graph"
+
+then directly we can use this command 
