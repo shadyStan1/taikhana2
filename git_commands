@@ -54,6 +54,16 @@ git branch "branch-name"
 git checkout "branch-name"
 
 
+###to merge this branch into the master branch
+go to master branch like 
+git checkout master
+then->
+git merge "branch-name"(which one u want to merge)
+now to delete this merged branch
+type->git branch -D "branch-name"
+
+
+
 
 to check log(commit history)-
 git log
@@ -66,6 +76,9 @@ alias graph="git log --all --decorate --oneline --graph"
 
 then directly we can use this command 
 
+
+what is forking?
+forking means to create exact replica/instance of the master branch from the repository of some other account
 
 What is pull request?
 Pull requests let you tell others about changes you've pushed to a GitHub repository. 
