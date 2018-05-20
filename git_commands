@@ -35,8 +35,18 @@ add a commit------>
  type -> git commit -m "first commit"
 
 
-connect to a remote repositry from local git repository(where to push the file)------->
+connect to a remote repositry from local git repository(where to push the file)***NOT NEEDED EVERYTIME------->
   type-> git remote add origin https://github.com/shadyStan1/taikhana2.git
+
+
+************#####when locally commiting after adding file to git#######***************
+git pull --rebase origin master
+git push origin master
+Explanation:
+That way, you would replay (the --rebase part) your local commits on top of the newly updated origin/master 
+(or origin/yourBranch: git pull origin yourBranch).
+See a more complete example in the chapter 6 Pull with rebase of the Git Pocket Book.
+
 
 Step to push a file to github directory------>
 git push -u origin master
