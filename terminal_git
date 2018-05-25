@@ -1,0 +1,67 @@
+to change the password---->
+sudo passwd "username"
+
+
+<-------------------GIT------------------>
+
+1. if error comes like - "Fix “Unable to lock the administration directory (/var/lib/dpkg/)” in Ubuntu"
+Solution - first need to remove this directory
+do it as following--->
+sudo rm /var/lib/dpkg/lock
+
+then reconfigure this directory--->
+sudo dpkg --configure -a
+
+2.Install git-->
+sudo apt-get install git
+
+3. configure your account(username, email from git) to local machine--->
+git config--global user.name "username"
+git config--global user.email "email"
+
+4. make a dir for git to keep it synced with the git repository
+mkdir
+
+ALL INSIDE the dir made in step 4
+
+5.to add a readme file write
+echo "# dir-name" >> README.md
+
+6.now initialise the git dir(not required if I have cloned a existing repository)
+git init
+
+
+7.to add a file to the git
+git add "file-name"
+
+
+8.now we can add a comment to this file
+git commit -m "comment"
+
+9.now to add this file, commit to the remote directory
+git remote add origin https://github.com/shadyStan1/taikhana2
+
+
+10.now to push the changes to the remote directory
+git push -u origin master
+
+
+
+---------------------CLONING------------
+11.git clone https://...........
+
+
+
+--------------------Get Status----------
+12.git status
+
+
+
+----------------to reset all the changes----------
+13.git reset --hard
+
+
+
+
+-------------to check configured details---------
+14.git config --list
