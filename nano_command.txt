@@ -1,0 +1,12 @@
+-----working with nano command----
+
+
+1.we can create a new file using nano command from command line
+nano file-name
+
+2.to save
+ctrl + o
+
+3.to exit
+ctrl + x
+
