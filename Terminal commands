@@ -1,3 +1,14 @@
+///////////////installing java
+1.add a ppa dir
+type->sudo add-apt-repository ppa:webupd8team/java
+
+2.update repo
+sudo apt-get install update
+
+3.install java
+sudo apt-get install oracle-java8-installer -y
+
+
 
 1.to get access into file system like "/var/lib"
 	type sudo -i
