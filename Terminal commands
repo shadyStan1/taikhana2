@@ -98,3 +98,24 @@ or simply:
 cd .m2/
 
 to go to your home directory.
+
+
+
+
+
+/////making directory
+
+type-> sudo mkdir -p /folder-name/folder-name......
+**the above helps in making if that dir if any missing in the path
+
+
+
+//////change the ownership of a directory
+
+
+sudo chown nobody.nogroup /folder-name/folder-name/....
+
+
+/////list long
+type->ll
+**it shows the folders with their owners name
