@@ -1,0 +1,10 @@
+
+//uninstall incase installed
+sudo apt-get purge mysql-client-core-5.5
+
+
+//install server
+sudo apt-get install mysql-server
+
+//install client
+sudo apt-get install mysql-client
