@@ -1,3 +1,14 @@
+///////////////installing java
+1.add a ppa dir
+type->sudo add-apt-repository ppa:webupd8team/java
+
+2.update repo
+sudo apt-get install update
+
+3.install java
+sudo apt-get install oracle-java8-installer -y
+
+
 
 1.to get access into file system like "/var/lib"
 	type sudo -i
@@ -98,3 +109,24 @@ or simply:
 cd .m2/
 
 to go to your home directory.
+
+
+
+
+
+/////making directory
+
+type-> sudo mkdir -p /folder-name/folder-name......
+**the above helps in making if that dir if any missing in the path
+
+
+
+//////change the ownership of a directory
+
+
+sudo chown nobody.nogroup /folder-name/folder-name/....
+
+
+/////list long
+type->ll
+**it shows the folders with their owners name
