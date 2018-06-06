@@ -8,3 +8,6 @@ sudo apt-get install mysql-server
 
 //install client
 sudo apt-get install mysql-client
+
+//to check if server running
+sudo netstat -tap | grep mysql
