@@ -1,0 +1,14 @@
+//problem of no sync with the remote may occur
+/////to solve
+
+try checking the status
+->git status
+
+if there are files modified
+->try to add, commit and push them to remote
+
+then to sync->
+git pull
+
+
+
