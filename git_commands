@@ -28,7 +28,7 @@ type-> ctrl + 'X'
 to read file->
 nano "file-name"
 
-General step to add a file to git(STAGING)------>
+General step to add a file to git(STAGING)------>history
 git add README.md
 
 add a commit------>
