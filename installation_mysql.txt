@@ -11,3 +11,6 @@ sudo apt-get install mysql-client
 
 //to check if server running
 sudo netstat -tap | grep mysql
+
+
+cnschsbcb sn  b csnf srnhfkskjk
