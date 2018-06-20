@@ -95,3 +95,10 @@ Pull requests let you tell others about changes you've pushed to a GitHub reposi
 Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications,
 and even push follow-up commits if necessary.
 
+
+
+///maven command(to add maven repository(local) in knowledge of eclipse) 
+mvn -Declipse.workspace=/home/amanv/Renewals_Workspace eclipse:add-maven-repo
+OR
+mvn -Declipse.workspace=/home/amanv/Renewals_Workspace eclipse:configure-workspace
+
