@@ -83,6 +83,13 @@ sudo apt-get install oracle-java8-installer -y
 
 #output will come
 
+///maven command(to add maven repository(local) in knowledge of eclipse) 
+mvn -Declipse.workspace=/home/amanv/Renewals_Workspace eclipse:add-maven-repo
+OR
+mvn -Declipse.workspace=/home/amanv/Renewals_Workspace eclipse:configure-workspace
+
+////to clean, compile and build project 
+mvn clean package -Dmaven.test.skip=true -T 8C(this skips the test classes)
 
 		//What does pom.xml contains?
 
