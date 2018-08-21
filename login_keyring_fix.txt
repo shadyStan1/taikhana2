@@ -19,6 +19,7 @@ and after that delete login.keyring file
 
 rm ~/.local/share/keyrings/login.keyring
 Create a new keyring file from Gnome Keyring with the name login
+type= touch login.keyring
 
 Replace the new keyring file with the backup of the old keyring file
 
