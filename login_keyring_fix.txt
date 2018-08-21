@@ -1,0 +1,27 @@
+
+136
+down vote
+accepted
+Resetting everything (delete all passwords and start new keyring):
+
+rm ~/.local/share/keyrings/login.keyring
+Or
+
+Navigate to Places > Home. Press Ctrl + H to view "hidden files". Navigate to .local > share > keyrings and delete login.keyring
+
+Using the same keyring (resetting keyring password but keeping old passwords in keyring):
+
+Make a backup of the keyring
+
+cd ~/.local/share/keyrings/
+cp login.keyring login.keyring.backup
+and after that delete login.keyring file
+
+rm ~/.local/share/keyrings/login.keyring
+Create a new keyring file from Gnome Keyring with the name login
+
+Replace the new keyring file with the backup of the old keyring file
+
+cd ~/.local/share/keyrings/
+mv login.keyring.backup login.keyring      
+Note: before Ubuntu 12.10 the path to the keyrings folder was ~/.gnome2/keyrings/ instead of ~/.local/share/keyrings/.
