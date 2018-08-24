@@ -30,5 +30,5 @@ Note: before Ubuntu 12.10 the path to the keyrings folder was ~/.gnome2/keyrings
 
 
 TO CHANGE the password in the git config---->
-type sudo git config --global –edit
+type sudo git config --global --edit
 change the user name and password
