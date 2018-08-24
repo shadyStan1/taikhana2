@@ -26,3 +26,9 @@ Replace the new keyring file with the backup of the old keyring file
 cd ~/.local/share/keyrings/
 mv login.keyring.backup login.keyring      
 Note: before Ubuntu 12.10 the path to the keyrings folder was ~/.gnome2/keyrings/ instead of ~/.local/share/keyrings/.
+
+
+
+TO CHANGE the password in the git config---->
+type sudo git config --global –edit
+change the user name and password
