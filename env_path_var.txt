@@ -1,0 +1,2 @@
+to know all the path(environment var) set----------->
+type -> env

@@ -1,0 +1,12 @@
+Re-installed Maven into my system-
+  steps I followed----------------------->
+a. couldn't install maven 3.5.4
+b. so reinstalled maven 3.3.9
+c.same process I followed(sudo apt-install maven)
+d. did one change
+e. installed in /opt/ directory
+f. created a new environment variable file
+          inside --> /etc/profile.d/mavensh.sh
+g. and after setting up environment var
+h. ran source /etc/profile.d/mavensh.sh from root(sudo -s)
+          
