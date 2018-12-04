@@ -13,5 +13,9 @@
 <property name="hibernate.show_sql">true</property>
 <mapping class="com.mapping.HibernateMappings.model.CartManyToManyAnnotation" />
 <mapping class="com.mapping.HibernateMappings.model.ItemsManyToManyAnnotation" />
+
+<mapping class="com.mapping.HibernateMappings.model.CartManyToManyAnnotationWithItems" />
+<mapping class="com.mapping.HibernateMappings.model.ItemsManyToManyAnnotationToCart" />
+
 </session-factory>
 </hibernate-configuration>
