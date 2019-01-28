@@ -19,18 +19,38 @@ void CheckForBalancedParenthesis(char exp[], int length)
 		if(exp[i] == '{' || exp[i] == '(' || exp[i] == '[')
 		{
 			push(exp[i]);
-			print();
+			//print();
 		}
-		else if (exp[i] == '}' || exp[i] == ')' || exp[i] == ']')
+		else 
 		{
-			if (top == NULL || exp[i] != (*top).data)
+			if (top == NULL)
 			{
 				printf("There is no matching closing parenthesis, so it's an unbalanced expression\n");
 			}
-			else pop();
+			else if (exp[i] == '}')
+			{
+				if ((*top).data != '{')
+					printf("There is no matching closing parenthesis, so it's an unbalanced expression\n");
+				else pop();	
+			}
+
+			else if(exp[i] == ')')
+			{
+				if ((*top).data != '(')
+					printf("There is no matching closing parenthesis, so it's an unbalanced expression\n");
+					else pop();		
+			}
+
+			else if(exp[i] == ']')
+			{
+				if ((*top).data != '[')
+					printf("There is no matching closing parenthesis, so it's an unbalanced expression\n");
+				else pop();		
+			}
+				
 		}
 	}
-	(top == NULL)? printf("expression is balanced\n"): printf("expression unbalanced\n");
+		(top == NULL)? printf("expression is balanced\n"): printf("expression unbalanced\n");
 }
 void push(char charac)
 {
@@ -46,12 +66,12 @@ void pop()
 	{
 		printf("There are no items in the stack\n");
 	}
-	else{
-	struct Node* temp = top;
-	top = (*top).next;
-	free(temp);
+	else
+	{
+		struct Node* temp = top;
+		top = (*top).next;
+		free(temp);
 	}
-	print();
 }
 
 void print()
@@ -63,7 +83,7 @@ void print()
 	struct Node* temp = top;
 	while(temp!= NULL)
 	{
-		printf("%d\n", ((char)(*temp).data));
+		printf("%d\n", ((*temp).data));
 		temp = (*temp).next;
 	}
 	printf("\n");
