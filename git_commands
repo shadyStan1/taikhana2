@@ -33,7 +33,9 @@ git add README.md
 
 add a commit------>
  type -> git commit -m "first commit"
-
+ 
+ command to push------->
+ git push origin branch-name
 
 connect to a remote repositry from local git repository(where to push the file)***NOT NEEDED EVERYTIME------->
   type-> git remote add origin https://github.com/shadyStan1/taikhana2.git
