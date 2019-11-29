@@ -1,0 +1,3 @@
+
+to give all privileges to all the files in the current directory----->
+sudo chmod -R 777 ./
