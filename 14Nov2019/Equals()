@@ -1,0 +1,20 @@
+object class equals() is used for reference comparison not the content comparison
+without overriding we cannot compare content
+
+**********String vs StringBuffer***********
+
+//String class overrides equals() for content comparison
+String s = new String("aman");
+String s2 = new String("aman");
+
+sysout(s == s2);      //false
+sysout(s.equals(s2)); //true	
+
+
+//StringBuffer class doesn't override equals()
+StringBuffer s = new StringBuffer("aman");
+StringBuffer s2 = new StringBuffer("aman");
+
+sysout(s == s2);      //false
+sysout(s.equals(s2)); //false
+

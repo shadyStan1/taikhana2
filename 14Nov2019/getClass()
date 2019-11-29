@@ -1,0 +1,10 @@
+this method returns the runTime description or properties of the object. as jvm stores class definition as object in heap memory of type
+java.lang.Class
+
+it returns an object of Class class present lang package, highly useful in reflection.
+through the class objects we can then fetch the properties of the particular object
+
+
+Connection con = DriverManager.getConnection(" ....");
+sysout(con.getClass().getNote());
+
