@@ -1,0 +1,5 @@
+Name: myCompany/package1/
+Sealed: true
+
+Name: myCompany/package2/
+Sealed: true

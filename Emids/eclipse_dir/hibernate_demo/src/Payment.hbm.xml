@@ -1,0 +1,23 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	
+	<class name="com.hbm.inheritence.Payment" table="payment_log">
+	<id name="paymentId" column="pId"><generator class="increment"/></id>
+	<discriminator column="class_define" type="string" length="10"/><!-- type should be in small letters
+		and dtd for mapping and config file are different -->
+	<property name="amount" column="amount"/>
+	
+	
+	<subclass name="com.hbm.inheritence.CreditCard" discriminator-value="CC">
+	<property name="ccType" column="ccType"/>
+	</subclass> 
+	
+	<subclass name="com.hbm.inheritence.Cheque" discriminator-value="Cheque">
+	<property name="chequeType" column="chequeType"/>
+	</subclass> 
+	
+	</class>
+</hibernate-mapping>

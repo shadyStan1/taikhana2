@@ -1,0 +1,18 @@
+<div id="footer">
+	<marquee><span style="color: brown;">2018 @StudentApp</span></marquee>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+
+<script>
+	$(document).ready(function(){
+		
+	    $("a.inactive").click(function(){
+	    	$("a.active").removeClass("active");
+	    	$(this).removeClass("inactive");
+	    	$(this).addClass("active");
+		});
+	});
+</script>
+</body>
+</html>

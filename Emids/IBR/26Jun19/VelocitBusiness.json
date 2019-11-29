@@ -1,0 +1,1695 @@
+{
+  "RenewalRequest" : {
+    "@schemaLocation" : "http://connecture.com/json file:///C:/Integration%20Repositories/INTOPS-356/IBR_JSON_Schema.xsd",
+    "requestId" : "00000000-0000-0000-0000-125cfe8e5f30",
+    "version" : "1.0.0",
+    "timeStamp" : "2019-06-17T03:45:44.27Z",
+    "renewalPeriodInfo" : {
+      "shortDescription" : "JUL2019_0618",
+      "longDescription" : "JUL2019_0618",
+      "status" : "OPEN",
+      "xref" : "JUL2019_0618"
+    },
+    "feedRenewalQuoteInfo" : {
+      "renewalPeriodXref" : "JUL2019_0618",
+      "group" : {
+        "xref" : "572989",
+        "name" : "VELOCIT BUSINESS SOLUTIONS",
+        "type" : "SG",
+        "status" : "Active",
+        "franchiseCode" : "0000000",
+        "multiContractPolicyIndicator" : "Y",
+        "renProcessedDt" : "2019-04-11",
+        "statusIndicator" : "Ready",
+        "uhgCustomerNbr" : "06Y9311",
+        "serviceOfficeCode" : "199",
+        "employer" : {
+          "name" : "VELOCIT BUSINESS SOLUTIONS",
+          "dateEstablished" : "07/01/2018",
+          "federalTaxId" : "501445318",
+          "doingBusinessAs" : "VELOCIT BUSINESS SOLUTIONS"
+        },
+        "primaryLocation" : {
+          "xref" : "PRIMARY LOCATION - 99403",
+          "isPrimary" : "Y",
+          "name" : "PRIMARY LOCATION - 99403",
+          "totalEligible" : "3",
+          "ratingZipCode" : "99403",
+          "marketNumber" : "46600",
+          "totalEmployed" : "3",
+          "fullTimeEquivalent" : "3",
+          "billingAddressPlatform" : "PRIME",
+          "billingAddressType" : "4",
+          "billingAddressLine1" : "101 TEST ST",
+          "billingAddressCity" : "CLARKSTON",
+          "billingAddressState" : "WA",
+          "billingAddressZip" : "99403",
+          "billingAddressZip4" : "0000",
+          "contractIssueStCode" : "WA",
+          "countingMethod" : "A",
+          "contact" : {
+            "email" : "AAA@BBB.COM",
+            "first" : "JEREMY",
+            "last" : "TEST",
+            "address" : {
+              "street1" : "101 TEST ST",
+              "state" : "WA",
+              "zip" : "99403",
+              "zip4" : "0000"
+            },
+            "phoneNumbers" : {
+              "phoneType" : "work",
+              "areaCode" : "208",
+              "num" : "8160669"
+            }
+          },
+          "address" : {
+            "type" : "3",
+            "street1" : "101 TEST ST",
+            "city" : "CLARKSTON",
+            "state" : "WA",
+            "zip" : "99403"
+          },
+          "industryCode" : {
+            "sicCode" : "8999"
+          },
+          "OI" : "01",
+          "SA" : "00",
+          "BIT" : "CG"
+        },
+        "owners" : {
+          "salesRep" : {
+            "xref" : "5799"
+          },
+          "producer" : {
+            "xref" : "broker"
+          },
+          "mga" : {
+            "xref" : "mgaentityXref"
+          }
+        }
+      },
+      "quote" : {
+        "quoteEffDate" : "07/01/2019",
+        "EEChoiceIndicator" : "M",
+        "multiSiteProgramCode" : "SS",
+        "usageRenewalDate" : "07/01/2019",
+        "employees" : [ {
+          "xref" : "92621423900",
+          "status" : "Active",
+          "first" : "SHAWN",
+          "last" : "TEST",
+          "dateOfBirth" : "09/23/1974",
+          "gender" : "M",
+          "maritalStatus" : "M",
+          "maritalStatusType" : "M",
+          "numberOfChildren" : "5",
+          "homeState" : "WA",
+          "homeZip" : "99111",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALL",
+          "state" : "WA",
+          "zip" : "99111",
+          "employeeDOE" : "06/26/2018",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "COLFAX",
+          "medicareOverride" : "N",
+          "dependents" : [ {
+            "xref" : "92621423901",
+            "depType" : "S",
+            "last" : "TEST",
+            "first" : "JANNI",
+            "genderType" : "F",
+            "dateOfBirth" : "08/08/1976",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "AT7D/041",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "A8011",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "BIA2/729",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "5A444",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ]
+          }, {
+            "xref" : "92621423902",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "ZOE",
+            "genderType" : "F",
+            "dateOfBirth" : "08/26/2000",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "AT7D/041",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "A8011",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "BIA2/729",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "5A444",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ]
+          }, {
+            "xref" : "92621423903",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "CORBIN",
+            "genderType" : "M",
+            "dateOfBirth" : "12/06/2004",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "AT7D/041",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "A8011",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "BIA2/729",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "5A444",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ]
+          }, {
+            "xref" : "92621423904",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "JAYDEN",
+            "genderType" : "M",
+            "dateOfBirth" : "09/30/1998",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "AT7D/041",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "A8011",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "BIA2/729",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "5A444",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ]
+          }, {
+            "xref" : "92621423905",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "ASLAN",
+            "genderType" : "M",
+            "dateOfBirth" : "05/19/2008",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "AT7D/041",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "A8011",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "BIA2/729",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "5A444",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ]
+          }, {
+            "xref" : "92621423906",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "ALTON",
+            "genderType" : "M",
+            "dateOfBirth" : "10/16/2006",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "AT7D/041",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "A8011",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "BIA2/729",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "5A444",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ]
+          } ],
+          "electedPlans" : [ {
+            "planId" : "AT7D/041",
+            "coverageType" : "FAM",
+            "rate" : "1943.05"
+          }, {
+            "planId" : "A8011",
+            "coverageType" : "FAM",
+            "rate" : "111.13"
+          }, {
+            "planId" : "F25K",
+            "coverageType" : "FAM",
+            "rate" : "6.25"
+          }, {
+            "planId" : "0C",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "V1006",
+            "coverageType" : "FAM",
+            "rate" : "14.58"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "BIA2/729",
+            "coverageType" : "FAM",
+            "rate" : "1922.74"
+          }, {
+            "planId" : "5A444",
+            "coverageType" : "FAM",
+            "rate" : "117.22"
+          }, {
+            "planId" : "F25K",
+            "coverageType" : "FAM",
+            "rate" : "6.25"
+          }, {
+            "planId" : "0C",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "V1006",
+            "coverageType" : "FAM",
+            "rate" : "14.58"
+          } ]
+        }, {
+          "xref" : "94371746800",
+          "status" : "Active",
+          "first" : "MICHAEL",
+          "last" : "TEST",
+          "dateOfBirth" : "10/27/1966",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "numberOfChildren" : "2",
+          "homeState" : "AZ",
+          "homeZip" : "85225",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALL",
+          "state" : "AZ",
+          "zip" : "85225",
+          "employeeDOE" : "06/26/2018",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "CHANDLER",
+          "medicareOverride" : "N",
+          "dependents" : [ {
+            "xref" : "94371746802",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "GRADY",
+            "genderType" : "M",
+            "dateOfBirth" : "12/11/1996",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "AT7D/041",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            }, {
+              "planId" : "A8011",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "BIA2/729",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            }, {
+              "planId" : "5A444",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ]
+          }, {
+            "xref" : "94371746803",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "ALEXANDER",
+            "genderType" : "M",
+            "dateOfBirth" : "04/02/1998",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "AT7D/041",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            }, {
+              "planId" : "A8011",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "BIA2/729",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            }, {
+              "planId" : "5A444",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ]
+          } ],
+          "electedPlans" : [ {
+            "planId" : "AT7D/041",
+            "coverageType" : "ECH",
+            "rate" : "1311.71"
+          }, {
+            "planId" : "A8011",
+            "coverageType" : "ECH",
+            "rate" : "111.13"
+          }, {
+            "planId" : "F25K",
+            "coverageType" : "ECH",
+            "rate" : "6.25"
+          }, {
+            "planId" : "0C",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "V1006",
+            "coverageType" : "ECH",
+            "rate" : "14.58"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "BIA2/729",
+            "coverageType" : "ECH",
+            "rate" : "1465.71"
+          }, {
+            "planId" : "5A444",
+            "coverageType" : "ECH",
+            "rate" : "117.22"
+          }, {
+            "planId" : "F25K",
+            "coverageType" : "ECH",
+            "rate" : "6.25"
+          }, {
+            "planId" : "0C",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "V1006",
+            "coverageType" : "ECH",
+            "rate" : "14.58"
+          } ]
+        }, {
+          "xref" : "95943844600",
+          "status" : "Active",
+          "first" : "JEREMY",
+          "last" : "TEST",
+          "dateOfBirth" : "07/20/1979",
+          "gender" : "M",
+          "maritalStatus" : "M",
+          "maritalStatusType" : "M",
+          "numberOfChildren" : "2",
+          "homeState" : "WA",
+          "homeZip" : "99403",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALL",
+          "state" : "WA",
+          "zip" : "99403",
+          "employeeDOE" : "06/26/2018",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "CLARKSTON",
+          "medicareOverride" : "N",
+          "dependents" : [ {
+            "xref" : "95943844601",
+            "depType" : "S",
+            "last" : "TEST",
+            "first" : "NANCY",
+            "genderType" : "F",
+            "dateOfBirth" : "09/03/1978",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "AT7D/041",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "A8011",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "BIA2/729",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "5A444",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ]
+          }, {
+            "xref" : "95943844602",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "MIKAYLA",
+            "genderType" : "F",
+            "dateOfBirth" : "11/24/2006",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "AT7D/041",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "A8011",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "BIA2/729",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "5A444",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ]
+          }, {
+            "xref" : "95943844603",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "ALISON",
+            "genderType" : "F",
+            "dateOfBirth" : "12/16/2003",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "AT7D/041",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "A8011",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "BIA2/729",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "5A444",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1006",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            }, {
+              "planId" : "0C",
+              "coverageType" : "SPC",
+              "rate" : "1.30"
+            } ]
+          } ],
+          "electedPlans" : [ {
+            "planId" : "AT7D/041",
+            "coverageType" : "FAM",
+            "rate" : "1627.38"
+          }, {
+            "planId" : "A8011",
+            "coverageType" : "FAM",
+            "rate" : "111.13"
+          }, {
+            "planId" : "F25K",
+            "coverageType" : "FAM",
+            "rate" : "6.25"
+          }, {
+            "planId" : "0C",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "V1006",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "BIA2/729",
+            "coverageType" : "FAM",
+            "rate" : "1607.54"
+          }, {
+            "planId" : "5A444",
+            "coverageType" : "FAM",
+            "rate" : "117.22"
+          }, {
+            "planId" : "F25K",
+            "coverageType" : "FAM",
+            "rate" : "6.25"
+          }, {
+            "planId" : "0C",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "V1006",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        } ],
+        "subgroups" : {
+          "xref" : "ALL",
+          "siteXref" : "PRIMARY LOCATION - 99403",
+          "planOfferingXref" : "06Y9311"
+        },
+        "planOfferingData" : {
+          "planOfferingId" : "06Y9311",
+          "planOfferingXref" : "06Y9311",
+          "existingPlanPkg" : {
+            "covEffDate" : "08/01/2018",
+            "plans" : [ {
+              "planId" : "AT7D/041",
+              "planXref" : "AT7D",
+              "productXref" : "POS",
+              "productLineType" : "medical",
+              "tierStructureId" : "B",
+              "planCategory" : "Balanced",
+              "platformIdentifier" : "PRIME",
+              "oISABITName" : "UnitedHealthcare",
+              "metalTier" : "Gold",
+              "productInsuranceLicenseType" : "INS",
+              "forcedUrgedIndicator" : "F",
+              "billTypeCodeChanged" : "N",
+              "riderCode" : [ "RAP", "RAP", "RAP", "SEO", "SEO" ],
+              "planFamilyName" : "WA011",
+              "medicareOptionCode" : "Y",
+              "cobraContinuanceCode" : "S",
+              "policyNumber" : "06Y9311",
+              "grandfatherInd" : "N",
+              "planDedYear" : "C",
+              "eventAdminInd" : "Y",
+              "rxDeductible" : "0.00",
+              "options" : [ {
+                "planOptionId" : "IndInNetdeductibleAmount",
+                "planOptionValueId" : "1000"
+              }, {
+                "planOptionId" : "FamilyInNetDeductibleAmount",
+                "planOptionValueId" : "2000"
+              }, {
+                "planOptionId" : "PhysicianCopayAmount",
+                "planOptionValueId" : "25"
+              }, {
+                "planOptionId" : "SpecialistCopayAmount",
+                "planOptionValueId" : "25"
+              }, {
+                "planOptionId" : "PreventiveCareTypeCode",
+                "planOptionValueId" : "Y"
+              }, {
+                "planOptionId" : "HospitalInNetCoInsurancePct",
+                "planOptionValueId" : "80%"
+              }, {
+                "planOptionId" : "HospitalOutNetCoInsurancePct",
+                "planOptionValueId" : "50%"
+              }, {
+                "planOptionId" : "EligiblePlanInd",
+                "planOptionValueId" : "NONE"
+              }, {
+                "planOptionId" : "CombinedMedRxDeductibleOOPInd",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "IndOutNetDeductibleAmount",
+                "planOptionValueId" : "2000"
+              }, {
+                "planOptionId" : "FamilyOutNetDeductibleAmount",
+                "planOptionValueId" : "4000"
+              }, {
+                "planOptionId" : "IndividualInNetOopMaxAmount",
+                "planOptionValueId" : "5000"
+              }, {
+                "planOptionId" : "FamilyInNetOopMaxAmount",
+                "planOptionValueId" : "10000"
+              }, {
+                "planOptionId" : "IndividualOutNetOopMaxAmount",
+                "planOptionValueId" : "10000"
+              }, {
+                "planOptionId" : "FamilyOutNetOopMaxAmount",
+                "planOptionValueId" : "20000"
+              }, {
+                "planOptionId" : "RxBenCopayAmt",
+                "planOptionValueId" : "15/35/65/250"
+              }, {
+                "planOptionId" : "PhyOfficeInNetCoInsurancePct",
+                "planOptionValueId" : "100%"
+              }, {
+                "planOptionId" : "EmerVisitCopayAmount",
+                "planOptionValueId" : "0"
+              }, {
+                "planOptionId" : "InNetUccCopayAmount",
+                "planOptionValueId" : "50"
+              }, {
+                "planOptionId" : "NetworkBenefitIndicator",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "TieredPlanIndicator",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "NonEmbeddedDedAndOOP",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "HraPlanAvailableInd",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "PrimaryCarePhyRequiredInd",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "PregPlan",
+                "planOptionValueId" : "5"
+              }, {
+                "planOptionId" : "MedicalPlanType",
+                "planOptionValueId" : "CHOICE PLUS"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "315.67",
+                  "tier2" : "498.02"
+                }
+              },
+              "planRate" : "4882.14",
+              "contributions" : {
+                "amount" : {
+                  "pct" : "0.95"
+                },
+                "contribType" : "Contributory",
+                "coverageType" : "EMP"
+              },
+              "probationaryPeriods" : {
+                "days" : "0",
+                "periodType" : "D"
+              },
+              "employeeEnrollCount" : 6,
+              "dependentEnrollCount" : 11,
+              "tier1Subcount" : 6,
+              "tier2Subcount" : 6
+            }, {
+              "planId" : "A8011",
+              "planXref" : "A8011",
+              "productLineType" : "dental",
+              "tierStructureId" : "B",
+              "planCategory" : "VPPO",
+              "dentDualPlanIndicator" : "N",
+              "policyNumber" : "06Y9311",
+              "eventAdminInd" : "Y",
+              "options" : [ {
+                "planOptionId" : "IndNetDeductibleAmount",
+                "planOptionValueId" : "50"
+              }, {
+                "planOptionId" : "IndOutNetDeductibleAmount",
+                "planOptionValueId" : "50"
+              }, {
+                "planOptionId" : "FamilyInNetDeductibleAmount",
+                "planOptionValueId" : "150"
+              }, {
+                "planOptionId" : "FamilyOutNetDeductibleAmount",
+                "planOptionValueId" : "150"
+              }, {
+                "planOptionId" : "MajServicesInNetCoInsurancePct",
+                "planOptionValueId" : "50%"
+              }, {
+                "planOptionId" : "MajServiceOutNetCoInsurancePct",
+                "planOptionValueId" : "50%"
+              }, {
+                "planOptionId" : "MinorRestorativeInNetCoInsPct",
+                "planOptionValueId" : "80%"
+              }, {
+                "planOptionId" : "MinorRestorativeOutNetCoInsPct",
+                "planOptionValueId" : "80%"
+              }, {
+                "planOptionId" : "OrthoInNetCoinsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "OrthodonticsCoveredOutNetInd",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "PreventiveInNetCoInsurancePct",
+                "planOptionValueId" : "100%"
+              }, {
+                "planOptionId" : "PreventiveOutNetCoInsurancePct",
+                "planOptionValueId" : "100%"
+              }, {
+                "planOptionId" : "LifetimeOrthoInNetBenAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "InNetAnnualMaxBenefitAmount",
+                "planOptionValueId" : "1000"
+              }, {
+                "planOptionId" : "OutNetAnnualMaxBenefitAmount",
+                "planOptionValueId" : "1000"
+              }, {
+                "planOptionId" : "LifetimeOrthoOutNetBenAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "WaitingPeriod",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "WaitingPeriodOrtho",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "RolloverMaxAccountIndicator",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "UsualCustomaryPercentile",
+                "planOptionValueId" : "70%"
+              }, {
+                "planOptionId" : "AnnDedMaxBenAppliesPrevDiag",
+                "planOptionValueId" : "Y"
+              }, {
+                "planOptionId" : "OrthodontiaBenefit",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "ImplantINPercent",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "ImplantOOOPercent",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "EndoPerioOralInnetPct",
+                "planOptionValueId" : "50%/50%/50%"
+              }, {
+                "planOptionId" : "EndoPerioOralOutnetPct",
+                "planOptionValueId" : "50%/50%/50%"
+              }, {
+                "planOptionId" : "PlanFundingDescription",
+                "planOptionValueId" : "Voluntary"
+              }, {
+                "planOptionId" : "BasicServInNetCoinsurancePct",
+                "planOptionValueId" : "50%"
+              }, {
+                "planOptionId" : "BasicServOutNetCoinsurancePct",
+                "planOptionValueId" : "50%"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "40.75",
+                  "tier2" : "111.13",
+                  "tier3" : "0.00",
+                  "tier4" : "0.00"
+                }
+              },
+              "planRate" : "333.39",
+              "probationaryPeriods" : {
+                "days" : "0",
+                "periodType" : "D"
+              },
+              "employeeEnrollCount" : 3,
+              "dependentEnrollCount" : 11,
+              "tier1Subcount" : 0,
+              "tier2Subcount" : 3,
+              "tier3Subcount" : 0,
+              "tier4Subcount" : 0
+            }, {
+              "planId" : "F25K",
+              "planXref" : "F25K",
+              "productLineType" : "basic_life_ee",
+              "tierStructureId" : "B",
+              "planCategory" : "FLAT EE",
+              "policyNumber" : "06Y9311",
+              "eventAdminInd" : "Y",
+              "options" : [ {
+                "planOptionId" : "LifeProductDescription",
+                "planOptionValueId" : "EMP LIFE"
+              }, {
+                "planOptionId" : "LifeBenefitAmount",
+                "planOptionValueId" : "25000"
+              }, {
+                "planOptionId" : "LifePlanType",
+                "planOptionValueId" : "DOLLAR"
+              }, {
+                "planOptionId" : "LifeBenefitType",
+                "planOptionValueId" : "FLAT EE"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000Life",
+                "planOptionValueId" : ".23"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000ADD",
+                "planOptionValueId" : ".02"
+              }, {
+                "planOptionId" : "LifeAddRatePer1000",
+                "planOptionValueId" : "0.25"
+              }, {
+                "planOptionId" : "FlatPlanRatePerEmployee",
+                "planOptionValueId" : "6.25"
+              }, {
+                "planOptionId" : "TotalLifeVolume",
+                "planOptionValueId" : "75000"
+              }, {
+                "planOptionId" : "MonthlyLifePremium",
+                "planOptionValueId" : "17.25"
+              }, {
+                "planOptionId" : "MonthlyADDPremium",
+                "planOptionValueId" : "1.50"
+              }, {
+                "planOptionId" : "MonthlyLifeADDPremium",
+                "planOptionValueId" : "18.75"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "0.00",
+                  "tier2" : "0.00",
+                  "tier3" : "0.00",
+                  "tier4" : "0.00"
+                }
+              },
+              "planRate" : "18.75",
+              "probationaryPeriods" : {
+                "days" : "0",
+                "periodType" : "D"
+              },
+              "employeeEnrollCount" : 3
+            }, {
+              "planId" : "0C",
+              "planXref" : "0C",
+              "productLineType" : "basic_life_spouse",
+              "tierStructureId" : "B",
+              "planCategory" : "FLAT SPOUSE",
+              "options" : [ {
+                "planOptionId" : "LifeProductDescription",
+                "planOptionValueId" : "SP LIFE"
+              }, {
+                "planOptionId" : "LifeBenefitAmount",
+                "planOptionValueId" : "7500"
+              }, {
+                "planOptionId" : "LifePlanType",
+                "planOptionValueId" : "DOLLAR"
+              }, {
+                "planOptionId" : "LifeBenefitType",
+                "planOptionValueId" : "FLAT SPOUSE"
+              }, {
+                "planOptionId" : "DependentLifeRate",
+                "planOptionValueId" : "1.30"
+              }, {
+                "planOptionId" : "MonthlyLifeADDPremium",
+                "planOptionValueId" : "3.90"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "0.00",
+                  "tier2" : "0.00",
+                  "tier3" : "0.00",
+                  "tier4" : "0.00"
+                }
+              },
+              "planRate" : "3.90",
+              "dependentEnrollCount" : 2
+            }, {
+              "planId" : "0C",
+              "planXref" : "0C",
+              "productLineType" : "basic_life_child",
+              "tierStructureId" : "B",
+              "planCategory" : "FLAT CH",
+              "options" : [ {
+                "planOptionId" : "LifeProductDescription",
+                "planOptionValueId" : "CH LIFE"
+              }, {
+                "planOptionId" : "LifeBenefitAmount",
+                "planOptionValueId" : "3750"
+              }, {
+                "planOptionId" : "LifePlanType",
+                "planOptionValueId" : "DOLLAR"
+              }, {
+                "planOptionId" : "LifeBenefitType",
+                "planOptionValueId" : "FLAT CH"
+              }, {
+                "planOptionId" : "DependentLifeRate",
+                "planOptionValueId" : "1.30"
+              }, {
+                "planOptionId" : "MonthlyLifeADDPremium",
+                "planOptionValueId" : "3.90"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "0.00",
+                  "tier2" : "0.00",
+                  "tier3" : "0.00",
+                  "tier4" : "0.00"
+                }
+              },
+              "planRate" : "3.90",
+              "dependentEnrollCount" : 9
+            }, {
+              "planId" : "V1006",
+              "planXref" : "V1006",
+              "productLineType" : "vision",
+              "tierStructureId" : "B",
+              "planCategory" : "VOLUNTARY",
+              "policyNumber" : "06Y9311",
+              "eventAdminInd" : "Y",
+              "options" : [ {
+                "planOptionId" : "VisionPlanType",
+                "planOptionValueId" : "V"
+              }, {
+                "planOptionId" : "InNetExamCopayAmount",
+                "planOptionValueId" : "10"
+              }, {
+                "planOptionId" : "InNetMaterialCopayAmount",
+                "planOptionValueId" : "25"
+              }, {
+                "planOptionId" : "NumofMonthsBetweenCoveredExam",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "FramesBenefitFrequency",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "LensesBenefitFrequency",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "OutNetExamMaxAmount",
+                "planOptionValueId" : "40"
+              }, {
+                "planOptionId" : "OutNetFramesMaxAmount",
+                "planOptionValueId" : "45"
+              }, {
+                "planOptionId" : "OutNetContactLensesMaxAmount",
+                "planOptionValueId" : "105"
+              }, {
+                "planOptionId" : "OutNetSingleVisionLensesMaxAmt",
+                "planOptionValueId" : "40"
+              }, {
+                "planOptionId" : "InnetworkContactLensAllowance",
+                "planOptionValueId" : "105"
+              }, {
+                "planOptionId" : "RetailFrameAllowance",
+                "planOptionValueId" : "130"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "5.84",
+                  "tier2" : "14.58",
+                  "tier3" : "0.00",
+                  "tier4" : "0.00"
+                }
+              },
+              "planRate" : "29.16",
+              "probationaryPeriods" : {
+                "days" : "0",
+                "periodType" : "D"
+              },
+              "employeeEnrollCount" : 2,
+              "dependentEnrollCount" : 8,
+              "tier1Subcount" : 0,
+              "tier2Subcount" : 2,
+              "tier3Subcount" : 0,
+              "tier4Subcount" : 0
+            } ]
+          },
+          "newPlanPkg" : {
+            "plans" : [ {
+              "planId" : "BIA2/729",
+              "planXref" : "BIA2",
+              "productXref" : "POS",
+              "productLineType" : "medical",
+              "tierStructureId" : "B",
+              "planCategory" : "Balanced",
+              "footnoteIndicator" : "S",
+              "platformIdentifier" : "PRIME",
+              "oISABITName" : "UnitedHealthcare",
+              "metalTier" : "Gold",
+              "costDifferentialPercentage" : "+2.3%",
+              "productInsuranceLicenseType" : "INS",
+              "riderCode" : [ "RAP", "RAP", "RAP", "SEO", "SEO" ],
+              "planFamilyName" : "WA013",
+              "policyNumber" : "06Y9311",
+              "basePolicyInd" : "Y",
+              "renewalRateID" : "2019-06-17-03.46.52.451308PR902",
+              "planDedYearChoice" : "C",
+              "planDedYear" : "C",
+              "rxDeductible" : "0.00",
+              "options" : [ {
+                "planOptionId" : "IndInNetdeductibleAmount",
+                "planOptionValueId" : "1000"
+              }, {
+                "planOptionId" : "FamilyInNetDeductibleAmount",
+                "planOptionValueId" : "2000"
+              }, {
+                "planOptionId" : "PhysicianCopayAmount",
+                "planOptionValueId" : "25"
+              }, {
+                "planOptionId" : "SpecialistCopayAmount",
+                "planOptionValueId" : "50"
+              }, {
+                "planOptionId" : "PreventiveCareTypeCode",
+                "planOptionValueId" : "Y"
+              }, {
+                "planOptionId" : "HospitalInNetCoInsurancePct",
+                "planOptionValueId" : "80%"
+              }, {
+                "planOptionId" : "HospitalOutNetCoInsurancePct",
+                "planOptionValueId" : "50%"
+              }, {
+                "planOptionId" : "MedicalHSAEligibleInd",
+                "planOptionValueId" : "NONE"
+              }, {
+                "planOptionId" : "CombinedMedRxDeductibleOOPInd",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "IndOutNetDeductibleAmount",
+                "planOptionValueId" : "2000"
+              }, {
+                "planOptionId" : "FamilyOutNetDeductibleAmount",
+                "planOptionValueId" : "4000"
+              }, {
+                "planOptionId" : "IndividualInNetOopMaxAmount",
+                "planOptionValueId" : "6000"
+              }, {
+                "planOptionId" : "FamilyInNetOopMaxAmount",
+                "planOptionValueId" : "12000"
+              }, {
+                "planOptionId" : "IndividualOutNetOopMaxAmount",
+                "planOptionValueId" : "12000"
+              }, {
+                "planOptionId" : "FamilyOutNetOopMaxAmount",
+                "planOptionValueId" : "24000"
+              }, {
+                "planOptionId" : "RxBenCopayAmt",
+                "planOptionValueId" : "15/40/70/300"
+              }, {
+                "planOptionId" : "PhyOfficeInNetCoInsurancePct",
+                "planOptionValueId" : "100%"
+              }, {
+                "planOptionId" : "EmerVisitCopayAmount",
+                "planOptionValueId" : "0"
+              }, {
+                "planOptionId" : "InNetUccCopayAmount",
+                "planOptionValueId" : "50"
+              }, {
+                "planOptionId" : "NetworkBenefitIndicator",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "TieredPlanIndicator",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "NonEmbeddedDedAndOOP",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "HraPlanAvailableInd",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "PrimaryCarePhyRequiredInd",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "PregPlan",
+                "planOptionValueId" : "5"
+              }, {
+                "planOptionId" : "MedicalPlanType",
+                "planOptionValueId" : "CHOICE PLUS"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "315.20",
+                  "tier2" : "488.57"
+                }
+              },
+              "planRate" : "4995.99",
+              "contributions" : {
+                "amount" : {
+                  "pct" : "0.95"
+                },
+                "contribType" : "Contributory",
+                "coverageType" : "EMP"
+              },
+              "employeeEnrollCount" : 7,
+              "dependentEnrollCount" : 11,
+              "tier1Subcount" : 3,
+              "tier2Subcount" : 7
+            }, {
+              "planId" : "5A444",
+              "planXref" : "5A444",
+              "productLineType" : "dental",
+              "tierStructureId" : "B",
+              "planCategory" : "VPPO",
+              "costDifferentialPercentage" : "+5.5%",
+              "dentDualPlanIndicator" : "N",
+              "policyNumber" : "06Y9311",
+              "stepwiseQuoteID" : "0015794094-0005",
+              "discountRatio" : "0",
+              "options" : [ {
+                "planOptionId" : "IndNetDeductibleAmount",
+                "planOptionValueId" : "50"
+              }, {
+                "planOptionId" : "IndOutNetDeductibleAmount",
+                "planOptionValueId" : "50"
+              }, {
+                "planOptionId" : "FamilyInNetDeductibleAmount",
+                "planOptionValueId" : "150"
+              }, {
+                "planOptionId" : "FamilyOutNetDeductibleAmount",
+                "planOptionValueId" : "150"
+              }, {
+                "planOptionId" : "MajServicesInNetCoInsurancePct",
+                "planOptionValueId" : "50%"
+              }, {
+                "planOptionId" : "MajServiceOutNetCoInsurancePct",
+                "planOptionValueId" : "50%"
+              }, {
+                "planOptionId" : "MinorRestorativeInNetCoInsPct",
+                "planOptionValueId" : "80%"
+              }, {
+                "planOptionId" : "MinorRestorativeOutNetCoInsPct",
+                "planOptionValueId" : "80%"
+              }, {
+                "planOptionId" : "OrthoInNetCoinsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "OrthodonticsCoveredOutNetInd",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "PreventiveInNetCoInsurancePct",
+                "planOptionValueId" : "100%"
+              }, {
+                "planOptionId" : "PreventiveOutNetCoInsurancePct",
+                "planOptionValueId" : "100%"
+              }, {
+                "planOptionId" : "LifetimeOrthoInNetBenAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "InNetAnnualMaxBenefitAmount",
+                "planOptionValueId" : "1000"
+              }, {
+                "planOptionId" : "OutNetAnnualMaxBenefitAmount",
+                "planOptionValueId" : "1000"
+              }, {
+                "planOptionId" : "LifetimeOrthoOutNetBenAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "WaitingPeriod",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "WaitingPeriodOrtho",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "RolloverMaxAccountIndicator",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "UsualCustomaryPercentile",
+                "planOptionValueId" : "70%"
+              }, {
+                "planOptionId" : "AnnDedMaxBenAppliesPrevDiag",
+                "planOptionValueId" : "Y"
+              }, {
+                "planOptionId" : "OrthodontiaBenefit",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "ImplantINPercent",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "ImplantOOOPercent",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "EndoPerioOralInnetPct",
+                "planOptionValueId" : "80%/80%/80%"
+              }, {
+                "planOptionId" : "EndoPerioOralOutnetPct",
+                "planOptionValueId" : "80%/80%/80%"
+              }, {
+                "planOptionId" : "PlanFundingDescription",
+                "planOptionValueId" : "Voluntary"
+              }, {
+                "planOptionId" : "BasicServInNetCoinsurancePct",
+                "planOptionValueId" : "80%"
+              }, {
+                "planOptionId" : "BasicServOutNetCoinsurancePct",
+                "planOptionValueId" : "80%"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "42.98",
+                  "tier2" : "117.22",
+                  "tier3" : "0.00",
+                  "tier4" : "0.00"
+                }
+              },
+              "planRate" : "351.66",
+              "employeeEnrollCount" : 3,
+              "dependentEnrollCount" : 11,
+              "tier1Subcount" : 0,
+              "tier2Subcount" : 5,
+              "tier3Subcount" : 0,
+              "tier4Subcount" : 0
+            }, {
+              "planId" : "F25K",
+              "planXref" : "F25K",
+              "productLineType" : "basic_life_ee",
+              "tierStructureId" : "B",
+              "planCategory" : "FLAT EE",
+              "costDifferentialPercentage" : "+0.00%",
+              "rateGuaranteePeriod" : "2",
+              "policyNumber" : "06Y9311",
+              "renewalRateID" : "2019-06-17-03.46.52.451308PR901",
+              "stepwiseQuoteID" : "0015794096-0004",
+              "discountRatio" : "0.9583",
+              "options" : [ {
+                "planOptionId" : "LifeProductDescription",
+                "planOptionValueId" : "EMP LIFE"
+              }, {
+                "planOptionId" : "LifeBenefitAmount",
+                "planOptionValueId" : "25000"
+              }, {
+                "planOptionId" : "LifePlanType",
+                "planOptionValueId" : "DOLLAR"
+              }, {
+                "planOptionId" : "LifeBenefitType",
+                "planOptionValueId" : "FLAT EE"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000Life",
+                "planOptionValueId" : ".23"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000ADD",
+                "planOptionValueId" : ".02"
+              }, {
+                "planOptionId" : "LifeAddRatePer1000",
+                "planOptionValueId" : "0.25"
+              }, {
+                "planOptionId" : "FlatPlanRatePerEmployee",
+                "planOptionValueId" : "6.25"
+              }, {
+                "planOptionId" : "TotalLifeVolume",
+                "planOptionValueId" : "75000"
+              }, {
+                "planOptionId" : "MonthlyLifePremium",
+                "planOptionValueId" : "17.25"
+              }, {
+                "planOptionId" : "MonthlyADDPremium",
+                "planOptionValueId" : "1.50"
+              }, {
+                "planOptionId" : "MonthlyLifeADDPremium",
+                "planOptionValueId" : "18.75"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "0.00",
+                  "tier2" : "0.00",
+                  "tier3" : "0.00",
+                  "tier4" : "0.00"
+                }
+              },
+              "planRate" : "18.75",
+              "employeeEnrollCount" : 3
+            }, {
+              "planId" : "0C",
+              "planXref" : "0C",
+              "productLineType" : "basic_life_spouse",
+              "tierStructureId" : "B",
+              "planCategory" : "FLAT SPOUSE",
+              "costDifferentialPercentage" : "+0.00%",
+              "rateGuaranteePeriod" : "2",
+              "stepwiseQuoteID" : "0015794096-0004",
+              "options" : [ {
+                "planOptionId" : "LifeProductDescription",
+                "planOptionValueId" : "SP LIFE"
+              }, {
+                "planOptionId" : "LifeBenefitAmount",
+                "planOptionValueId" : "7500"
+              }, {
+                "planOptionId" : "LifePlanType",
+                "planOptionValueId" : "DOLLAR"
+              }, {
+                "planOptionId" : "LifeBenefitType",
+                "planOptionValueId" : "FLAT SPOUSE"
+              }, {
+                "planOptionId" : "DependentLifeRate",
+                "planOptionValueId" : "1.30"
+              }, {
+                "planOptionId" : "MonthlyLifeADDPremium",
+                "planOptionValueId" : "3.90"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "0.00",
+                  "tier2" : "0.00",
+                  "tier3" : "0.00",
+                  "tier4" : "0.00"
+                }
+              },
+              "planRate" : "3.90",
+              "dependentEnrollCount" : 2
+            }, {
+              "planId" : "0C",
+              "planXref" : "0C",
+              "productLineType" : "basic_life_child",
+              "tierStructureId" : "B",
+              "planCategory" : "FLAT CH",
+              "costDifferentialPercentage" : "+0.00%",
+              "rateGuaranteePeriod" : "2",
+              "stepwiseQuoteID" : "0015794096-0004",
+              "options" : [ {
+                "planOptionId" : "LifeProductDescription",
+                "planOptionValueId" : "CH LIFE"
+              }, {
+                "planOptionId" : "LifeBenefitAmount",
+                "planOptionValueId" : "3750"
+              }, {
+                "planOptionId" : "LifePlanType",
+                "planOptionValueId" : "DOLLAR"
+              }, {
+                "planOptionId" : "LifeBenefitType",
+                "planOptionValueId" : "FLAT CH"
+              }, {
+                "planOptionId" : "DependentLifeRate",
+                "planOptionValueId" : "1.30"
+              }, {
+                "planOptionId" : "MonthlyLifeADDPremium",
+                "planOptionValueId" : "3.90"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "0.00",
+                  "tier2" : "0.00",
+                  "tier3" : "0.00",
+                  "tier4" : "0.00"
+                }
+              },
+              "planRate" : "3.90",
+              "dependentEnrollCount" : 9
+            }, {
+              "planId" : "V1006",
+              "planXref" : "V1006",
+              "productLineType" : "vision",
+              "tierStructureId" : "B",
+              "planCategory" : "VOLUNTARY",
+              "costDifferentialPercentage" : "+0.0%",
+              "rateGuaranteePeriod" : "2",
+              "policyNumber" : "06Y9311",
+              "renewalRateID" : "2019-06-17-03.46.52.451308PR903",
+              "stepwiseQuoteID" : "0015794095-0002",
+              "discountRatio" : "1.2345",
+              "options" : [ {
+                "planOptionId" : "VisionPlanType",
+                "planOptionValueId" : "V"
+              }, {
+                "planOptionId" : "InNetExamCopayAmount",
+                "planOptionValueId" : "10"
+              }, {
+                "planOptionId" : "InNetMaterialCopayAmount",
+                "planOptionValueId" : "25"
+              }, {
+                "planOptionId" : "NumofMonthsBetweenCoveredExam",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "FramesBenefitFrequency",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "LensesBenefitFrequency",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "OutNetExamMaxAmount",
+                "planOptionValueId" : "40"
+              }, {
+                "planOptionId" : "OutNetFramesMaxAmount",
+                "planOptionValueId" : "45"
+              }, {
+                "planOptionId" : "OutNetContactLensesMaxAmount",
+                "planOptionValueId" : "105"
+              }, {
+                "planOptionId" : "OutNetSingleVisionLensesMaxAmt",
+                "planOptionValueId" : "40"
+              }, {
+                "planOptionId" : "InnetworkContactLensAllowance",
+                "planOptionValueId" : "105"
+              }, {
+                "planOptionId" : "RetailFrameAllowance",
+                "planOptionValueId" : "130"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "5.84",
+                  "tier2" : "14.58",
+                  "tier3" : "0.00",
+                  "tier4" : "0.00"
+                }
+              },
+              "planRate" : "29.16",
+              "employeeEnrollCount" : 2,
+              "dependentEnrollCount" : 8,
+              "tier1Subcount" : 0,
+              "tier2Subcount" : 2,
+              "tier3Subcount" : 0,
+              "tier4Subcount" : 0
+            } ]
+          },
+          "planMatch" : [ {
+            "currentPlanXref" : "AT7D/041",
+            "renewingPlanXref" : "BIA2/729"
+          }, {
+            "currentPlanXref" : "A8011",
+            "renewingPlanXref" : "5A444"
+          }, {
+            "currentPlanXref" : "V1006",
+            "renewingPlanXref" : "V1006"
+          }, {
+            "currentPlanXref" : "F25K",
+            "renewingPlanXref" : "F25K"
+          }, {
+            "currentPlanXref" : "0C",
+            "renewingPlanXref" : "0C"
+          } ]
+        }
+      }
+    }
+  }
+}

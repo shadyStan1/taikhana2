@@ -1,0 +1,13 @@
+to create a exe jar---->
+
+jar cmf mainClass new.jar *.class
+
+
+to view the contents of jar--->
+jar tf test.jar
+
+to run jar---->
+java -jar new.jar
+
+
+

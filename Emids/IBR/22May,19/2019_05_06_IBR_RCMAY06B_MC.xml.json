@@ -1,0 +1,5877 @@
+{
+  "RenewalRequest" : {
+    "@schemaLocation" : "http://connecture.com/json file:///C:/Integration%20Repositories/INTOPS-356/IBR_JSON_Schema.xsd",
+    "requestId" : "00000000-0000-0000-0000-125cf7f07b24",
+    "version" : "1.0.0",
+    "timeStamp" : "2019-05-06T02:37:16.6Z",
+    "renewalPeriodInfo" : {
+      "shortDescription" : "AUG2019_0521",
+      "longDescription" : "AUG2019_0521",
+      "status" : "OPEN",
+      "xref" : "AUG2019_0521"
+    },
+    "feedRenewalQuoteInfo" : [ {
+      "renewalPeriodXref" : "AUG2019_0521",
+      "group" : {
+        "name" : "ADK PERMIT SERVICE",
+        "type" : "SG",
+        "status" : "Active",
+        "franchiseCode" : "0000000",
+        "multiContractPolicyIndicator" : "N",
+        "renProcessedDt" : "2019-02-14",
+        "statusIndicator" : "Not Displayed",
+        "uhgCustomerNbr" : "0567661",
+        "serviceOfficeCode" : "192",
+        "dualPlatformInd" : "N",
+        "employer" : {
+          "name" : "ADK PERMIT SERVICE",
+          "dateEstablished" : "04/01/2007",
+          "federalTaxId" : "559888215",
+          "doingBusinessAs" : "ADK PERMIT SERVICE"
+        },
+        "primaryLocation" : {
+          "xref" : "PRIMARY LOCATION - 95354",
+          "isPrimary" : "Y",
+          "name" : "PRIMARY LOCATION - 95354",
+          "totalEligible" : "10",
+          "ratingZipCode" : "95354",
+          "marketNumber" : "04420",
+          "totalEmployed" : "7",
+          "fullTimeEquivalent" : "10",
+          "billingAddressPlatform" : "PRIME",
+          "billingAddressType" : "4",
+          "billingAddressLine1" : "101 TEST ST",
+          "billingAddressCity" : "MOSESTO",
+          "billingAddressState" : "CA",
+          "billingAddressZip" : "95354",
+          "billingAddressZip4" : "0000",
+          "contractIssueStCode" : "CA",
+          "countingMethod" : "A",
+          "contact" : {
+            "email" : "AAA@BBB.COM",
+            "first" : "MICHAEL",
+            "last" : "TEST",
+            "address" : {
+              "street1" : "101 TEST ST",
+              "state" : "CA",
+              "zip" : "95354",
+              "zip4" : "0000"
+            },
+            "phoneNumbers" : {
+              "phoneType" : "work",
+              "areaCode" : "209",
+              "num" : "3434800"
+            }
+          },
+          "address" : {
+            "type" : "3",
+            "street1" : "101 TEST ST",
+            "city" : "MOSESTO",
+            "state" : "CA",
+            "zip" : "95354"
+          },
+          "industryCode" : {
+            "sicCode" : "4731"
+          },
+          "OI" : "01",
+          "SA" : "00",
+          "BIT" : "CG"
+        },
+        "owners" : {
+          "salesRep" : {
+            "xref" : "5799"
+          },
+          "producer" : {
+            "xref" : "broker"
+          }
+        }
+      },
+      "quote" : {
+        "quoteEffDate" : "05/01/2019",
+        "EEChoiceIndicator" : "N",
+        "multiSiteProgramCode" : "SS",
+        "usageRenewalDate" : "05/01/2019",
+        "employees" : [ {
+          "xref" : "81759399400",
+          "status" : "Active",
+          "first" : "MICHAEL",
+          "middle" : "J",
+          "last" : "TEST",
+          "dateOfBirth" : "11/06/1972",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "CA",
+          "homeZip" : "95386",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC01",
+          "state" : "CA",
+          "zip" : "95386",
+          "employeeDOE" : "01/01/2001",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "WATERFORD",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D1063",
+            "coverageType" : "EMP",
+            "rate" : "36.03"
+          }, {
+            "planId" : "F50K",
+            "coverageType" : "EMP",
+            "rate" : "27.50"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D1063",
+            "coverageType" : "EMP",
+            "rate" : "36.03"
+          }, {
+            "planId" : "F50K",
+            "coverageType" : "EMP",
+            "rate" : "27.50"
+          } ],
+          "alternatePlans" : [ {
+            "planId" : "SF012",
+            "coverageType" : "EMP",
+            "rate" : "6.90"
+          }, {
+            "planId" : "SF010",
+            "coverageType" : "EMP",
+            "rate" : "7.42"
+          }, {
+            "planId" : "SF008",
+            "coverageType" : "EMP",
+            "rate" : "8.39"
+          }, {
+            "planId" : "SF006",
+            "coverageType" : "EMP",
+            "rate" : "9.02"
+          } ]
+        }, {
+          "xref" : "81905768700",
+          "status" : "Active",
+          "first" : "BARBARA",
+          "middle" : "F",
+          "last" : "TEST",
+          "dateOfBirth" : "02/24/1943",
+          "gender" : "F",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "CA",
+          "homeZip" : "95386",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC01",
+          "state" : "CA",
+          "zip" : "95386",
+          "employeeDOE" : "01/01/2001",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "WATERFORD",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D1063",
+            "coverageType" : "EMP",
+            "rate" : "36.03"
+          }, {
+            "planId" : "F50K",
+            "coverageType" : "EMP",
+            "rate" : "13.75"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D1063",
+            "coverageType" : "EMP",
+            "rate" : "36.03"
+          }, {
+            "planId" : "F50K",
+            "coverageType" : "EMP",
+            "rate" : "13.75"
+          } ],
+          "alternatePlans" : [ {
+            "planId" : "SF012",
+            "coverageType" : "EMP",
+            "rate" : "6.90"
+          }, {
+            "planId" : "SF010",
+            "coverageType" : "EMP",
+            "rate" : "7.42"
+          }, {
+            "planId" : "SF008",
+            "coverageType" : "EMP",
+            "rate" : "8.39"
+          }, {
+            "planId" : "SF006",
+            "coverageType" : "EMP",
+            "rate" : "9.02"
+          } ]
+        }, {
+          "xref" : "82989107600",
+          "status" : "Active",
+          "first" : "MARK",
+          "middle" : "D",
+          "last" : "TEST",
+          "dateOfBirth" : "07/12/1958",
+          "gender" : "M",
+          "maritalStatus" : "M",
+          "maritalStatusType" : "M",
+          "numberOfChildren" : "1",
+          "homeState" : "CA",
+          "homeZip" : "95386",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "CA",
+          "zip" : "95386",
+          "employeeDOE" : "01/01/2001",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "WATERFORD",
+          "medicareOverride" : "N",
+          "dependents" : [ {
+            "xref" : "82989107601",
+            "depType" : "S",
+            "last" : "TEST",
+            "first" : "ROBIN",
+            "genderType" : "F",
+            "dateOfBirth" : "08/31/1964",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : {
+              "planId" : "D1063",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            },
+            "renewingCoverageElections" : {
+              "planId" : "D1063",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            },
+            "alternateCoverageElections" : [ {
+              "planId" : "SF012",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "SF010",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "SF008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "SF006",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ]
+          }, {
+            "xref" : "82989107602",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "JOSHUA",
+            "genderType" : "M",
+            "dateOfBirth" : "03/09/1999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : {
+              "planId" : "D1063",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            },
+            "renewingCoverageElections" : {
+              "planId" : "D1063",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            },
+            "alternateCoverageElections" : [ {
+              "planId" : "SF012",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "SF010",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "SF008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "SF006",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ]
+          } ],
+          "electedPlans" : [ {
+            "planId" : "D1063",
+            "coverageType" : "FAM",
+            "rate" : "88.32"
+          }, {
+            "planId" : "F25K",
+            "coverageType" : "EMP",
+            "rate" : "13.75"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D1063",
+            "coverageType" : "FAM",
+            "rate" : "88.32"
+          }, {
+            "planId" : "F25K",
+            "coverageType" : "EMP",
+            "rate" : "13.75"
+          } ],
+          "alternatePlans" : [ {
+            "planId" : "SF012",
+            "coverageType" : "FAM",
+            "rate" : "25.37"
+          }, {
+            "planId" : "SF010",
+            "coverageType" : "FAM",
+            "rate" : "27.27"
+          }, {
+            "planId" : "SF008",
+            "coverageType" : "FAM",
+            "rate" : "26.55"
+          }, {
+            "planId" : "SF006",
+            "coverageType" : "FAM",
+            "rate" : "28.54"
+          } ]
+        }, {
+          "xref" : "85317553200",
+          "status" : "Active",
+          "first" : "LAURIE",
+          "middle" : "H",
+          "last" : "TEST",
+          "dateOfBirth" : "01/15/1959",
+          "gender" : "F",
+          "maritalStatus" : "M",
+          "maritalStatusType" : "M",
+          "homeState" : "CA",
+          "homeZip" : "95320",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "CA",
+          "zip" : "95320",
+          "employeeDOE" : "02/20/2007",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "ESCALON",
+          "medicareOverride" : "N",
+          "dependents" : {
+            "xref" : "85317553201",
+            "depType" : "S",
+            "last" : "TEST",
+            "first" : "DENISE",
+            "genderType" : "F",
+            "dateOfBirth" : "11/21/1959",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : {
+              "planId" : "D1063",
+              "coverageType" : "ESP",
+              "rate" : "0.00"
+            },
+            "renewingCoverageElections" : {
+              "planId" : "D1063",
+              "coverageType" : "ESP",
+              "rate" : "0.00"
+            },
+            "alternateCoverageElections" : [ {
+              "planId" : "SF012",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "SF010",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "SF008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "SF006",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ]
+          },
+          "electedPlans" : [ {
+            "planId" : "D1063",
+            "coverageType" : "ESP",
+            "rate" : "57.70"
+          }, {
+            "planId" : "F25K",
+            "coverageType" : "EMP",
+            "rate" : "13.75"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D1063",
+            "coverageType" : "ESP",
+            "rate" : "57.70"
+          }, {
+            "planId" : "F25K",
+            "coverageType" : "EMP",
+            "rate" : "13.75"
+          } ],
+          "alternatePlans" : [ {
+            "planId" : "SF012",
+            "coverageType" : "ESP",
+            "rate" : "13.95"
+          }, {
+            "planId" : "SF010",
+            "coverageType" : "ESP",
+            "rate" : "14.99"
+          }, {
+            "planId" : "SF008",
+            "coverageType" : "ESP",
+            "rate" : "15.31"
+          }, {
+            "planId" : "SF006",
+            "coverageType" : "ESP",
+            "rate" : "16.45"
+          } ]
+        }, {
+          "xref" : "85955208500",
+          "status" : "Active",
+          "first" : "KATHY",
+          "middle" : "E",
+          "last" : "TEST",
+          "dateOfBirth" : "04/16/1960",
+          "gender" : "F",
+          "maritalStatus" : "M",
+          "maritalStatusType" : "M",
+          "homeState" : "CA",
+          "homeZip" : "95382",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "CA",
+          "zip" : "95382",
+          "employeeDOE" : "08/09/2004",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "TURLOCK",
+          "medicareOverride" : "N",
+          "dependents" : {
+            "xref" : "85955208501",
+            "depType" : "S",
+            "last" : "TEST",
+            "first" : "ROBERT",
+            "genderType" : "M",
+            "dateOfBirth" : "07/21/1958",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : {
+              "planId" : "D1063",
+              "coverageType" : "ESP",
+              "rate" : "0.00"
+            },
+            "renewingCoverageElections" : {
+              "planId" : "D1063",
+              "coverageType" : "ESP",
+              "rate" : "0.00"
+            },
+            "alternateCoverageElections" : [ {
+              "planId" : "SF012",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "SF010",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "SF008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "SF006",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ]
+          },
+          "electedPlans" : [ {
+            "planId" : "D1063",
+            "coverageType" : "ESP",
+            "rate" : "57.70"
+          }, {
+            "planId" : "F25K",
+            "coverageType" : "EMP",
+            "rate" : "13.75"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D1063",
+            "coverageType" : "ESP",
+            "rate" : "57.70"
+          }, {
+            "planId" : "F25K",
+            "coverageType" : "EMP",
+            "rate" : "13.75"
+          } ],
+          "alternatePlans" : [ {
+            "planId" : "SF012",
+            "coverageType" : "ESP",
+            "rate" : "13.95"
+          }, {
+            "planId" : "SF010",
+            "coverageType" : "ESP",
+            "rate" : "14.99"
+          }, {
+            "planId" : "SF008",
+            "coverageType" : "ESP",
+            "rate" : "15.31"
+          }, {
+            "planId" : "SF006",
+            "coverageType" : "ESP",
+            "rate" : "16.45"
+          } ]
+        }, {
+          "xref" : "92191043200",
+          "status" : "Active",
+          "first" : "JERRY",
+          "middle" : "D",
+          "last" : "TEST",
+          "dateOfBirth" : "12/01/1967",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "numberOfChildren" : "1",
+          "homeState" : "CA",
+          "homeZip" : "95307",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "CA",
+          "zip" : "95307",
+          "employeeDOE" : "01/01/2001",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "CERES",
+          "medicareOverride" : "N",
+          "dependents" : {
+            "xref" : "92191043203",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "ZANE",
+            "genderType" : "M",
+            "dateOfBirth" : "09/26/1996",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : {
+              "planId" : "D1063",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            },
+            "renewingCoverageElections" : {
+              "planId" : "D1063",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            },
+            "alternateCoverageElections" : [ {
+              "planId" : "SF012",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "SF010",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "SF008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "SF006",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ]
+          },
+          "electedPlans" : [ {
+            "planId" : "D1063",
+            "coverageType" : "ECH",
+            "rate" : "57.70"
+          }, {
+            "planId" : "F25K",
+            "coverageType" : "EMP",
+            "rate" : "13.75"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D1063",
+            "coverageType" : "ECH",
+            "rate" : "57.70"
+          }, {
+            "planId" : "F25K",
+            "coverageType" : "EMP",
+            "rate" : "13.75"
+          } ],
+          "alternatePlans" : [ {
+            "planId" : "SF012",
+            "coverageType" : "ECH",
+            "rate" : "13.95"
+          }, {
+            "planId" : "SF010",
+            "coverageType" : "ECH",
+            "rate" : "14.99"
+          }, {
+            "planId" : "SF008",
+            "coverageType" : "ECH",
+            "rate" : "15.31"
+          }, {
+            "planId" : "SF006",
+            "coverageType" : "ECH",
+            "rate" : "16.45"
+          } ]
+        }, {
+          "xref" : "93011757200",
+          "status" : "Active",
+          "first" : "RUSSELL",
+          "middle" : "D",
+          "last" : "TEST",
+          "dateOfBirth" : "03/31/1940",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "CA",
+          "homeZip" : "95386",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC01",
+          "state" : "CA",
+          "zip" : "95386",
+          "employeeDOE" : "01/01/2001",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "WATERFORD",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D1063",
+            "coverageType" : "EMP",
+            "rate" : "36.03"
+          }, {
+            "planId" : "F50K",
+            "coverageType" : "EMP",
+            "rate" : "13.75"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D1063",
+            "coverageType" : "EMP",
+            "rate" : "36.03"
+          }, {
+            "planId" : "F50K",
+            "coverageType" : "EMP",
+            "rate" : "13.75"
+          } ],
+          "alternatePlans" : [ {
+            "planId" : "SF012",
+            "coverageType" : "EMP",
+            "rate" : "6.90"
+          }, {
+            "planId" : "SF010",
+            "coverageType" : "EMP",
+            "rate" : "7.42"
+          }, {
+            "planId" : "SF008",
+            "coverageType" : "EMP",
+            "rate" : "8.39"
+          }, {
+            "planId" : "SF006",
+            "coverageType" : "EMP",
+            "rate" : "9.02"
+          } ]
+        } ],
+        "subgroups" : [ {
+          "xref" : "ALL",
+          "siteXref" : "PRIMARY LOCATION - 95354",
+          "classXref" : "DEFAULT",
+          "planOfferingXref" : "0567661"
+        }, {
+          "xref" : "ALLC01",
+          "siteXref" : "PRIMARY LOCATION - 95354",
+          "classDescription" : "MANAGERS",
+          "classXref" : "01",
+          "planOfferingXref" : "0567661C01"
+        }, {
+          "xref" : "ALLC02",
+          "siteXref" : "PRIMARY LOCATION - 95354",
+          "classDescription" : "ALL OTHER OCCUPATIONS AND POSITIONS",
+          "classXref" : "02",
+          "planOfferingXref" : "0567661C02"
+        } ],
+        "planOfferingData" : [ {
+          "planOfferingId" : "0567661",
+          "planOfferingXref" : "0567661",
+          "existingPlanPkg" : {
+            "covEffDate" : "01/01/2019",
+            "plans" : {
+              "planId" : "D1063",
+              "planXref" : "D1063",
+              "productLineType" : "dental",
+              "tierStructureId" : "3",
+              "planCategory" : "DHMO",
+              "dentDualPlanIndicator" : "N",
+              "policyNumber" : "0567661",
+              "eventAdminInd" : "N",
+              "options" : [ {
+                "planOptionId" : "IndNetDeductibleAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "IndOutNetDeductibleAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "FamilyInNetDeductibleAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "FamilyOutNetDeductibleAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "MajServicesInNetCoInsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "MajServiceOutNetCoInsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "MinorRestorativeInNetCoInsPct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "MinorRestorativeOutNetCoInsPct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "OrthoInNetCoinsurancePct",
+                "planOptionValueId" : "0%"
+              }, {
+                "planOptionId" : "OrthodonticsCoveredOutNetInd",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "PreventiveInNetCoInsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "PreventiveOutNetCoInsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "LifetimeOrthoInNetBenAmount",
+                "planOptionValueId" : "1500"
+              }, {
+                "planOptionId" : "InNetAnnualMaxBenefitAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "OutNetAnnualMaxBenefitAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "LifetimeOrthoOutNetBenAmount",
+                "planOptionValueId" : "0"
+              }, {
+                "planOptionId" : "WaitingPeriod",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "WaitingPeriodOrtho",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "RolloverMaxAccountIndicator",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "UsualCustomaryPercentile",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "AnnDedMaxBenAppliesPrevDiag",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "OrthodontiaBenefit",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "ImplantINPercent",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "ImplantOOOPercent",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "EndoPerioOralInnetPct",
+                "planOptionValueId" : "NA/NA/NA"
+              }, {
+                "planOptionId" : "EndoPerioOralOutnetPct",
+                "planOptionValueId" : "NA/NA/NA"
+              }, {
+                "planOptionId" : "PlanFundingDescription",
+                "planOptionValueId" : "Contributory"
+              }, {
+                "planOptionId" : "0120HmoBenCpyAmt",
+                "planOptionValueId" : "0"
+              }, {
+                "planOptionId" : "1110HmoBenCpyAmt",
+                "planOptionValueId" : "0"
+              }, {
+                "planOptionId" : "1120HmoBenCpyAmt",
+                "planOptionValueId" : "0"
+              }, {
+                "planOptionId" : "0330HmoBenCpyAmt",
+                "planOptionValueId" : "0"
+              }, {
+                "planOptionId" : "2150HmoBenCpyAmt",
+                "planOptionValueId" : "15"
+              }, {
+                "planOptionId" : "2752HmoBenCpyAmt",
+                "planOptionValueId" : "120"
+              }, {
+                "planOptionId" : "3330HmoBenCpyAmt",
+                "planOptionValueId" : "100"
+              }, {
+                "planOptionId" : "4260HmoBenCpyAmt",
+                "planOptionValueId" : "80"
+              }, {
+                "planOptionId" : "4341HmoBenCpyAmt",
+                "planOptionValueId" : "40"
+              }, {
+                "planOptionId" : "7140HmoBenCpyAmt",
+                "planOptionValueId" : "10"
+              }, {
+                "planOptionId" : "6212HmoBenCpyAmt",
+                "planOptionValueId" : "95"
+              }, {
+                "planOptionId" : "2331HmoBenCpyAmt",
+                "planOptionValueId" : "15"
+              }, {
+                "planOptionId" : "8070HmoBenCpyAmt",
+                "planOptionValueId" : "1500"
+              }, {
+                "planOptionId" : "BasicServInNetCoinsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "BasicServOutNetCoinsurancePct",
+                "planOptionValueId" : "NA"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "36.03",
+                  "tier2" : "57.70",
+                  "tier3" : "57.70",
+                  "tier4" : "88.32"
+                }
+              },
+              "planRate" : "369.51",
+              "probationaryPeriods" : {
+                "days" : "90",
+                "periodType" : "D"
+              },
+              "employeeEnrollCount" : 7,
+              "dependentEnrollCount" : 5,
+              "tier1Subcount" : 3,
+              "tier2Subcount" : 2,
+              "tier3Subcount" : 1,
+              "tier4Subcount" : 1
+            }
+          },
+          "newPlanPkg" : {
+            "plans" : {
+              "planId" : "D1063",
+              "planXref" : "D1063",
+              "productLineType" : "dental",
+              "tierStructureId" : "3",
+              "planCategory" : "DHMO",
+              "costDifferentialPercentage" : "+0.0%",
+              "dentDualPlanIndicator" : "N",
+              "policyNumber" : "0567661",
+              "renewalRateID" : "2019-02-14-01.52.79.900001PR002",
+              "stepwiseQuoteID" : "0010919606-0003",
+              "discountRatio" : "1.8205",
+              "options" : [ {
+                "planOptionId" : "IndNetDeductibleAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "IndOutNetDeductibleAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "FamilyInNetDeductibleAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "FamilyOutNetDeductibleAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "MajServicesInNetCoInsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "MajServiceOutNetCoInsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "MinorRestorativeInNetCoInsPct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "MinorRestorativeOutNetCoInsPct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "OrthoInNetCoinsurancePct",
+                "planOptionValueId" : "0%"
+              }, {
+                "planOptionId" : "OrthodonticsCoveredOutNetInd",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "PreventiveInNetCoInsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "PreventiveOutNetCoInsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "LifetimeOrthoInNetBenAmount",
+                "planOptionValueId" : "1500"
+              }, {
+                "planOptionId" : "InNetAnnualMaxBenefitAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "OutNetAnnualMaxBenefitAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "LifetimeOrthoOutNetBenAmount",
+                "planOptionValueId" : "0"
+              }, {
+                "planOptionId" : "WaitingPeriod",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "WaitingPeriodOrtho",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "RolloverMaxAccountIndicator",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "UsualCustomaryPercentile",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "AnnDedMaxBenAppliesPrevDiag",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "OrthodontiaBenefit",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "ImplantINPercent",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "ImplantOOOPercent",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "EndoPerioOralInnetPct",
+                "planOptionValueId" : "NA/NA/NA"
+              }, {
+                "planOptionId" : "EndoPerioOralOutnetPct",
+                "planOptionValueId" : "NA/NA/NA"
+              }, {
+                "planOptionId" : "PlanFundingDescription",
+                "planOptionValueId" : "Contributory"
+              }, {
+                "planOptionId" : "0120HmoBenCpyAmt",
+                "planOptionValueId" : "0"
+              }, {
+                "planOptionId" : "1110HmoBenCpyAmt",
+                "planOptionValueId" : "0"
+              }, {
+                "planOptionId" : "1120HmoBenCpyAmt",
+                "planOptionValueId" : "0"
+              }, {
+                "planOptionId" : "0330HmoBenCpyAmt",
+                "planOptionValueId" : "0"
+              }, {
+                "planOptionId" : "2150HmoBenCpyAmt",
+                "planOptionValueId" : "15"
+              }, {
+                "planOptionId" : "2752HmoBenCpyAmt",
+                "planOptionValueId" : "120"
+              }, {
+                "planOptionId" : "3330HmoBenCpyAmt",
+                "planOptionValueId" : "100"
+              }, {
+                "planOptionId" : "4260HmoBenCpyAmt",
+                "planOptionValueId" : "80"
+              }, {
+                "planOptionId" : "4341HmoBenCpyAmt",
+                "planOptionValueId" : "40"
+              }, {
+                "planOptionId" : "7140HmoBenCpyAmt",
+                "planOptionValueId" : "10"
+              }, {
+                "planOptionId" : "6212HmoBenCpyAmt",
+                "planOptionValueId" : "95"
+              }, {
+                "planOptionId" : "2331HmoBenCpyAmt",
+                "planOptionValueId" : "15"
+              }, {
+                "planOptionId" : "8070HmoBenCpyAmt",
+                "planOptionValueId" : "1500"
+              }, {
+                "planOptionId" : "BasicServInNetCoinsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "BasicServOutNetCoinsurancePct",
+                "planOptionValueId" : "NA"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "36.03",
+                  "tier2" : "57.70",
+                  "tier3" : "57.70",
+                  "tier4" : "88.32"
+                }
+              },
+              "planRate" : "369.51",
+              "employeeEnrollCount" : 7,
+              "dependentEnrollCount" : 5,
+              "tier1Subcount" : 3,
+              "tier2Subcount" : 2,
+              "tier3Subcount" : 1,
+              "tier4Subcount" : 1
+            }
+          },
+          "alternatePlanPkg" : {
+            "plans" : [ {
+              "planId" : "SF012",
+              "planXref" : "SF012",
+              "productLineType" : "vision",
+              "tierStructureId" : "3",
+              "planCategory" : "100% ER PAID/0% DEP PAID",
+              "renewalRateID" : "2019-02-14-01.52.79.900001PR007",
+              "stepwiseQuoteID" : "0022876306-0001",
+              "options" : [ {
+                "planOptionId" : "VisionPlanType",
+                "planOptionValueId" : "B"
+              }, {
+                "planOptionId" : "InNetExamCopayAmount",
+                "planOptionValueId" : "10"
+              }, {
+                "planOptionId" : "InNetMaterialCopayAmount",
+                "planOptionValueId" : "25"
+              }, {
+                "planOptionId" : "NumofMonthsBetweenCoveredExam",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "FramesBenefitFrequency",
+                "planOptionValueId" : "24"
+              }, {
+                "planOptionId" : "LensesBenefitFrequency",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "OutNetExamMaxAmount",
+                "planOptionValueId" : "40"
+              }, {
+                "planOptionId" : "OutNetFramesMaxAmount",
+                "planOptionValueId" : "45"
+              }, {
+                "planOptionId" : "OutNetContactLensesMaxAmount",
+                "planOptionValueId" : "105"
+              }, {
+                "planOptionId" : "OutNetSingleVisionLensesMaxAmt",
+                "planOptionValueId" : "40"
+              }, {
+                "planOptionId" : "InnetworkContactLensAllowance",
+                "planOptionValueId" : "105"
+              }, {
+                "planOptionId" : "RetailFrameAllowance",
+                "planOptionValueId" : "130"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "6.90",
+                  "tier2" : "13.95",
+                  "tier3" : "13.95",
+                  "tier4" : "25.37"
+                }
+              },
+              "planRate" : "87.92",
+              "employeeEnrollCount" : 7,
+              "dependentEnrollCount" : 5,
+              "tier1Subcount" : 3,
+              "tier2Subcount" : 2,
+              "tier3Subcount" : 1,
+              "tier4Subcount" : 1
+            }, {
+              "planId" : "SF010",
+              "planXref" : "SF010",
+              "productLineType" : "vision",
+              "tierStructureId" : "3",
+              "planCategory" : "100% ER PAID/0% DEP PAID",
+              "renewalRateID" : "2019-02-14-01.52.79.900001PR008",
+              "stepwiseQuoteID" : "0022876306-0001",
+              "options" : [ {
+                "planOptionId" : "VisionPlanType",
+                "planOptionValueId" : "B"
+              }, {
+                "planOptionId" : "InNetExamCopayAmount",
+                "planOptionValueId" : "10"
+              }, {
+                "planOptionId" : "InNetMaterialCopayAmount",
+                "planOptionValueId" : "25"
+              }, {
+                "planOptionId" : "NumofMonthsBetweenCoveredExam",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "FramesBenefitFrequency",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "LensesBenefitFrequency",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "OutNetExamMaxAmount",
+                "planOptionValueId" : "40"
+              }, {
+                "planOptionId" : "OutNetFramesMaxAmount",
+                "planOptionValueId" : "45"
+              }, {
+                "planOptionId" : "OutNetContactLensesMaxAmount",
+                "planOptionValueId" : "105"
+              }, {
+                "planOptionId" : "OutNetSingleVisionLensesMaxAmt",
+                "planOptionValueId" : "40"
+              }, {
+                "planOptionId" : "InnetworkContactLensAllowance",
+                "planOptionValueId" : "105"
+              }, {
+                "planOptionId" : "RetailFrameAllowance",
+                "planOptionValueId" : "130"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "7.42",
+                  "tier2" : "14.99",
+                  "tier3" : "14.99",
+                  "tier4" : "27.27"
+                }
+              },
+              "planRate" : "94.50",
+              "employeeEnrollCount" : 7,
+              "dependentEnrollCount" : 5,
+              "tier1Subcount" : 3,
+              "tier2Subcount" : 2,
+              "tier3Subcount" : 1,
+              "tier4Subcount" : 1
+            }, {
+              "planId" : "SF008",
+              "planXref" : "SF008",
+              "productLineType" : "vision",
+              "tierStructureId" : "3",
+              "planCategory" : "VOLUNTARY",
+              "renewalRateID" : "2019-02-14-01.52.79.900001PR009",
+              "stepwiseQuoteID" : "0022876306-0001",
+              "options" : [ {
+                "planOptionId" : "VisionPlanType",
+                "planOptionValueId" : "V"
+              }, {
+                "planOptionId" : "InNetExamCopayAmount",
+                "planOptionValueId" : "10"
+              }, {
+                "planOptionId" : "InNetMaterialCopayAmount",
+                "planOptionValueId" : "25"
+              }, {
+                "planOptionId" : "NumofMonthsBetweenCoveredExam",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "FramesBenefitFrequency",
+                "planOptionValueId" : "24"
+              }, {
+                "planOptionId" : "LensesBenefitFrequency",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "OutNetExamMaxAmount",
+                "planOptionValueId" : "40"
+              }, {
+                "planOptionId" : "OutNetFramesMaxAmount",
+                "planOptionValueId" : "45"
+              }, {
+                "planOptionId" : "OutNetContactLensesMaxAmount",
+                "planOptionValueId" : "105"
+              }, {
+                "planOptionId" : "OutNetSingleVisionLensesMaxAmt",
+                "planOptionValueId" : "40"
+              }, {
+                "planOptionId" : "InnetworkContactLensAllowance",
+                "planOptionValueId" : "105"
+              }, {
+                "planOptionId" : "RetailFrameAllowance",
+                "planOptionValueId" : "130"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "8.39",
+                  "tier2" : "15.31",
+                  "tier3" : "15.31",
+                  "tier4" : "26.55"
+                }
+              },
+              "planRate" : "97.65",
+              "employeeEnrollCount" : 7,
+              "dependentEnrollCount" : 5,
+              "tier1Subcount" : 3,
+              "tier2Subcount" : 2,
+              "tier3Subcount" : 1,
+              "tier4Subcount" : 1
+            }, {
+              "planId" : "SF006",
+              "planXref" : "SF006",
+              "productLineType" : "vision",
+              "tierStructureId" : "3",
+              "planCategory" : "VOLUNTARY",
+              "renewalRateID" : "2019-02-14-01.52.79.900001PR010",
+              "stepwiseQuoteID" : "0022876306-0001",
+              "options" : [ {
+                "planOptionId" : "VisionPlanType",
+                "planOptionValueId" : "V"
+              }, {
+                "planOptionId" : "InNetExamCopayAmount",
+                "planOptionValueId" : "10"
+              }, {
+                "planOptionId" : "InNetMaterialCopayAmount",
+                "planOptionValueId" : "25"
+              }, {
+                "planOptionId" : "NumofMonthsBetweenCoveredExam",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "FramesBenefitFrequency",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "LensesBenefitFrequency",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "OutNetExamMaxAmount",
+                "planOptionValueId" : "40"
+              }, {
+                "planOptionId" : "OutNetFramesMaxAmount",
+                "planOptionValueId" : "45"
+              }, {
+                "planOptionId" : "OutNetContactLensesMaxAmount",
+                "planOptionValueId" : "105"
+              }, {
+                "planOptionId" : "OutNetSingleVisionLensesMaxAmt",
+                "planOptionValueId" : "40"
+              }, {
+                "planOptionId" : "InnetworkContactLensAllowance",
+                "planOptionValueId" : "105"
+              }, {
+                "planOptionId" : "RetailFrameAllowance",
+                "planOptionValueId" : "130"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "9.02",
+                  "tier2" : "16.45",
+                  "tier3" : "16.45",
+                  "tier4" : "28.54"
+                }
+              },
+              "planRate" : "104.95",
+              "employeeEnrollCount" : 7,
+              "dependentEnrollCount" : 5,
+              "tier1Subcount" : 3,
+              "tier2Subcount" : 2,
+              "tier3Subcount" : 1,
+              "tier4Subcount" : 1
+            } ]
+          },
+          "planMatch" : {
+            "currentPlanXref" : "D1063",
+            "renewingPlanXref" : "D1063"
+          }
+        }, {
+          "planOfferingId" : "0567661C01",
+          "planOfferingXref" : "0567661C01",
+          "existingPlanPkg" : {
+            "covEffDate" : "01/01/2019",
+            "plans" : {
+              "planId" : "F50K",
+              "planXref" : "F50K",
+              "productLineType" : "basic_life_ee",
+              "tierStructureId" : "3",
+              "planCategory" : "FLAT EE",
+              "policyNumber" : "0567661",
+              "eventAdminInd" : "N",
+              "options" : [ {
+                "planOptionId" : "LifeProductDescription",
+                "planOptionValueId" : "EMP LIFE"
+              }, {
+                "planOptionId" : "LifeBenefitAmount",
+                "planOptionValueId" : "50000"
+              }, {
+                "planOptionId" : "LifePlanType",
+                "planOptionValueId" : "DOLLAR"
+              }, {
+                "planOptionId" : "LifeBenefitType",
+                "planOptionValueId" : "FLAT EE"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000Life",
+                "planOptionValueId" : "0.53"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000ADD",
+                "planOptionValueId" : "0.02"
+              }, {
+                "planOptionId" : "LifeAddRatePer1000",
+                "planOptionValueId" : "0.55"
+              }, {
+                "planOptionId" : "FlatPlanRatePerEmployee",
+                "planOptionValueId" : "27.50"
+              }, {
+                "planOptionId" : "TotalLifeVolume",
+                "planOptionValueId" : "100000"
+              }, {
+                "planOptionId" : "MonthlyLifePremium",
+                "planOptionValueId" : "53.00"
+              }, {
+                "planOptionId" : "MonthlyADDPremium",
+                "planOptionValueId" : "2.00"
+              }, {
+                "planOptionId" : "MonthlyLifeADDPremium",
+                "planOptionValueId" : "55.00"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "0.00",
+                  "tier2" : "0.00",
+                  "tier3" : "0.00",
+                  "tier4" : "0.00"
+                }
+              },
+              "planRate" : "55.00",
+              "probationaryPeriods" : {
+                "days" : "90",
+                "periodType" : "D"
+              },
+              "employeeEnrollCount" : 3
+            }
+          },
+          "newPlanPkg" : {
+            "plans" : {
+              "planId" : "F50K",
+              "planXref" : "F50K",
+              "productLineType" : "basic_life_ee",
+              "tierStructureId" : "3",
+              "planCategory" : "FLAT EE",
+              "costDifferentialPercentage" : "+0.00%",
+              "rateGuaranteePeriod" : "2",
+              "policyNumber" : "0567661",
+              "renewalRateID" : "2019-02-14-01.52.79.900001PR002",
+              "stepwiseQuoteID" : "0010914984-0003",
+              "discountRatio" : "0.4117",
+              "options" : [ {
+                "planOptionId" : "LifeProductDescription",
+                "planOptionValueId" : "EMP LIFE"
+              }, {
+                "planOptionId" : "LifeBenefitAmount",
+                "planOptionValueId" : "50000"
+              }, {
+                "planOptionId" : "LifePlanType",
+                "planOptionValueId" : "DOLLAR"
+              }, {
+                "planOptionId" : "LifeBenefitType",
+                "planOptionValueId" : "FLAT EE"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000Life",
+                "planOptionValueId" : "0.53"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000ADD",
+                "planOptionValueId" : "0.02"
+              }, {
+                "planOptionId" : "LifeAddRatePer1000",
+                "planOptionValueId" : "0.55"
+              }, {
+                "planOptionId" : "FlatPlanRatePerEmployee",
+                "planOptionValueId" : "27.50"
+              }, {
+                "planOptionId" : "TotalLifeVolume",
+                "planOptionValueId" : "100000"
+              }, {
+                "planOptionId" : "MonthlyLifePremium",
+                "planOptionValueId" : "53.00"
+              }, {
+                "planOptionId" : "MonthlyADDPremium",
+                "planOptionValueId" : "2.00"
+              }, {
+                "planOptionId" : "MonthlyLifeADDPremium",
+                "planOptionValueId" : "55.00"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "0.00",
+                  "tier2" : "0.00",
+                  "tier3" : "0.00",
+                  "tier4" : "0.00"
+                }
+              },
+              "planRate" : "55.00",
+              "employeeEnrollCount" : 3
+            }
+          },
+          "planMatch" : {
+            "currentPlanXref" : "F50K",
+            "renewingPlanXref" : "F50K"
+          }
+        }, {
+          "planOfferingId" : "0567661C02",
+          "planOfferingXref" : "0567661C02",
+          "existingPlanPkg" : {
+            "covEffDate" : "01/01/2019",
+            "plans" : {
+              "planId" : "F25K",
+              "planXref" : "F25K",
+              "productLineType" : "basic_life_ee",
+              "tierStructureId" : "3",
+              "planCategory" : "FLAT EE",
+              "policyNumber" : "0567661",
+              "eventAdminInd" : "N",
+              "options" : [ {
+                "planOptionId" : "LifeProductDescription",
+                "planOptionValueId" : "EMP LIFE"
+              }, {
+                "planOptionId" : "LifeBenefitAmount",
+                "planOptionValueId" : "25000"
+              }, {
+                "planOptionId" : "LifePlanType",
+                "planOptionValueId" : "DOLLAR"
+              }, {
+                "planOptionId" : "LifeBenefitType",
+                "planOptionValueId" : "FLAT EE"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000Life",
+                "planOptionValueId" : "0.53"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000ADD",
+                "planOptionValueId" : "0.02"
+              }, {
+                "planOptionId" : "LifeAddRatePer1000",
+                "planOptionValueId" : "0.55"
+              }, {
+                "planOptionId" : "FlatPlanRatePerEmployee",
+                "planOptionValueId" : "13.75"
+              }, {
+                "planOptionId" : "TotalLifeVolume",
+                "planOptionValueId" : "100000"
+              }, {
+                "planOptionId" : "MonthlyLifePremium",
+                "planOptionValueId" : "53.00"
+              }, {
+                "planOptionId" : "MonthlyADDPremium",
+                "planOptionValueId" : "2.00"
+              }, {
+                "planOptionId" : "MonthlyLifeADDPremium",
+                "planOptionValueId" : "55.00"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "0.00",
+                  "tier2" : "0.00",
+                  "tier3" : "0.00",
+                  "tier4" : "0.00"
+                }
+              },
+              "planRate" : "55.00",
+              "probationaryPeriods" : {
+                "days" : "90",
+                "periodType" : "D"
+              },
+              "employeeEnrollCount" : 4
+            }
+          },
+          "newPlanPkg" : {
+            "plans" : {
+              "planId" : "F25K",
+              "planXref" : "F25K",
+              "productLineType" : "basic_life_ee",
+              "tierStructureId" : "3",
+              "planCategory" : "FLAT EE",
+              "costDifferentialPercentage" : "+0.00%",
+              "rateGuaranteePeriod" : "2",
+              "policyNumber" : "0567661",
+              "renewalRateID" : "2019-02-14-01.52.79.900001PR002",
+              "stepwiseQuoteID" : "0010914984-0003",
+              "discountRatio" : "0.4117",
+              "options" : [ {
+                "planOptionId" : "LifeProductDescription",
+                "planOptionValueId" : "EMP LIFE"
+              }, {
+                "planOptionId" : "LifeBenefitAmount",
+                "planOptionValueId" : "25000"
+              }, {
+                "planOptionId" : "LifePlanType",
+                "planOptionValueId" : "DOLLAR"
+              }, {
+                "planOptionId" : "LifeBenefitType",
+                "planOptionValueId" : "FLAT EE"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000Life",
+                "planOptionValueId" : "0.53"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000ADD",
+                "planOptionValueId" : "0.02"
+              }, {
+                "planOptionId" : "LifeAddRatePer1000",
+                "planOptionValueId" : "0.55"
+              }, {
+                "planOptionId" : "FlatPlanRatePerEmployee",
+                "planOptionValueId" : "13.75"
+              }, {
+                "planOptionId" : "TotalLifeVolume",
+                "planOptionValueId" : "100000"
+              }, {
+                "planOptionId" : "MonthlyLifePremium",
+                "planOptionValueId" : "53.00"
+              }, {
+                "planOptionId" : "MonthlyADDPremium",
+                "planOptionValueId" : "2.00"
+              }, {
+                "planOptionId" : "MonthlyLifeADDPremium",
+                "planOptionValueId" : "55.00"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "0.00",
+                  "tier2" : "0.00",
+                  "tier3" : "0.00",
+                  "tier4" : "0.00"
+                }
+              },
+              "planRate" : "55.00",
+              "employeeEnrollCount" : 4
+            }
+          },
+          "planMatch" : {
+            "currentPlanXref" : "F25K",
+            "renewingPlanXref" : "F25K"
+          }
+        } ]
+      }
+    }, {
+      "renewalPeriodXref" : "AUG2019_0521",
+      "group" : {
+        "name" : "GEOTEST ENGINEERING, INC",
+        "type" : "SG",
+        "status" : "Active",
+        "franchiseCode" : "7400000",
+        "multiContractPolicyIndicator" : "N",
+        "renProcessedDt" : "2019-02-14",
+        "statusIndicator" : "Ready",
+        "uhgCustomerNbr" : "00U6753",
+        "serviceOfficeCode" : "086",
+        "dualPlatformInd" : "N",
+        "employer" : {
+          "name" : "GEOTEST ENGINEERING, INC",
+          "dateEstablished" : "06/01/2014",
+          "federalTaxId" : "559888216",
+          "doingBusinessAs" : "GEOTEST ENGINEERING"
+        },
+        "primaryLocation" : {
+          "xref" : "PRIMARY LOCATION - 77036",
+          "isPrimary" : "Y",
+          "name" : "PRIMARY LOCATION - 77036",
+          "totalEligible" : "49",
+          "ratingZipCode" : "77036",
+          "marketNumber" : "42586",
+          "totalEmployed" : "56",
+          "fullTimeEquivalent" : "49",
+          "billingAddressPlatform" : "PRIME",
+          "billingAddressType" : "4",
+          "billingAddressLine1" : "101 TEST ST",
+          "billingAddressCity" : "HOUSTON",
+          "billingAddressState" : "TX",
+          "billingAddressZip" : "77036",
+          "billingAddressZip4" : "0000",
+          "contractIssueStCode" : "TX",
+          "countingMethod" : "A",
+          "contact" : {
+            "email" : "AAA@BBB.COM",
+            "first" : "RAJU",
+            "last" : "TEST",
+            "address" : {
+              "street1" : "101 TEST ST",
+              "state" : "TX",
+              "zip" : "77036",
+              "zip4" : "0000"
+            },
+            "phoneNumbers" : {
+              "phoneType" : "work",
+              "areaCode" : "713",
+              "num" : "2660588"
+            }
+          },
+          "address" : {
+            "type" : "3",
+            "street1" : "101 TEST ST",
+            "city" : "HOUSTON",
+            "state" : "TX",
+            "zip" : "77036"
+          },
+          "industryCode" : {
+            "sicCode" : "8711"
+          },
+          "OI" : "01",
+          "SA" : "00",
+          "BIT" : "CG"
+        },
+        "owners" : {
+          "salesRep" : {
+            "xref" : "5799"
+          },
+          "producer" : {
+            "xref" : "broker"
+          }
+        }
+      },
+      "quote" : {
+        "quoteEffDate" : "06/01/2019",
+        "EEChoiceIndicator" : "N",
+        "multiSiteProgramCode" : "SS",
+        "usageRenewalDate" : "06/01/2019",
+        "employees" : [ {
+          "xref" : "90061065500",
+          "status" : "Active",
+          "first" : "PRASHANTH",
+          "middle" : "R",
+          "last" : "TEST",
+          "dateOfBirth" : "10/06/1995",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77054",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77054",
+          "employeeDOE" : "05/28/2018",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "90100688600",
+          "status" : "Active",
+          "first" : "ANIL",
+          "middle" : "K",
+          "last" : "TEST",
+          "dateOfBirth" : "05/21/1980",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77459",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77459",
+          "employeeDOE" : "12/01/2014",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "MISSOURI CITY",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "90137490600",
+          "status" : "Active",
+          "first" : "PATRICK",
+          "middle" : "P",
+          "last" : "TEST",
+          "dateOfBirth" : "08/08/1972",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77053",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77053",
+          "employeeDOE" : "01/01/2010",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "90162098500",
+          "status" : "Active",
+          "first" : "MUKUNDBHAI",
+          "last" : "TEST",
+          "dateOfBirth" : "07/25/1955",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77489",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77489",
+          "employeeDOE" : "01/15/2016",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "MISSOURI CITY",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "90408782900",
+          "status" : "Active",
+          "first" : "AHILAN",
+          "last" : "TEST",
+          "dateOfBirth" : "02/04/1985",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77477",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77477",
+          "employeeDOE" : "05/06/2013",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "STAFFORD",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "90448482400",
+          "status" : "Active",
+          "first" : "NARESH",
+          "last" : "TEST",
+          "dateOfBirth" : "08/30/1981",
+          "gender" : "M",
+          "maritalStatus" : "M",
+          "maritalStatusType" : "M",
+          "numberOfChildren" : "1",
+          "homeState" : "TX",
+          "homeZip" : "77407",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77407",
+          "employeeDOE" : "05/01/2009",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "RICHMOND",
+          "medicareOverride" : "N",
+          "dependents" : [ {
+            "xref" : "90448482401",
+            "depType" : "S",
+            "last" : "TEST",
+            "first" : "SIRISHA",
+            "genderType" : "F",
+            "dateOfBirth" : "09/28/1982",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "D098N",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "D098N",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            } ]
+          }, {
+            "xref" : "90448482402",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "AARUSH",
+            "genderType" : "M",
+            "dateOfBirth" : "05/19/2013",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "D098N",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "D098N",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            } ]
+          } ],
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "FAM",
+            "rate" : "35.08"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "FAM",
+            "rate" : "35.08"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "90502314400",
+          "status" : "Active",
+          "first" : "THACH",
+          "middle" : "N",
+          "last" : "TEST",
+          "dateOfBirth" : "01/19/1989",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77041",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77041",
+          "employeeDOE" : "07/06/2015",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ]
+        }, {
+          "xref" : "90747757300",
+          "status" : "Active",
+          "first" : "RAVIRAJ",
+          "last" : "TEST",
+          "dateOfBirth" : "07/01/1968",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77584",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC01",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77584",
+          "employeeDOE" : "03/14/2008",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "PEARLAND",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F50K",
+            "coverageType" : "EMP",
+            "rate" : "10.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F50K",
+            "coverageType" : "EMP",
+            "rate" : "10.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "90751990300",
+          "status" : "Active",
+          "first" : "FNU GAZI",
+          "last" : "TEST",
+          "dateOfBirth" : "05/06/1981",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77095",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77095",
+          "employeeDOE" : "06/08/2015",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "90833941900",
+          "status" : "Active",
+          "first" : "DINDINADH",
+          "last" : "TEST",
+          "dateOfBirth" : "11/17/1992",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77063",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77063",
+          "employeeDOE" : "11/26/2018",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeAddr2" : "APT 9205",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "EMP",
+            "rate" : "11.56"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "EMP",
+            "rate" : "11.56"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ]
+        }, {
+          "xref" : "91242675400",
+          "status" : "Active",
+          "first" : "MOHAN",
+          "last" : "TEST",
+          "dateOfBirth" : "05/08/1962",
+          "gender" : "M",
+          "maritalStatus" : "M",
+          "maritalStatusType" : "M",
+          "homeState" : "TX",
+          "homeZip" : "77498",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC01",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77498",
+          "employeeDOE" : "03/01/1993",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "SUGAR LAND",
+          "medicareOverride" : "N",
+          "dependents" : {
+            "xref" : "91242675401",
+            "depType" : "S",
+            "last" : "TEST",
+            "first" : "PREMALATHA",
+            "genderType" : "F",
+            "dateOfBirth" : "10/14/1970",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "P3437",
+              "coverageType" : "ESP",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "P3437",
+              "coverageType" : "ESP",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            } ]
+          },
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "ESP",
+            "rate" : "51.05"
+          }, {
+            "planId" : "F50K",
+            "coverageType" : "EMP",
+            "rate" : "10.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "ESP",
+            "rate" : "51.05"
+          }, {
+            "planId" : "F50K",
+            "coverageType" : "EMP",
+            "rate" : "10.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "91368279300",
+          "status" : "Active",
+          "first" : "THOMAS",
+          "middle" : "T",
+          "last" : "TEST",
+          "dateOfBirth" : "01/07/1958",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77073",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77073",
+          "employeeDOE" : "06/14/2009",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "SPRING",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "91868446600",
+          "status" : "Active",
+          "first" : "AHMED",
+          "middle" : "G",
+          "last" : "TEST",
+          "dateOfBirth" : "12/16/1966",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77081",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77081",
+          "employeeDOE" : "02/16/2015",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeAddr2" : "APT 3066",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ]
+        }, {
+          "xref" : "92073408600",
+          "status" : "Active",
+          "first" : "AZAD",
+          "middle" : "A",
+          "last" : "TEST",
+          "dateOfBirth" : "01/01/1960",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77084",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77084",
+          "employeeDOE" : "06/30/1997",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "92274443300",
+          "status" : "Active",
+          "first" : "SOLOMON",
+          "middle" : "K",
+          "last" : "TEST",
+          "dateOfBirth" : "08/18/1968",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77477",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77477",
+          "employeeDOE" : "04/21/2014",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "STAFFORD",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ]
+        }, {
+          "xref" : "92457366800",
+          "status" : "Active",
+          "first" : "FELIPE",
+          "last" : "TEST",
+          "dateOfBirth" : "08/14/1956",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77449",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77449",
+          "employeeDOE" : "10/05/2015",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "KATY",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ]
+        }, {
+          "xref" : "92469304400",
+          "status" : "Active",
+          "first" : "YIQING",
+          "last" : "TEST",
+          "dateOfBirth" : "10/02/1975",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77584",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77584",
+          "employeeDOE" : "02/01/2016",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "PEARLAND",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ]
+        }, {
+          "xref" : "92616335500",
+          "status" : "Active",
+          "first" : "DAN",
+          "middle" : "J",
+          "last" : "TEST",
+          "dateOfBirth" : "10/26/1966",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77063",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77063",
+          "employeeDOE" : "10/01/2012",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "92741349700",
+          "status" : "Active",
+          "first" : "JOHN",
+          "middle" : "A",
+          "last" : "TEST",
+          "dateOfBirth" : "10/20/1962",
+          "gender" : "M",
+          "maritalStatus" : "M",
+          "maritalStatusType" : "M",
+          "numberOfChildren" : "1",
+          "homeState" : "TX",
+          "homeZip" : "77075",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77075",
+          "employeeDOE" : "07/01/1990",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "dependents" : [ {
+            "xref" : "92741349701",
+            "depType" : "S",
+            "last" : "TEST",
+            "first" : "SANDRA",
+            "genderType" : "F",
+            "dateOfBirth" : "04/12/1965",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "D098N",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "D098N",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ]
+          }, {
+            "xref" : "92741349703",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "JABRIA",
+            "genderType" : "F",
+            "dateOfBirth" : "02/03/1996",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "D098N",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "D098N",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ]
+          } ],
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "FAM",
+            "rate" : "21.27"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "FAM",
+            "rate" : "21.27"
+          } ]
+        }, {
+          "xref" : "92822066200",
+          "status" : "Active",
+          "first" : "CONNOR",
+          "middle" : "M",
+          "last" : "TEST",
+          "dateOfBirth" : "06/14/1993",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77433",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77433",
+          "employeeDOE" : "07/09/2012",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "CYPRESS",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "92879835700",
+          "status" : "Active",
+          "first" : "CHIRAG",
+          "middle" : "P",
+          "last" : "TEST",
+          "dateOfBirth" : "07/03/1972",
+          "gender" : "M",
+          "maritalStatus" : "M",
+          "maritalStatusType" : "M",
+          "numberOfChildren" : "2",
+          "homeState" : "TX",
+          "homeZip" : "77407",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77407",
+          "employeeDOE" : "09/04/2012",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "RICHMOND",
+          "medicareOverride" : "N",
+          "dependents" : [ {
+            "xref" : "92879835701",
+            "depType" : "S",
+            "last" : "TEST",
+            "first" : "DARSHNABEN",
+            "genderType" : "F",
+            "dateOfBirth" : "04/12/1975",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "P3437",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "P3437",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ]
+          }, {
+            "xref" : "92879835702",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "ROSHNI",
+            "genderType" : "F",
+            "dateOfBirth" : "09/04/2000",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "P3437",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "P3437",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ]
+          }, {
+            "xref" : "92879835703",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "DEV",
+            "genderType" : "M",
+            "dateOfBirth" : "11/02/2006",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "P3437",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "P3437",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ]
+          } ],
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "FAM",
+            "rate" : "79.40"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "FAM",
+            "rate" : "21.27"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "FAM",
+            "rate" : "79.40"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "FAM",
+            "rate" : "21.27"
+          } ]
+        }, {
+          "xref" : "93222436200",
+          "status" : "Active",
+          "first" : "ELAINE",
+          "middle" : "G",
+          "last" : "TEST",
+          "dateOfBirth" : "02/27/1977",
+          "gender" : "F",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "numberOfChildren" : "1",
+          "homeState" : "TX",
+          "homeZip" : "77093",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77093",
+          "employeeDOE" : "08/04/2003",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "dependents" : {
+            "xref" : "93222436202",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "JOE",
+            "genderType" : "M",
+            "dateOfBirth" : "03/27/2000",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "P3437",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "P3437",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            } ]
+          },
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "ECH",
+            "rate" : "51.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "ECH",
+            "rate" : "51.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "93440207300",
+          "status" : "Active",
+          "first" : "ALIREZA",
+          "last" : "TEST",
+          "dateOfBirth" : "01/30/1987",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77064",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77064",
+          "employeeDOE" : "10/12/2015",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ]
+        }, {
+          "xref" : "93566468000",
+          "status" : "Active",
+          "first" : "MADHUSUDHAN",
+          "last" : "TEST",
+          "dateOfBirth" : "06/30/1968",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77584",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC01",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77584",
+          "employeeDOE" : "02/28/2011",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "PEARLAND",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F50K",
+            "coverageType" : "EMP",
+            "rate" : "10.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F50K",
+            "coverageType" : "EMP",
+            "rate" : "10.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "93756453800",
+          "status" : "Active",
+          "first" : "BASSAM",
+          "last" : "TEST",
+          "dateOfBirth" : "07/18/1960",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77407",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77407",
+          "employeeDOE" : "08/25/2015",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "RICHMOND",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "93793550200",
+          "status" : "Active",
+          "first" : "S",
+          "middle" : "C",
+          "last" : "TEST",
+          "dateOfBirth" : "11/24/1952",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77072",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC01",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77072",
+          "employeeDOE" : "02/28/1991",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F50K",
+            "coverageType" : "EMP",
+            "rate" : "6.50"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F50K",
+            "coverageType" : "EMP",
+            "rate" : "6.50"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "93970283700",
+          "status" : "Active",
+          "first" : "ALLEN",
+          "middle" : "L",
+          "last" : "TEST",
+          "dateOfBirth" : "07/06/1966",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77550",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77550",
+          "employeeDOE" : "01/22/2018",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "GALVESTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "EMP",
+            "rate" : "11.56"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "EMP",
+            "rate" : "11.56"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ]
+        }, {
+          "xref" : "93987894700",
+          "status" : "Active",
+          "first" : "PRAGNABEN",
+          "middle" : "K",
+          "last" : "TEST",
+          "dateOfBirth" : "02/13/1963",
+          "gender" : "F",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77433",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77433",
+          "employeeDOE" : "07/09/2007",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "CYPRESS",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "94310679400",
+          "status" : "Active",
+          "first" : "WORKU",
+          "middle" : "W",
+          "last" : "TEST",
+          "dateOfBirth" : "01/03/1981",
+          "gender" : "M",
+          "maritalStatus" : "M",
+          "maritalStatusType" : "M",
+          "numberOfChildren" : "1",
+          "homeState" : "TX",
+          "homeZip" : "77081",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77081",
+          "employeeDOE" : "05/31/2011",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "dependents" : [ {
+            "xref" : "94310679401",
+            "depType" : "S",
+            "last" : "TEST",
+            "first" : "MERON",
+            "genderType" : "F",
+            "dateOfBirth" : "06/16/1988",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "P3437",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "P3437",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            } ]
+          }, {
+            "xref" : "94310679402",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "SEBAH",
+            "genderType" : "F",
+            "dateOfBirth" : "07/01/2017",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "P3437",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "P3437",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            } ]
+          } ],
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "FAM",
+            "rate" : "79.40"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "FAM",
+            "rate" : "79.40"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ]
+        }, {
+          "xref" : "94436684800",
+          "status" : "Active",
+          "first" : "SONAL",
+          "middle" : "A",
+          "last" : "TEST",
+          "dateOfBirth" : "01/23/1970",
+          "gender" : "F",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77075",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77075",
+          "employeeDOE" : "09/04/2012",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "94446093900",
+          "status" : "Active",
+          "first" : "OBAIDULLAH",
+          "last" : "TEST",
+          "dateOfBirth" : "02/02/1983",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77081",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77081",
+          "employeeDOE" : "07/17/2017",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "94509731600",
+          "status" : "Active",
+          "first" : "CHELSEA",
+          "last" : "TEST",
+          "dateOfBirth" : "10/16/1989",
+          "gender" : "F",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77070",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77070",
+          "employeeDOE" : "09/29/2015",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "94770902400",
+          "status" : "Active",
+          "first" : "KIRITBHAI",
+          "last" : "TEST",
+          "dateOfBirth" : "08/25/1954",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77433",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77433",
+          "employeeDOE" : "07/09/2007",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "CYPRESS",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "94940296600",
+          "status" : "Active",
+          "first" : "DAGNE",
+          "last" : "TEST",
+          "dateOfBirth" : "01/07/1991",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77081",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77081",
+          "employeeDOE" : "06/12/2017",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ]
+        }, {
+          "xref" : "94968369700",
+          "status" : "Active",
+          "first" : "JOHNNA",
+          "last" : "TEST",
+          "dateOfBirth" : "08/19/1962",
+          "gender" : "F",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77550",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77550",
+          "employeeDOE" : "02/16/2015",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "GALVESTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "EMP",
+            "rate" : "11.56"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "EMP",
+            "rate" : "11.56"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ]
+        }, {
+          "xref" : "94988272500",
+          "status" : "Active",
+          "first" : "DEON",
+          "middle" : "N",
+          "last" : "TEST",
+          "dateOfBirth" : "11/01/1985",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "numberOfChildren" : "1",
+          "homeState" : "TX",
+          "homeZip" : "77099",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC01",
+          "state" : "TX",
+          "zip" : "77099",
+          "employeeDOE" : "03/30/2015",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "dependents" : {
+            "xref" : "94988272502",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "JAYDEN",
+            "genderType" : "M",
+            "dateOfBirth" : "06/15/2008",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "D098N",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "D098N",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "ECH",
+              "rate" : "0.00"
+            } ]
+          },
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "ECH",
+            "rate" : "24.24"
+          }, {
+            "planId" : "F50K",
+            "coverageType" : "EMP",
+            "rate" : "10.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "ECH",
+            "rate" : "15.08"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "ECH",
+            "rate" : "24.24"
+          }, {
+            "planId" : "F50K",
+            "coverageType" : "EMP",
+            "rate" : "10.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "ECH",
+            "rate" : "15.08"
+          } ]
+        }, {
+          "xref" : "95181043700",
+          "status" : "Active",
+          "first" : "MARIO",
+          "last" : "TEST",
+          "dateOfBirth" : "03/06/1989",
+          "gender" : "M",
+          "maritalStatus" : "M",
+          "maritalStatusType" : "M",
+          "numberOfChildren" : "1",
+          "homeState" : "TX",
+          "homeZip" : "77433",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77433",
+          "employeeDOE" : "04/06/2018",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "CYPRESS",
+          "medicareOverride" : "N",
+          "dependents" : [ {
+            "xref" : "95181043701",
+            "depType" : "S",
+            "last" : "TEST",
+            "first" : "SHAYNA",
+            "genderType" : "F",
+            "dateOfBirth" : "11/13/1991",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "D098N",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "D098N",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ]
+          }, {
+            "xref" : "95181043702",
+            "depType" : "C",
+            "last" : "TEST",
+            "first" : "KANDICE",
+            "genderType" : "F",
+            "dateOfBirth" : "11/09/2009",
+            "SSN" : "999999999",
+            "ssn" : "999999999",
+            "medicareOverride" : "N",
+            "medicareEligReason" : "U",
+            "coverageElections" : [ {
+              "planId" : "D098N",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ],
+            "renewingCoverageElections" : [ {
+              "planId" : "D098N",
+              "coverageType" : "WAV",
+              "rate" : "0.00"
+            }, {
+              "planId" : "V1008",
+              "coverageType" : "FAM",
+              "rate" : "0.00"
+            } ]
+          } ],
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "FAM",
+            "rate" : "21.27"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "FAM",
+            "rate" : "21.27"
+          } ]
+        }, {
+          "xref" : "95223162200",
+          "status" : "Active",
+          "first" : "YIOVANI",
+          "last" : "TEST",
+          "dateOfBirth" : "03/21/1996",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77433",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77433",
+          "employeeDOE" : "06/30/2016",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "CYPRESS",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "95450378500",
+          "status" : "Active",
+          "first" : "FRANK",
+          "middle" : "K",
+          "last" : "TEST",
+          "dateOfBirth" : "03/09/1953",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77479",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC01",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77479",
+          "employeeDOE" : "02/16/1981",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "SUGAR LAND",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F50K",
+            "coverageType" : "EMP",
+            "rate" : "6.50"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F50K",
+            "coverageType" : "EMP",
+            "rate" : "6.50"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "95493014400",
+          "status" : "Active",
+          "first" : "NADUN",
+          "middle" : "E",
+          "last" : "TEST",
+          "dateOfBirth" : "08/26/1982",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77036",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77036",
+          "employeeDOE" : "10/15/2018",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeAddr2" : "APT 2110",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ]
+        }, {
+          "xref" : "95532419400",
+          "status" : "Active",
+          "first" : "DANIEL",
+          "last" : "TEST",
+          "dateOfBirth" : "05/06/1990",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77036",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77036",
+          "employeeDOE" : "01/08/2013",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "CONROE",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "96112948000",
+          "status" : "Active",
+          "first" : "JESSICA",
+          "middle" : "M",
+          "last" : "TEST",
+          "dateOfBirth" : "03/25/1994",
+          "gender" : "F",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77093",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77093",
+          "employeeDOE" : "04/07/2014",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "96366477400",
+          "status" : "Active",
+          "first" : "KAMLESH",
+          "middle" : "A",
+          "last" : "TEST",
+          "dateOfBirth" : "03/07/1960",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77498",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77498",
+          "employeeDOE" : "08/13/2001",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "SUGAR LAND",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "96640010200",
+          "status" : "Active",
+          "first" : "KRISHNA",
+          "last" : "TEST",
+          "dateOfBirth" : "06/24/1993",
+          "gender" : "F",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77098",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77098",
+          "employeeDOE" : "02/01/2018",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeAddr2" : "APT 1107",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "96680790100",
+          "status" : "Active",
+          "first" : "BIANCA",
+          "last" : "TEST",
+          "dateOfBirth" : "07/17/1990",
+          "gender" : "F",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77584",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77584",
+          "employeeDOE" : "08/08/2016",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeAddr2" : "APT 2306",
+          "employeeCity" : "PEARLAND",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ]
+        }, {
+          "xref" : "96690703400",
+          "status" : "Active",
+          "first" : "PATRICK",
+          "middle" : "M",
+          "last" : "TEST",
+          "dateOfBirth" : "06/12/1959",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77433",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77433",
+          "employeeDOE" : "02/21/1990",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "CYPRESS",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ]
+        }, {
+          "xref" : "96972799800",
+          "status" : "Active",
+          "first" : "CHRISTOPHER",
+          "last" : "TEST",
+          "dateOfBirth" : "06/13/1990",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77083",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77083",
+          "employeeDOE" : "08/01/2016",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "P3437",
+            "coverageType" : "EMP",
+            "rate" : "25.52"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ]
+        }, {
+          "xref" : "97146325400",
+          "status" : "Active",
+          "first" : "TSEGAYE",
+          "last" : "TEST",
+          "dateOfBirth" : "06/01/1986",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77478",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77478",
+          "employeeDOE" : "09/17/2018",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "SUGARLAND",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "97213028000",
+          "status" : "Active",
+          "first" : "NATHANIEL",
+          "middle" : "D",
+          "last" : "TEST",
+          "dateOfBirth" : "11/09/1992",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77373",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "email" : "AAA@BBB.COM",
+          "state" : "TX",
+          "zip" : "77373",
+          "employeeDOE" : "05/14/2014",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "SPRING",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "97282588500",
+          "status" : "Active",
+          "first" : "AIMABLE",
+          "last" : "TEST",
+          "dateOfBirth" : "04/01/1977",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77077",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77077",
+          "employeeDOE" : "07/12/2018",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeAddr2" : "APT 925",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "97659841500",
+          "status" : "Active",
+          "first" : "SUAD",
+          "last" : "TEST",
+          "dateOfBirth" : "01/14/1969",
+          "gender" : "F",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77063",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77063",
+          "employeeDOE" : "06/18/2018",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "97757152500",
+          "status" : "Active",
+          "first" : "TAYLOR",
+          "last" : "TEST",
+          "dateOfBirth" : "12/12/1996",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77005",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77005",
+          "employeeDOE" : "01/23/2017",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "97837828700",
+          "status" : "Active",
+          "first" : "FRIMPONG",
+          "last" : "TEST",
+          "dateOfBirth" : "06/19/1960",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77096",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77096",
+          "employeeDOE" : "02/24/2014",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "97838237800",
+          "status" : "Active",
+          "first" : "ANTHONY",
+          "last" : "TEST",
+          "dateOfBirth" : "06/30/1994",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77449",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77449",
+          "employeeDOE" : "04/23/2018",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "KATY",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        }, {
+          "xref" : "97853519200",
+          "status" : "Active",
+          "first" : "AHSAN",
+          "last" : "TEST",
+          "dateOfBirth" : "10/27/1961",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77036",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77036",
+          "employeeDOE" : "06/09/2014",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "EMP",
+            "rate" : "11.56"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "EMP",
+            "rate" : "11.56"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "EMP",
+            "rate" : "6.80"
+          } ]
+        }, {
+          "xref" : "97947571300",
+          "status" : "Active",
+          "first" : "BLAISE",
+          "last" : "TEST",
+          "dateOfBirth" : "04/08/1982",
+          "gender" : "M",
+          "maritalStatus" : "S",
+          "maritalStatusType" : "S",
+          "homeState" : "TX",
+          "homeZip" : "77070",
+          "cobra" : "N",
+          "retired" : "N",
+          "SSN" : "999999999",
+          "ssn" : "999999999",
+          "COBIndicator" : "N",
+          "medicareEligReason" : "U",
+          "subgroupId" : "ALLC02",
+          "state" : "TX",
+          "zip" : "77070",
+          "employeeDOE" : "01/23/2017",
+          "employeeAddr1" : "101 TEST ST.",
+          "employeeCity" : "HOUSTON",
+          "medicareOverride" : "N",
+          "electedPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "EMP",
+            "rate" : "11.56"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ],
+          "renewingPlans" : [ {
+            "planId" : "D098N",
+            "coverageType" : "EMP",
+            "rate" : "11.56"
+          }, {
+            "planId" : "F20K",
+            "coverageType" : "EMP",
+            "rate" : "4.00"
+          }, {
+            "planId" : "V1008",
+            "coverageType" : "WAV",
+            "rate" : "0.00"
+          } ]
+        } ],
+        "subgroups" : [ {
+          "xref" : "ALL",
+          "siteXref" : "PRIMARY LOCATION - 77036",
+          "classXref" : "DEFAULT",
+          "planOfferingXref" : "00U6753"
+        }, {
+          "xref" : "ALLC01",
+          "siteXref" : "PRIMARY LOCATION - 77036",
+          "classDescription" : "MANAGEMENT",
+          "classXref" : "01",
+          "planOfferingXref" : "00U6753C01"
+        }, {
+          "xref" : "ALLC02",
+          "siteXref" : "PRIMARY LOCATION - 77036",
+          "classDescription" : "ALL OTHER OCCUPATIONS AND POSITIONS",
+          "classXref" : "02",
+          "planOfferingXref" : "00U6753C02"
+        } ],
+        "planOfferingData" : [ {
+          "planOfferingId" : "00U6753",
+          "planOfferingXref" : "00U6753",
+          "existingPlanPkg" : {
+            "covEffDate" : "06/01/2018",
+            "plans" : [ {
+              "planId" : "D098N",
+              "planXref" : "D098N",
+              "productLineType" : "dental",
+              "tierStructureId" : "A",
+              "planCategory" : "DHMO",
+              "dentDualPlanIndicator" : "Y",
+              "policyNumber" : "00U6753",
+              "eventAdminInd" : "N",
+              "options" : [ {
+                "planOptionId" : "IndNetDeductibleAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "IndOutNetDeductibleAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "FamilyInNetDeductibleAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "FamilyOutNetDeductibleAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "MajServicesInNetCoInsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "MajServiceOutNetCoInsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "MinorRestorativeInNetCoInsPct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "MinorRestorativeOutNetCoInsPct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "OrthoInNetCoinsurancePct",
+                "planOptionValueId" : "0%"
+              }, {
+                "planOptionId" : "OrthodonticsCoveredOutNetInd",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "PreventiveInNetCoInsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "PreventiveOutNetCoInsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "LifetimeOrthoInNetBenAmount",
+                "planOptionValueId" : "1895"
+              }, {
+                "planOptionId" : "InNetAnnualMaxBenefitAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "OutNetAnnualMaxBenefitAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "LifetimeOrthoOutNetBenAmount",
+                "planOptionValueId" : "0"
+              }, {
+                "planOptionId" : "WaitingPeriod",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "WaitingPeriodOrtho",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "RolloverMaxAccountIndicator",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "UsualCustomaryPercentile",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "AnnDedMaxBenAppliesPrevDiag",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "OrthodontiaBenefit",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "ImplantINPercent",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "ImplantOOOPercent",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "EndoPerioOralInnetPct",
+                "planOptionValueId" : "NA/NA/NA"
+              }, {
+                "planOptionId" : "EndoPerioOralOutnetPct",
+                "planOptionValueId" : "NA/NA/NA"
+              }, {
+                "planOptionId" : "PlanFundingDescription",
+                "planOptionValueId" : "Voluntary"
+              }, {
+                "planOptionId" : "0120HmoBenCpyAmt",
+                "planOptionValueId" : "0"
+              }, {
+                "planOptionId" : "1110HmoBenCpyAmt",
+                "planOptionValueId" : "5"
+              }, {
+                "planOptionId" : "1120HmoBenCpyAmt",
+                "planOptionValueId" : "5"
+              }, {
+                "planOptionId" : "0330HmoBenCpyAmt",
+                "planOptionValueId" : "5"
+              }, {
+                "planOptionId" : "2150HmoBenCpyAmt",
+                "planOptionValueId" : "20"
+              }, {
+                "planOptionId" : "2752HmoBenCpyAmt",
+                "planOptionValueId" : "305"
+              }, {
+                "planOptionId" : "3330HmoBenCpyAmt",
+                "planOptionValueId" : "365"
+              }, {
+                "planOptionId" : "4260HmoBenCpyAmt",
+                "planOptionValueId" : "385"
+              }, {
+                "planOptionId" : "4341HmoBenCpyAmt",
+                "planOptionValueId" : "55"
+              }, {
+                "planOptionId" : "7140HmoBenCpyAmt",
+                "planOptionValueId" : "15"
+              }, {
+                "planOptionId" : "6212HmoBenCpyAmt",
+                "planOptionValueId" : "305"
+              }, {
+                "planOptionId" : "2331HmoBenCpyAmt",
+                "planOptionValueId" : "25"
+              }, {
+                "planOptionId" : "8070HmoBenCpyAmt",
+                "planOptionValueId" : "1895"
+              }, {
+                "planOptionId" : "BasicServInNetCoinsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "BasicServOutNetCoinsurancePct",
+                "planOptionValueId" : "NA"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "11.56",
+                  "tier2" : "22.40",
+                  "tier3" : "24.24",
+                  "tier4" : "35.08"
+                }
+              },
+              "planRate" : "117.12",
+              "probationaryPeriods" : {
+                "days" : "30",
+                "periodType" : "D"
+              },
+              "employeeEnrollCount" : 7,
+              "dependentEnrollCount" : 3,
+              "tier1Subcount" : 5,
+              "tier2Subcount" : 0,
+              "tier3Subcount" : 1,
+              "tier4Subcount" : 1
+            }, {
+              "planId" : "P3437",
+              "planXref" : "P3437",
+              "productLineType" : "dental",
+              "tierStructureId" : "A",
+              "planCategory" : "DPPO",
+              "dentDualPlanIndicator" : "Y",
+              "policyNumber" : "00U6753",
+              "eventAdminInd" : "N",
+              "options" : [ {
+                "planOptionId" : "IndNetDeductibleAmount",
+                "planOptionValueId" : "50"
+              }, {
+                "planOptionId" : "IndOutNetDeductibleAmount",
+                "planOptionValueId" : "50"
+              }, {
+                "planOptionId" : "FamilyInNetDeductibleAmount",
+                "planOptionValueId" : "150"
+              }, {
+                "planOptionId" : "FamilyOutNetDeductibleAmount",
+                "planOptionValueId" : "150"
+              }, {
+                "planOptionId" : "MajServicesInNetCoInsurancePct",
+                "planOptionValueId" : "50%"
+              }, {
+                "planOptionId" : "MajServiceOutNetCoInsurancePct",
+                "planOptionValueId" : "50%"
+              }, {
+                "planOptionId" : "MinorRestorativeInNetCoInsPct",
+                "planOptionValueId" : "80%"
+              }, {
+                "planOptionId" : "MinorRestorativeOutNetCoInsPct",
+                "planOptionValueId" : "80%"
+              }, {
+                "planOptionId" : "OrthoInNetCoinsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "OrthodonticsCoveredOutNetInd",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "PreventiveInNetCoInsurancePct",
+                "planOptionValueId" : "100%"
+              }, {
+                "planOptionId" : "PreventiveOutNetCoInsurancePct",
+                "planOptionValueId" : "100%"
+              }, {
+                "planOptionId" : "LifetimeOrthoInNetBenAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "InNetAnnualMaxBenefitAmount",
+                "planOptionValueId" : "1500"
+              }, {
+                "planOptionId" : "OutNetAnnualMaxBenefitAmount",
+                "planOptionValueId" : "1500"
+              }, {
+                "planOptionId" : "LifetimeOrthoOutNetBenAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "WaitingPeriod",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "WaitingPeriodOrtho",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "RolloverMaxAccountIndicator",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "UsualCustomaryPercentile",
+                "planOptionValueId" : "MAC"
+              }, {
+                "planOptionId" : "AnnDedMaxBenAppliesPrevDiag",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "OrthodontiaBenefit",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "ImplantINPercent",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "ImplantOOOPercent",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "EndoPerioOralInnetPct",
+                "planOptionValueId" : "80%/NA/NA"
+              }, {
+                "planOptionId" : "EndoPerioOralOutnetPct",
+                "planOptionValueId" : "80%/NA/NA"
+              }, {
+                "planOptionId" : "PlanFundingDescription",
+                "planOptionValueId" : "Contributory"
+              }, {
+                "planOptionId" : "BasicServInNetCoinsurancePct",
+                "planOptionValueId" : "80%"
+              }, {
+                "planOptionId" : "BasicServOutNetCoinsurancePct",
+                "planOptionValueId" : "80%"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "25.52",
+                  "tier2" : "51.05",
+                  "tier3" : "51.52",
+                  "tier4" : "79.40"
+                }
+              },
+              "planRate" : "669.69",
+              "probationaryPeriods" : {
+                "days" : "30",
+                "periodType" : "D"
+              },
+              "employeeEnrollCount" : 20,
+              "dependentEnrollCount" : 7,
+              "tier1Subcount" : 16,
+              "tier2Subcount" : 1,
+              "tier3Subcount" : 1,
+              "tier4Subcount" : 2
+            }, {
+              "planId" : "V1008",
+              "planXref" : "V1008",
+              "productLineType" : "vision",
+              "tierStructureId" : "A",
+              "planCategory" : "VOLUNTARY",
+              "policyNumber" : "00U6753",
+              "eventAdminInd" : "N",
+              "options" : [ {
+                "planOptionId" : "VisionPlanType",
+                "planOptionValueId" : "V"
+              }, {
+                "planOptionId" : "InNetExamCopayAmount",
+                "planOptionValueId" : "10"
+              }, {
+                "planOptionId" : "InNetMaterialCopayAmount",
+                "planOptionValueId" : "25"
+              }, {
+                "planOptionId" : "NumofMonthsBetweenCoveredExam",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "FramesBenefitFrequency",
+                "planOptionValueId" : "24"
+              }, {
+                "planOptionId" : "LensesBenefitFrequency",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "OutNetExamMaxAmount",
+                "planOptionValueId" : "40"
+              }, {
+                "planOptionId" : "OutNetFramesMaxAmount",
+                "planOptionValueId" : "45"
+              }, {
+                "planOptionId" : "OutNetContactLensesMaxAmount",
+                "planOptionValueId" : "105"
+              }, {
+                "planOptionId" : "OutNetSingleVisionLensesMaxAmt",
+                "planOptionValueId" : "40"
+              }, {
+                "planOptionId" : "InnetworkContactLensAllowance",
+                "planOptionValueId" : "105"
+              }, {
+                "planOptionId" : "RetailFrameAllowance",
+                "planOptionValueId" : "130"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "6.80",
+                  "tier2" : "12.92",
+                  "tier3" : "15.08",
+                  "tier4" : "21.27"
+                }
+              },
+              "planRate" : "187.69",
+              "probationaryPeriods" : {
+                "days" : "30",
+                "periodType" : "D"
+              },
+              "employeeEnrollCount" : 20,
+              "dependentEnrollCount" : 8,
+              "tier1Subcount" : 16,
+              "tier2Subcount" : 0,
+              "tier3Subcount" : 1,
+              "tier4Subcount" : 3
+            } ]
+          },
+          "newPlanPkg" : {
+            "plans" : [ {
+              "planId" : "D098N",
+              "planXref" : "D098N",
+              "productLineType" : "dental",
+              "tierStructureId" : "A",
+              "planCategory" : "DHMO",
+              "costDifferentialPercentage" : "+0.0%",
+              "dentDualPlanIndicator" : "Y",
+              "policyNumber" : "00U6753",
+              "renewalRateID" : "2019-02-14-01.35.63.170001PR002",
+              "stepwiseQuoteID" : "0011953044-0003",
+              "discountRatio" : "1.0185",
+              "options" : [ {
+                "planOptionId" : "IndNetDeductibleAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "IndOutNetDeductibleAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "FamilyInNetDeductibleAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "FamilyOutNetDeductibleAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "MajServicesInNetCoInsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "MajServiceOutNetCoInsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "MinorRestorativeInNetCoInsPct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "MinorRestorativeOutNetCoInsPct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "OrthoInNetCoinsurancePct",
+                "planOptionValueId" : "0%"
+              }, {
+                "planOptionId" : "OrthodonticsCoveredOutNetInd",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "PreventiveInNetCoInsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "PreventiveOutNetCoInsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "LifetimeOrthoInNetBenAmount",
+                "planOptionValueId" : "1895"
+              }, {
+                "planOptionId" : "InNetAnnualMaxBenefitAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "OutNetAnnualMaxBenefitAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "LifetimeOrthoOutNetBenAmount",
+                "planOptionValueId" : "0"
+              }, {
+                "planOptionId" : "WaitingPeriod",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "WaitingPeriodOrtho",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "RolloverMaxAccountIndicator",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "UsualCustomaryPercentile",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "AnnDedMaxBenAppliesPrevDiag",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "OrthodontiaBenefit",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "ImplantINPercent",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "ImplantOOOPercent",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "EndoPerioOralInnetPct",
+                "planOptionValueId" : "NA/NA/NA"
+              }, {
+                "planOptionId" : "EndoPerioOralOutnetPct",
+                "planOptionValueId" : "NA/NA/NA"
+              }, {
+                "planOptionId" : "PlanFundingDescription",
+                "planOptionValueId" : "Voluntary"
+              }, {
+                "planOptionId" : "0120HmoBenCpyAmt",
+                "planOptionValueId" : "0"
+              }, {
+                "planOptionId" : "1110HmoBenCpyAmt",
+                "planOptionValueId" : "5"
+              }, {
+                "planOptionId" : "1120HmoBenCpyAmt",
+                "planOptionValueId" : "5"
+              }, {
+                "planOptionId" : "0330HmoBenCpyAmt",
+                "planOptionValueId" : "5"
+              }, {
+                "planOptionId" : "2150HmoBenCpyAmt",
+                "planOptionValueId" : "20"
+              }, {
+                "planOptionId" : "2752HmoBenCpyAmt",
+                "planOptionValueId" : "305"
+              }, {
+                "planOptionId" : "3330HmoBenCpyAmt",
+                "planOptionValueId" : "365"
+              }, {
+                "planOptionId" : "4260HmoBenCpyAmt",
+                "planOptionValueId" : "385"
+              }, {
+                "planOptionId" : "4341HmoBenCpyAmt",
+                "planOptionValueId" : "55"
+              }, {
+                "planOptionId" : "7140HmoBenCpyAmt",
+                "planOptionValueId" : "15"
+              }, {
+                "planOptionId" : "6212HmoBenCpyAmt",
+                "planOptionValueId" : "305"
+              }, {
+                "planOptionId" : "2331HmoBenCpyAmt",
+                "planOptionValueId" : "25"
+              }, {
+                "planOptionId" : "8070HmoBenCpyAmt",
+                "planOptionValueId" : "1895"
+              }, {
+                "planOptionId" : "BasicServInNetCoinsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "BasicServOutNetCoinsurancePct",
+                "planOptionValueId" : "NA"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "11.56",
+                  "tier2" : "22.40",
+                  "tier3" : "24.24",
+                  "tier4" : "35.08"
+                }
+              },
+              "planRate" : "117.12",
+              "employeeEnrollCount" : 7,
+              "dependentEnrollCount" : 3,
+              "tier1Subcount" : 5,
+              "tier2Subcount" : 0,
+              "tier3Subcount" : 1,
+              "tier4Subcount" : 1
+            }, {
+              "planId" : "P3437",
+              "planXref" : "P3437",
+              "productLineType" : "dental",
+              "tierStructureId" : "A",
+              "planCategory" : "DPPO",
+              "costDifferentialPercentage" : "+0.0%",
+              "dentDualPlanIndicator" : "Y",
+              "policyNumber" : "00U6753",
+              "renewalRateID" : "2019-02-14-01.35.63.170001PR003",
+              "stepwiseQuoteID" : "0011953044-0003",
+              "discountRatio" : "0.9066",
+              "options" : [ {
+                "planOptionId" : "IndNetDeductibleAmount",
+                "planOptionValueId" : "50"
+              }, {
+                "planOptionId" : "IndOutNetDeductibleAmount",
+                "planOptionValueId" : "50"
+              }, {
+                "planOptionId" : "FamilyInNetDeductibleAmount",
+                "planOptionValueId" : "150"
+              }, {
+                "planOptionId" : "FamilyOutNetDeductibleAmount",
+                "planOptionValueId" : "150"
+              }, {
+                "planOptionId" : "MajServicesInNetCoInsurancePct",
+                "planOptionValueId" : "50%"
+              }, {
+                "planOptionId" : "MajServiceOutNetCoInsurancePct",
+                "planOptionValueId" : "50%"
+              }, {
+                "planOptionId" : "MinorRestorativeInNetCoInsPct",
+                "planOptionValueId" : "80%"
+              }, {
+                "planOptionId" : "MinorRestorativeOutNetCoInsPct",
+                "planOptionValueId" : "80%"
+              }, {
+                "planOptionId" : "OrthoInNetCoinsurancePct",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "OrthodonticsCoveredOutNetInd",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "PreventiveInNetCoInsurancePct",
+                "planOptionValueId" : "100%"
+              }, {
+                "planOptionId" : "PreventiveOutNetCoInsurancePct",
+                "planOptionValueId" : "100%"
+              }, {
+                "planOptionId" : "LifetimeOrthoInNetBenAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "InNetAnnualMaxBenefitAmount",
+                "planOptionValueId" : "1500"
+              }, {
+                "planOptionId" : "OutNetAnnualMaxBenefitAmount",
+                "planOptionValueId" : "1500"
+              }, {
+                "planOptionId" : "LifetimeOrthoOutNetBenAmount",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "WaitingPeriod",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "WaitingPeriodOrtho",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "RolloverMaxAccountIndicator",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "UsualCustomaryPercentile",
+                "planOptionValueId" : "MAC"
+              }, {
+                "planOptionId" : "AnnDedMaxBenAppliesPrevDiag",
+                "planOptionValueId" : "N"
+              }, {
+                "planOptionId" : "OrthodontiaBenefit",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "ImplantINPercent",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "ImplantOOOPercent",
+                "planOptionValueId" : "NA"
+              }, {
+                "planOptionId" : "EndoPerioOralInnetPct",
+                "planOptionValueId" : "80%/NA/NA"
+              }, {
+                "planOptionId" : "EndoPerioOralOutnetPct",
+                "planOptionValueId" : "80%/NA/NA"
+              }, {
+                "planOptionId" : "PlanFundingDescription",
+                "planOptionValueId" : "Contributory"
+              }, {
+                "planOptionId" : "BasicServInNetCoinsurancePct",
+                "planOptionValueId" : "80%"
+              }, {
+                "planOptionId" : "BasicServOutNetCoinsurancePct",
+                "planOptionValueId" : "80%"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "25.52",
+                  "tier2" : "51.05",
+                  "tier3" : "51.52",
+                  "tier4" : "79.40"
+                }
+              },
+              "planRate" : "669.69",
+              "employeeEnrollCount" : 20,
+              "dependentEnrollCount" : 7,
+              "tier1Subcount" : 16,
+              "tier2Subcount" : 1,
+              "tier3Subcount" : 1,
+              "tier4Subcount" : 2
+            }, {
+              "planId" : "V1008",
+              "planXref" : "V1008",
+              "productLineType" : "vision",
+              "tierStructureId" : "A",
+              "planCategory" : "VOLUNTARY",
+              "costDifferentialPercentage" : "+0.0%",
+              "rateGuaranteePeriod" : "2",
+              "policyNumber" : "00U6753",
+              "renewalRateID" : "2019-02-14-01.35.63.170001PR002",
+              "stepwiseQuoteID" : "0011964764-0002",
+              "discountRatio" : "0.9156",
+              "options" : [ {
+                "planOptionId" : "VisionPlanType",
+                "planOptionValueId" : "V"
+              }, {
+                "planOptionId" : "InNetExamCopayAmount",
+                "planOptionValueId" : "10"
+              }, {
+                "planOptionId" : "InNetMaterialCopayAmount",
+                "planOptionValueId" : "25"
+              }, {
+                "planOptionId" : "NumofMonthsBetweenCoveredExam",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "FramesBenefitFrequency",
+                "planOptionValueId" : "24"
+              }, {
+                "planOptionId" : "LensesBenefitFrequency",
+                "planOptionValueId" : "12"
+              }, {
+                "planOptionId" : "OutNetExamMaxAmount",
+                "planOptionValueId" : "40"
+              }, {
+                "planOptionId" : "OutNetFramesMaxAmount",
+                "planOptionValueId" : "45"
+              }, {
+                "planOptionId" : "OutNetContactLensesMaxAmount",
+                "planOptionValueId" : "105"
+              }, {
+                "planOptionId" : "OutNetSingleVisionLensesMaxAmt",
+                "planOptionValueId" : "40"
+              }, {
+                "planOptionId" : "InnetworkContactLensAllowance",
+                "planOptionValueId" : "105"
+              }, {
+                "planOptionId" : "RetailFrameAllowance",
+                "planOptionValueId" : "130"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "6.80",
+                  "tier2" : "12.92",
+                  "tier3" : "15.08",
+                  "tier4" : "21.27"
+                }
+              },
+              "planRate" : "187.69",
+              "employeeEnrollCount" : 20,
+              "dependentEnrollCount" : 8,
+              "tier1Subcount" : 16,
+              "tier2Subcount" : 0,
+              "tier3Subcount" : 1,
+              "tier4Subcount" : 3
+            } ]
+          },
+          "planMatch" : [ {
+            "currentPlanXref" : "D098N",
+            "renewingPlanXref" : "D098N"
+          }, {
+            "currentPlanXref" : "P3437",
+            "renewingPlanXref" : "P3437"
+          }, {
+            "currentPlanXref" : "V1008",
+            "renewingPlanXref" : "V1008"
+          } ]
+        }, {
+          "planOfferingId" : "00U6753C01",
+          "planOfferingXref" : "00U6753C01",
+          "existingPlanPkg" : {
+            "covEffDate" : "06/01/2018",
+            "plans" : {
+              "planId" : "F50K",
+              "planXref" : "F50K",
+              "productLineType" : "basic_life_ee",
+              "tierStructureId" : "A",
+              "planCategory" : "FLAT EE",
+              "policyNumber" : "00U6753",
+              "eventAdminInd" : "N",
+              "options" : [ {
+                "planOptionId" : "LifeProductDescription",
+                "planOptionValueId" : "EMP LIFE"
+              }, {
+                "planOptionId" : "LifeBenefitAmount",
+                "planOptionValueId" : "50000"
+              }, {
+                "planOptionId" : "LifePlanType",
+                "planOptionValueId" : "DOLLAR"
+              }, {
+                "planOptionId" : "LifeBenefitType",
+                "planOptionValueId" : "FLAT EE"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000Life",
+                "planOptionValueId" : "0.18"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000ADD",
+                "planOptionValueId" : "0.02"
+              }, {
+                "planOptionId" : "LifeAddRatePer1000",
+                "planOptionValueId" : "0.20"
+              }, {
+                "planOptionId" : "FlatPlanRatePerEmployee",
+                "planOptionValueId" : "10.00"
+              }, {
+                "planOptionId" : "TotalLifeVolume",
+                "planOptionValueId" : "265000"
+              }, {
+                "planOptionId" : "MonthlyLifePremium",
+                "planOptionValueId" : "47.70"
+              }, {
+                "planOptionId" : "MonthlyADDPremium",
+                "planOptionValueId" : "5.30"
+              }, {
+                "planOptionId" : "MonthlyLifeADDPremium",
+                "planOptionValueId" : "53.00"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "0.00",
+                  "tier2" : "0.00",
+                  "tier3" : "0.00",
+                  "tier4" : "0.00"
+                }
+              },
+              "planRate" : "53.00",
+              "probationaryPeriods" : {
+                "days" : "30",
+                "periodType" : "D"
+              },
+              "employeeEnrollCount" : 6
+            }
+          },
+          "newPlanPkg" : {
+            "plans" : {
+              "planId" : "F50K",
+              "planXref" : "F50K",
+              "productLineType" : "basic_life_ee",
+              "tierStructureId" : "A",
+              "planCategory" : "FLAT EE",
+              "costDifferentialPercentage" : "+0.00%",
+              "rateGuaranteePeriod" : "2",
+              "policyNumber" : "00U6753",
+              "renewalRateID" : "2019-02-14-01.35.63.170001PR002",
+              "stepwiseQuoteID" : "0011947225-0002",
+              "discountRatio" : "0.7006",
+              "options" : [ {
+                "planOptionId" : "LifeProductDescription",
+                "planOptionValueId" : "EMP LIFE"
+              }, {
+                "planOptionId" : "LifeBenefitAmount",
+                "planOptionValueId" : "50000"
+              }, {
+                "planOptionId" : "LifePlanType",
+                "planOptionValueId" : "DOLLAR"
+              }, {
+                "planOptionId" : "LifeBenefitType",
+                "planOptionValueId" : "FLAT EE"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000Life",
+                "planOptionValueId" : "0.18"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000ADD",
+                "planOptionValueId" : "0.02"
+              }, {
+                "planOptionId" : "LifeAddRatePer1000",
+                "planOptionValueId" : "0.20"
+              }, {
+                "planOptionId" : "FlatPlanRatePerEmployee",
+                "planOptionValueId" : "10.00"
+              }, {
+                "planOptionId" : "TotalLifeVolume",
+                "planOptionValueId" : "265000"
+              }, {
+                "planOptionId" : "MonthlyLifePremium",
+                "planOptionValueId" : "47.70"
+              }, {
+                "planOptionId" : "MonthlyADDPremium",
+                "planOptionValueId" : "5.30"
+              }, {
+                "planOptionId" : "MonthlyLifeADDPremium",
+                "planOptionValueId" : "53.00"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "0.00",
+                  "tier2" : "0.00",
+                  "tier3" : "0.00",
+                  "tier4" : "0.00"
+                }
+              },
+              "planRate" : "53.00",
+              "employeeEnrollCount" : 6
+            }
+          },
+          "planMatch" : {
+            "currentPlanXref" : "F50K",
+            "renewingPlanXref" : "F50K"
+          }
+        }, {
+          "planOfferingId" : "00U6753C02",
+          "planOfferingXref" : "00U6753C02",
+          "existingPlanPkg" : {
+            "covEffDate" : "06/01/2018",
+            "plans" : {
+              "planId" : "F20K",
+              "planXref" : "F20K",
+              "productLineType" : "basic_life_ee",
+              "tierStructureId" : "A",
+              "planCategory" : "FLAT EE",
+              "policyNumber" : "00U6753",
+              "eventAdminInd" : "N",
+              "options" : [ {
+                "planOptionId" : "LifeProductDescription",
+                "planOptionValueId" : "EMP LIFE"
+              }, {
+                "planOptionId" : "LifeBenefitAmount",
+                "planOptionValueId" : "20000"
+              }, {
+                "planOptionId" : "LifePlanType",
+                "planOptionValueId" : "DOLLAR"
+              }, {
+                "planOptionId" : "LifeBenefitType",
+                "planOptionValueId" : "FLAT EE"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000Life",
+                "planOptionValueId" : "0.18"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000ADD",
+                "planOptionValueId" : "0.02"
+              }, {
+                "planOptionId" : "LifeAddRatePer1000",
+                "planOptionValueId" : "0.20"
+              }, {
+                "planOptionId" : "FlatPlanRatePerEmployee",
+                "planOptionValueId" : "4.00"
+              }, {
+                "planOptionId" : "TotalLifeVolume",
+                "planOptionValueId" : "1000000"
+              }, {
+                "planOptionId" : "MonthlyLifePremium",
+                "planOptionValueId" : "180.00"
+              }, {
+                "planOptionId" : "MonthlyADDPremium",
+                "planOptionValueId" : "20.00"
+              }, {
+                "planOptionId" : "MonthlyLifeADDPremium",
+                "planOptionValueId" : "200.00"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "0.00",
+                  "tier2" : "0.00",
+                  "tier3" : "0.00",
+                  "tier4" : "0.00"
+                }
+              },
+              "planRate" : "200.00",
+              "probationaryPeriods" : {
+                "days" : "30",
+                "periodType" : "D"
+              },
+              "employeeEnrollCount" : 50
+            }
+          },
+          "newPlanPkg" : {
+            "plans" : {
+              "planId" : "F20K",
+              "planXref" : "F20K",
+              "productLineType" : "basic_life_ee",
+              "tierStructureId" : "A",
+              "planCategory" : "FLAT EE",
+              "costDifferentialPercentage" : "+0.00%",
+              "rateGuaranteePeriod" : "2",
+              "policyNumber" : "00U6753",
+              "renewalRateID" : "2019-02-14-01.35.63.170001PR002",
+              "stepwiseQuoteID" : "0011947225-0002",
+              "discountRatio" : "0.7006",
+              "options" : [ {
+                "planOptionId" : "LifeProductDescription",
+                "planOptionValueId" : "EMP LIFE"
+              }, {
+                "planOptionId" : "LifeBenefitAmount",
+                "planOptionValueId" : "20000"
+              }, {
+                "planOptionId" : "LifePlanType",
+                "planOptionValueId" : "DOLLAR"
+              }, {
+                "planOptionId" : "LifeBenefitType",
+                "planOptionValueId" : "FLAT EE"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000Life",
+                "planOptionValueId" : "0.18"
+              }, {
+                "planOptionId" : "CalRatePerDollar1000ADD",
+                "planOptionValueId" : "0.02"
+              }, {
+                "planOptionId" : "LifeAddRatePer1000",
+                "planOptionValueId" : "0.20"
+              }, {
+                "planOptionId" : "FlatPlanRatePerEmployee",
+                "planOptionValueId" : "4.00"
+              }, {
+                "planOptionId" : "TotalLifeVolume",
+                "planOptionValueId" : "1000000"
+              }, {
+                "planOptionId" : "MonthlyLifePremium",
+                "planOptionValueId" : "180.00"
+              }, {
+                "planOptionId" : "MonthlyADDPremium",
+                "planOptionValueId" : "20.00"
+              }, {
+                "planOptionId" : "MonthlyLifeADDPremium",
+                "planOptionValueId" : "200.00"
+              } ],
+              "rates" : {
+                "compositeRates" : {
+                  "tier1" : "0.00",
+                  "tier2" : "0.00",
+                  "tier3" : "0.00",
+                  "tier4" : "0.00"
+                }
+              },
+              "planRate" : "200.00",
+              "employeeEnrollCount" : 50
+            }
+          },
+          "planMatch" : {
+            "currentPlanXref" : "F20K",
+            "renewingPlanXref" : "F20K"
+          }
+        } ]
+      }
+    } ]
+  }
+}

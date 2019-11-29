@@ -1,0 +1,1 @@
+SELECT TOP 1 * FROM table_Name ORDER BY unique_column DESC 

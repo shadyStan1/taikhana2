@@ -1,0 +1,11 @@
+////////////////////How to add access privilege to some IPs...................
+
+
+1. first switch to root user
+sudo su
+
+2.then open
+gedit /etc/hosts
+
+3.then add
+the ip and urls

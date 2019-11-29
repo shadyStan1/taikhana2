@@ -1,0 +1,28 @@
+---------------------------------SEALING OF 2 PACKAGES IN A SAME PACKAGE AND MAKING A JAR----------------------------------------------
+
+1.CREATE TWO PACKAGES AND CREATE 2 JAVA CLASSES AND COMPILE THEM
+
+2.CREATE A PACKAGE WHERE YOU WANT TO SEAL BOTH THE ABOVE PACKEGES AND STORE .class files from those 2 packages
+
+3.Created one manifest file which contains(check inside the manifest.txt).
+
+4.then type in terminal
+	jar cfm MyJar.jar Manifest.txt MyPackage/*.class
+	(to create jar named MyJar)
+
+5.done
+
+
+
+
+Explanation of the command in step 4-
+Let's look at the options and arguments used in this command:
+
+    The c option indicates that you want to create a JAR file.
+    The m option indicates that you want to merge information from an existing file into the manifest file of the JAR file you're creating.
+    The f option indicates that you want the output to go to a file (the JAR file you're creating) rather than to standard output.
+    manifest-addition is the name (or path and name) of the existing text file whose contents you want to add to the contents of JAR file's manifest.
+    jar-file is the name that you want the resulting JAR file to have.
+    The input-file(s) argument is a space-separated list of one or more files that you want to be placed in your JAR file.
+
+The m and f options must be in the same order as the corresponding arguments.

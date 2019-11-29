@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search Student</title>
+	<style type="text/css">
+		#container{
+			margin-top: 45px;
+			margin-left: 160px;
+		}
+		#sub{
+			margin-left: 192px;
+		}
+		#regno{
+		margin-left: 85px;}
+		
+		#fname{
+		margin-left : 85px;
+		}
+		#mname{
+		margin-left : 85px;
+		}
+		#lname{
+		margin-left : 85px;
+		}
+		#guarfirname{
+		margin-left: 2px;
+		}
+		#guarlastname{
+		margin-left: 5px;}
+	</style>
+</head>
+<body>
+	<div id="container">
+	<form action="http://localhost:8080/StudentApp/searchstudent" method="post">
+		<h2 style="color : brown;">Search Students From The Database
+		<span class="glyphicon glyphicon-search"></span></h2>
+		<fieldset style="width: 60%;">
+			<legend>Search Student</legend>
+				<label>By Reg No:</label><span style="display:inline-block; width: 97px;"></span>
+				<input type="text" id="regno" name="regno" size="35"><br><br>
+				
+				<label>By First Name:</label><span style="display:inline-block; width: 66px;"></span>
+				<input type="text" id="fname" name="fname" size="35"><br><br>
+
+				<label>By Middle Name:</label><span style="display:inline-block; width: 50px;"></span>
+				<input type="text" id="mname" name="mname" size="35"><br><br>
+
+				<label>By Last Name:</label><span style="display:inline-block; width: 69px;"></span>
+				<input type="text" id="lname" name="lname" size="35"><br><br>
+
+				<label>By Guardian First Name:</label><span style="display:inline-block; width: 69px;"></span>
+				<input type="text" id="guarfirname" name="guarfirname" size="35"><br><br>
+
+				<label>By Guardian Last Name:</label><span style="display:inline-block; width: 68px;"></span>
+				<input type="text" id="guarlastname" name="guarlastname" size="35"><br><br>
+
+				<input style="margin-left : 508px;width :144px; background-color: #42f47d;"
+				 type="submit" name="submit" value="Search">
+		</fieldset>
+	</form>
+			
+	</div>
+
+</body>
+</html>

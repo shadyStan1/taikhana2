@@ -1,0 +1,23 @@
+today's things
+
+.Changes in Exemplar
+
+We cant add a new function directly into exemplar.
+In this case we a create an interface inside exemplar with a default method without implementation.
+Then we create an implementation class in the UHG side for the interface. 
+***there should be a <bean> tag for the interface and its implementation class inside applicationContext.xml
+***with the same id.
+then call this implemented method from the exemplar side
+
+
+.Creating entity class in the uhg-side
+
+create entity class for a table
+add join relationship with the tables having foreign key columns
+***take care if the related column is primary key in other table 
+***then relationship is @OneToOne
+***else @OneToMany
+
+.for deletion of rows
+take care about the updatable attribute in @JoinColumn
+***put updatable = false because we dont give the related table the power to update the column in the main table

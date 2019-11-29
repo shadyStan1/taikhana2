@@ -1,0 +1,1819 @@
+
+{
+    "id": "cf563fcd-c366-4cf7-8617-31aed6613fa2",
+    "groupId": 119721,
+    "quoteId": 235620,
+    "renewalPeriodXref": "ACCURATE_BASEMENT",
+    "renewalPeriodId": "95ed208f-dd37-4157-8a5a-62d0de0dba5f",
+    "group": {
+        "xref": "119711",
+        "name": "ACCURATE BASEMENT REPAIR, LLC",
+        "type": "SG",
+        "status": "Active",
+        "employer": {
+            "name": "ACCURATE BASEMENT REPAIR, LLC",
+            "dateEstablished": "09/01/2010",
+            "federalTaxId": "999999999",
+            "currentHealthCarrier": "",
+            "doingBusinessAs": "ACCURATE BASEMENT REPAIR",
+            "originalDoingBusinessAs": "ACCURATE BASEMENT REPAIR"
+        },
+        "primaryLocation": {
+            "xref": "PRIMARY LOCATION - 53235",
+            "isPrimary": "Y",
+            "name": "PRIMARY LOCATION - 53235",
+            "totalEligible": 13,
+            "totalEmployed": 9,
+            "fullTimeEquivalent": 13,
+            "contact": {
+                "contactType": "",
+                "title": "",
+                "prefix": "",
+                "first": "ANDREA",
+                "middle": "",
+                "last": "TEST",
+                "suffix": "",
+                "fullName": "",
+                "address": {
+                    "type": "",
+                    "street1": "101 TEST ST",
+                    "street2": "",
+                    "city": "",
+                    "state": "WI",
+                    "county": "",
+                    "countyName": "",
+                    "zip": "53235",
+                    "zip4": "0000",
+                    "suite": ""
+                },
+                "phoneNumbers": [{
+                    "phoneType": "work",
+                    "areaCode": "414",
+                    "num": "7446900",
+                    "ext": "",
+                    "phoneNumWithAreaCode": "4147446900"
+                }],
+                "email": "AAA@BBB.COM"
+            },
+            "address": {
+                "type": "3",
+                "street1": "101 TEST ST",
+                "street2": "",
+                "city": "MILWAUKEE",
+                "state": "WI",
+                "county": "",
+                "countyName": "",
+                "zip": "53235",
+                "zip4": "",
+                "suite": ""
+            },
+            "industryCode": {
+                "sicCode": "1799"
+            },
+            "ratingZipCode": "53235",
+            "billingAddressCity": "MILWAUKEE",
+            "marketNumber": "48606",
+            "countingMethod": "A",
+            "billingAddressLine1": "101 TEST ST",
+            "billingAddressPlatform": "PRIME",
+            "BIT": "CG",
+            "SA": "00",
+            "contractIssueStCode": "WI",
+            "billingAddressState": "WI",
+            "originalBillingAddress": {
+                "zip": "53237",
+                "city": "MILWAUKEE",
+                "type": "",
+                "zip4": "",
+                "state": "WI",
+                "suite": "",
+                "county": "",
+                "street1": "101 TEST ST",
+                "street2": "",
+                "countyName": ""
+            },
+            "originalAddress": {
+                "zip": "53235",
+                "city": "MILWAUKEE",
+                "type": "3",
+                "zip4": "",
+                "state": "WI",
+                "suite": "",
+                "county": "",
+                "street1": "101 TEST ST",
+                "street2": "",
+                "countyName": ""
+            },
+            "originalContact": {
+                "last": "TEST",
+                "email": "AAA@BBB.COM",
+                "first": "ANDREA",
+                "title": "",
+                "middle": "",
+                "prefix": "",
+                "suffix": "",
+                "address": {
+                    "zip": "53235",
+                    "city": "",
+                    "type": "",
+                    "zip4": "0000",
+                    "state": "WI",
+                    "suite": "",
+                    "county": "",
+                    "street1": "101 TEST ST",
+                    "street2": "",
+                    "countyName": ""
+                },
+                "fullName": "",
+                "contactType": "",
+                "phoneNumbers": [{
+                    "ext": "",
+                    "num": "7446900",
+                    "areaCode": "414",
+                    "phoneType": "work",
+                    "phoneNumWithAreaCode": "4147446900"
+                }]
+            },
+            "OI": "01",
+            "billingAddressZip": "53237",
+            "billingAddressType": "4",
+            "billingAddressZip4": "0000"
+        },
+        "owners": {
+            "producer": {
+                "id": -2,
+                "name": "Bob B Broker",
+                "xref": "broker"
+            },
+            "salesRep": {
+                "id": -3,
+                "name": "Internal I User",
+                "xref": "5799",
+                "updatedOwner": null
+            }
+        },
+        "priorOneDays": false,
+        "priorFiveDays": false,
+        "dualPlatformInd": "N",
+        "statusIndicator": "Ready",
+        "permissionIndicator": "VIEW_EDIT_SUMBIT",
+        "renProcessedDt": "2018-05-15",
+        "platformIdentifier": "PRIME",
+        "multiContractPolicyIndicator": "N",
+        "isEnrollInMedProducts": true,
+        "serviceOfficeCode": "115",
+        "submitterId": -3,
+        "newGroupName": "ACCURATE BASEMENT REPAIR, LLC",
+        "uhgCustomerNbr": "08H2243",
+        "franchiseCode": "0000000",
+        "submitterName": "Internal I User"
+    },
+    "quote": {
+        "xref": "RA-228711",
+        "quoteEffDate": "09/01/2019",
+        "employees": [{
+            "xref": "87439051900",
+            "ssn": "999999999",
+            "status": "Active",
+            "first": "FREDERICK",
+            "middle": "D",
+            "last": "TEST",
+            "dateOfBirth": "02/19/1975",
+            "age": 0,
+            "genderType": "M",
+            "gender": "M",
+            "maritalStatusType": "S",
+            "numberOfChildren": 1,
+            "salary": "0.0",
+            "email": "",
+            "cobra": "N",
+            "retired": "N",
+            "subgroupId": "ALL",
+            "subgroupName": "",
+            "dependents": [{
+                "xref": "87439051902",
+                "ssn": "999999999",
+                "depType": "C",
+                "first": "CHRISTOPHER",
+                "last": "TEST",
+                "genderType": "M",
+                "dateOfBirth": "04/19/1997",
+                "age": 0,
+                "coverageElections": [{
+                    "planId": "PIN32",
+                    "xRef": "",
+                    "coverageType": "ECH",
+                    "rate": "0.00",
+                    "premium": "",
+                    "planName": "",
+                    "productLine": "",
+                    "waiveReason": "",
+                    "employeeCost": "",
+                    "employerCost": ""
+                }, {
+                    "planId": "V1008",
+                    "xRef": "",
+                    "coverageType": "WAV",
+                    "rate": "0.00",
+                    "premium": "",
+                    "planName": "",
+                    "productLine": "",
+                    "waiveReason": "",
+                    "employeeCost": "",
+                    "employerCost": ""
+                }],
+                "renewingCoverageElections": [{
+                    "planId": "PIN32",
+                    "xRef": "",
+                    "coverageType": "ECH",
+                    "rate": "0.00",
+                    "premium": "",
+                    "planName": "",
+                    "productLine": "",
+                    "waiveReason": "",
+                    "employeeCost": "",
+                    "employerCost": ""
+                }, {
+                    "planId": "V1008",
+                    "xRef": "",
+                    "coverageType": "WAV",
+                    "rate": "0.00",
+                    "premium": "",
+                    "planName": "",
+                    "productLine": "",
+                    "waiveReason": "",
+                    "employeeCost": "",
+                    "employerCost": ""
+                }],
+                "alternateCoverageElections": [],
+                "email": "",
+                "phoneNumbers": [],
+                "providerId": "",
+                "providerName": "",
+                "externalProviderId": "",
+                "pcpFirstName": "",
+                "pcpLastName": "",
+                "elections": {},
+                "medicareOverride": "N",
+                "medicareEligReason": "U",
+                "SSN": "999999999"
+            }],
+            "electedPlans": [{
+                "planId": "PIN32",
+                "xRef": "PIN32",
+                "coverageType": "ECH",
+                "rate": "72.54",
+                "premium": "384.57",
+                "planName": "PIN32",
+                "productLine": "dental",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }, {
+                "planId": "V1008",
+                "xRef": "V1008",
+                "coverageType": "WAV",
+                "rate": "0.00",
+                "premium": "54.83",
+                "planName": "V1008",
+                "productLine": "vision",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }],
+            "renewingPlans": [{
+                "planId": "PIN32",
+                "xRef": "PIN32",
+                "coverageType": "ECH",
+                "rate": "72.54",
+                "premium": "384.57",
+                "planName": "PIN32",
+                "productLine": "dental",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }, {
+                "planId": "V1008",
+                "xRef": "V1008",
+                "coverageType": "WAV",
+                "rate": "0.00",
+                "premium": "54.83",
+                "planName": "V1008",
+                "productLine": "vision",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }],
+            "alternatePlans": [],
+            "homeCounty": "",
+            "homeState": "WI",
+            "homeZip": "53132",
+            "phoneNumbers": {},
+            "hireDate": "",
+            "cobraBeginDate": "",
+            "cobraEndDate": "",
+            "cobraQualifyingEventCode": "",
+            "cobraQualifyingEvent": "",
+            "cobraQualifyingDate": "",
+            "providerId": "",
+            "providerName": "",
+            "externalProviderId": "",
+            "enrollmentStatus": "Not started",
+            "pcpMpin": "",
+            "ibrDependentData": [],
+            "elections": {},
+            "active": false,
+            "pcpFirstName": "",
+            "pcpLastName": "",
+            "salaryBasic": 0.0,
+            "salaryDouble": 0.0,
+            "zip": "53132",
+            "employeeDOE": "08/01/2003",
+            "medicareOverride": "N",
+            "employeeAddr1": "101 TEST ST.",
+            "employeeCity": "FRANKLIN",
+            "medicareEligReason": "U",
+            "state": "WI",
+            "COBIndicator": "N",
+            "maritalStatus": "S",
+            "SSN": "999999999"
+        }, {
+            "xref": "87967128600",
+            "ssn": "999999999",
+            "status": "Active",
+            "first": "ANTHONY",
+            "middle": "J",
+            "last": "TEST",
+            "dateOfBirth": "01/10/1986",
+            "age": 0,
+            "genderType": "M",
+            "gender": "M",
+            "maritalStatusType": "S",
+            "salary": "0.0",
+            "email": "",
+            "cobra": "N",
+            "retired": "N",
+            "subgroupId": "ALL",
+            "subgroupName": "",
+            "dependents": [],
+            "electedPlans": [{
+                "planId": "PIN32",
+                "xRef": "PIN32",
+                "coverageType": "EMP",
+                "rate": "34.67",
+                "premium": "384.57",
+                "planName": "PIN32",
+                "productLine": "dental",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }, {
+                "planId": "V1008",
+                "xRef": "V1008",
+                "coverageType": "WAV",
+                "rate": "0.00",
+                "premium": "54.83",
+                "planName": "V1008",
+                "productLine": "vision",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }],
+            "renewingPlans": [{
+                "planId": "PIN32",
+                "xRef": "PIN32",
+                "coverageType": "EMP",
+                "rate": "34.67",
+                "premium": "384.57",
+                "planName": "PIN32",
+                "productLine": "dental",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }, {
+                "planId": "V1008",
+                "xRef": "V1008",
+                "coverageType": "WAV",
+                "rate": "0.00",
+                "premium": "54.83",
+                "planName": "V1008",
+                "productLine": "vision",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }],
+            "alternatePlans": [],
+            "homeCounty": "",
+            "homeState": "WI",
+            "homeZip": "53126",
+            "phoneNumbers": {},
+            "hireDate": "",
+            "cobraBeginDate": "",
+            "cobraEndDate": "",
+            "cobraQualifyingEventCode": "",
+            "cobraQualifyingEvent": "",
+            "cobraQualifyingDate": "",
+            "providerId": "",
+            "providerName": "",
+            "externalProviderId": "",
+            "enrollmentStatus": "Not started",
+            "pcpMpin": "",
+            "ibrDependentData": [],
+            "elections": {},
+            "active": false,
+            "pcpFirstName": "",
+            "pcpLastName": "",
+            "salaryBasic": 0.0,
+            "salaryDouble": 0.0,
+            "zip": "53126",
+            "employeeDOE": "01/06/2004",
+            "medicareOverride": "N",
+            "employeeAddr1": "101 TEST ST.",
+            "employeeCity": "FRANKSVILLE",
+            "medicareEligReason": "U",
+            "state": "WI",
+            "COBIndicator": "N",
+            "maritalStatus": "S",
+            "SSN": "999999999"
+        }, {
+            "xref": "91015285900",
+            "ssn": "999999999",
+            "status": "Active",
+            "first": "DEANDRE",
+            "middle": "",
+            "last": "TEST",
+            "dateOfBirth": "01/22/1997",
+            "age": 0,
+            "genderType": "M",
+            "gender": "M",
+            "maritalStatusType": "S",
+            "salary": "0.0",
+            "email": "",
+            "cobra": "N",
+            "retired": "N",
+            "subgroupId": "ALL",
+            "subgroupName": "",
+            "dependents": [],
+            "electedPlans": [{
+                "planId": "PIN32",
+                "xRef": "PIN32",
+                "coverageType": "EMP",
+                "rate": "34.67",
+                "premium": "384.57",
+                "planName": "PIN32",
+                "productLine": "dental",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }, {
+                "planId": "V1008",
+                "xRef": "V1008",
+                "coverageType": "EMP",
+                "rate": "6.94",
+                "premium": "54.83",
+                "planName": "V1008",
+                "productLine": "vision",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }],
+            "renewingPlans": [{
+                "planId": "PIN32",
+                "xRef": "PIN32",
+                "coverageType": "EMP",
+                "rate": "34.67",
+                "premium": "384.57",
+                "planName": "PIN32",
+                "productLine": "dental",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }, {
+                "planId": "V1008",
+                "xRef": "V1008",
+                "coverageType": "EMP",
+                "rate": "6.94",
+                "premium": "54.83",
+                "planName": "V1008",
+                "productLine": "vision",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }],
+            "alternatePlans": [],
+            "homeCounty": "",
+            "homeState": "WI",
+            "homeZip": "53110",
+            "phoneNumbers": {},
+            "hireDate": "",
+            "cobraBeginDate": "",
+            "cobraEndDate": "",
+            "cobraQualifyingEventCode": "",
+            "cobraQualifyingEvent": "",
+            "cobraQualifyingDate": "",
+            "providerId": "",
+            "providerName": "",
+            "externalProviderId": "",
+            "enrollmentStatus": "Not started",
+            "pcpMpin": "",
+            "ibrDependentData": [],
+            "elections": {},
+            "active": false,
+            "pcpFirstName": "",
+            "pcpLastName": "",
+            "salaryBasic": 0.0,
+            "salaryDouble": 0.0,
+            "zip": "53110",
+            "employeeDOE": "08/01/2017",
+            "medicareOverride": "N",
+            "employeeAddr1": "101 TEST ST.",
+            "employeeCity": "CUDAHY",
+            "medicareEligReason": "U",
+            "state": "WI",
+            "COBIndicator": "N",
+            "maritalStatus": "S",
+            "SSN": "999999999"
+        }, {
+            "xref": "92748544200",
+            "ssn": "999999999",
+            "status": "Active",
+            "first": "ANDREA",
+            "middle": "J",
+            "last": "TEST",
+            "dateOfBirth": "11/16/1978",
+            "age": 0,
+            "genderType": "F",
+            "gender": "F",
+            "maritalStatusType": "S",
+            "salary": "0.0",
+            "email": "",
+            "cobra": "N",
+            "retired": "N",
+            "subgroupId": "ALL",
+            "subgroupName": "",
+            "dependents": [],
+            "electedPlans": [{
+                "planId": "PIN32",
+                "xRef": "PIN32",
+                "coverageType": "EMP",
+                "rate": "34.67",
+                "premium": "384.57",
+                "planName": "PIN32",
+                "productLine": "dental",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }, {
+                "planId": "V1008",
+                "xRef": "V1008",
+                "coverageType": "EMP",
+                "rate": "6.94",
+                "premium": "54.83",
+                "planName": "V1008",
+                "productLine": "vision",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }],
+            "renewingPlans": [{
+                "planId": "PIN32",
+                "xRef": "PIN32",
+                "coverageType": "EMP",
+                "rate": "34.67",
+                "premium": "384.57",
+                "planName": "PIN32",
+                "productLine": "dental",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }, {
+                "planId": "V1008",
+                "xRef": "V1008",
+                "coverageType": "EMP",
+                "rate": "6.94",
+                "premium": "54.83",
+                "planName": "V1008",
+                "productLine": "vision",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }],
+            "alternatePlans": [],
+            "homeCounty": "",
+            "homeState": "WI",
+            "homeZip": "53227",
+            "phoneNumbers": {},
+            "hireDate": "",
+            "cobraBeginDate": "",
+            "cobraEndDate": "",
+            "cobraQualifyingEventCode": "",
+            "cobraQualifyingEvent": "",
+            "cobraQualifyingDate": "",
+            "providerId": "",
+            "providerName": "",
+            "externalProviderId": "",
+            "enrollmentStatus": "Not started",
+            "pcpMpin": "",
+            "ibrDependentData": [],
+            "elections": {},
+            "active": false,
+            "pcpFirstName": "",
+            "pcpLastName": "",
+            "salaryBasic": 0.0,
+            "salaryDouble": 0.0,
+            "zip": "53227",
+            "employeeDOE": "04/17/2010",
+            "medicareOverride": "N",
+            "employeeAddr1": "101 TEST ST.",
+            "employeeCity": "GREENFIELD",
+            "medicareEligReason": "U",
+            "state": "WI",
+            "COBIndicator": "N",
+            "maritalStatus": "S",
+            "SSN": "999999999"
+        }, {
+            "xref": "92864106200",
+            "ssn": "999999999",
+            "status": "Active",
+            "first": "MATTHEW",
+            "middle": "",
+            "last": "TEST",
+            "dateOfBirth": "07/30/1994",
+            "age": 0,
+            "genderType": "M",
+            "gender": "M",
+            "maritalStatusType": "S",
+            "salary": "0.0",
+            "email": "",
+            "cobra": "N",
+            "retired": "N",
+            "subgroupId": "ALL",
+            "subgroupName": "",
+            "dependents": [],
+            "electedPlans": [{
+                "planId": "PIN32",
+                "xRef": "PIN32",
+                "coverageType": "EMP",
+                "rate": "34.67",
+                "premium": "384.57",
+                "planName": "PIN32",
+                "productLine": "dental",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }, {
+                "planId": "V1008",
+                "xRef": "V1008",
+                "coverageType": "EMP",
+                "rate": "6.94",
+                "premium": "54.83",
+                "planName": "V1008",
+                "productLine": "vision",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }],
+            "renewingPlans": [{
+                "planId": "PIN32",
+                "xRef": "PIN32",
+                "coverageType": "EMP",
+                "rate": "34.67",
+                "premium": "384.57",
+                "planName": "PIN32",
+                "productLine": "dental",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }, {
+                "planId": "V1008",
+                "xRef": "V1008",
+                "coverageType": "EMP",
+                "rate": "6.94",
+                "premium": "54.83",
+                "planName": "V1008",
+                "productLine": "vision",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }],
+            "alternatePlans": [],
+            "homeCounty": "",
+            "homeState": "WI",
+            "homeZip": "53207",
+            "phoneNumbers": {},
+            "hireDate": "",
+            "cobraBeginDate": "",
+            "cobraEndDate": "",
+            "cobraQualifyingEventCode": "",
+            "cobraQualifyingEvent": "",
+            "cobraQualifyingDate": "",
+            "providerId": "",
+            "providerName": "",
+            "externalProviderId": "",
+            "enrollmentStatus": "Not started",
+            "pcpMpin": "",
+            "ibrDependentData": [],
+            "elections": {},
+            "active": false,
+            "pcpFirstName": "",
+            "pcpLastName": "",
+            "salaryBasic": 0.0,
+            "salaryDouble": 0.0,
+            "zip": "53207",
+            "employeeDOE": "08/01/2017",
+            "medicareOverride": "N",
+            "employeeAddr1": "101 TEST ST.",
+            "employeeCity": "MILWAUKEE",
+            "medicareEligReason": "U",
+            "state": "WI",
+            "COBIndicator": "N",
+            "maritalStatus": "S",
+            "SSN": "999999999"
+        }, {
+            "xref": "94028224400",
+            "ssn": "999999999",
+            "status": "Active",
+            "first": "CRISTELA",
+            "middle": "M",
+            "last": "TEST",
+            "dateOfBirth": "06/30/1974",
+            "age": 0,
+            "genderType": "F",
+            "gender": "F",
+            "maritalStatusType": "S",
+            "salary": "0.0",
+            "email": "",
+            "cobra": "N",
+            "retired": "N",
+            "subgroupId": "ALL",
+            "subgroupName": "",
+            "dependents": [],
+            "electedPlans": [{
+                "planId": "PIN32",
+                "xRef": "PIN32",
+                "coverageType": "EMP",
+                "rate": "34.67",
+                "premium": "384.57",
+                "planName": "PIN32",
+                "productLine": "dental",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }, {
+                "planId": "V1008",
+                "xRef": "V1008",
+                "coverageType": "EMP",
+                "rate": "6.94",
+                "premium": "54.83",
+                "planName": "V1008",
+                "productLine": "vision",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }],
+            "renewingPlans": [{
+                "planId": "PIN32",
+                "xRef": "PIN32",
+                "coverageType": "EMP",
+                "rate": "34.67",
+                "premium": "384.57",
+                "planName": "PIN32",
+                "productLine": "dental",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }, {
+                "planId": "V1008",
+                "xRef": "V1008",
+                "coverageType": "EMP",
+                "rate": "6.94",
+                "premium": "54.83",
+                "planName": "V1008",
+                "productLine": "vision",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }],
+            "alternatePlans": [],
+            "homeCounty": "",
+            "homeState": "WI",
+            "homeZip": "53222",
+            "phoneNumbers": {},
+            "hireDate": "",
+            "cobraBeginDate": "",
+            "cobraEndDate": "",
+            "cobraQualifyingEventCode": "",
+            "cobraQualifyingEvent": "",
+            "cobraQualifyingDate": "",
+            "providerId": "",
+            "providerName": "",
+            "externalProviderId": "",
+            "enrollmentStatus": "Not started",
+            "pcpMpin": "",
+            "ibrDependentData": [],
+            "elections": {},
+            "active": false,
+            "pcpFirstName": "",
+            "pcpLastName": "",
+            "salaryBasic": 0.0,
+            "salaryDouble": 0.0,
+            "zip": "53222",
+            "employeeDOE": "04/18/2013",
+            "medicareOverride": "N",
+            "employeeAddr2": "APT 3",
+            "employeeAddr1": "101 TEST ST.",
+            "employeeCity": "MILWAUKEE",
+            "medicareEligReason": "U",
+            "state": "WI",
+            "COBIndicator": "N",
+            "maritalStatus": "S",
+            "SSN": "999999999"
+        }, {
+            "xref": "94093012400",
+            "ssn": "999999999",
+            "status": "Active",
+            "first": "ROBERT",
+            "middle": "A",
+            "last": "TEST",
+            "dateOfBirth": "05/08/1958",
+            "age": 0,
+            "genderType": "M",
+            "gender": "M",
+            "maritalStatusType": "M",
+            "salary": "0.0",
+            "email": "",
+            "cobra": "N",
+            "retired": "N",
+            "subgroupId": "ALL",
+            "subgroupName": "",
+            "dependents": [{
+                "xref": "94093012401",
+                "ssn": "999999999",
+                "depType": "S",
+                "first": "PATRICIA",
+                "last": "TEST",
+                "genderType": "F",
+                "dateOfBirth": "03/04/1959",
+                "age": 0,
+                "coverageElections": [{
+                    "planId": "PIN32",
+                    "xRef": "",
+                    "coverageType": "ESP",
+                    "rate": "0.00",
+                    "premium": "",
+                    "planName": "",
+                    "productLine": "",
+                    "waiveReason": "",
+                    "employeeCost": "",
+                    "employerCost": ""
+                }, {
+                    "planId": "V1008",
+                    "xRef": "",
+                    "coverageType": "ESP",
+                    "rate": "0.00",
+                    "premium": "",
+                    "planName": "",
+                    "productLine": "",
+                    "waiveReason": "",
+                    "employeeCost": "",
+                    "employerCost": ""
+                }],
+                "renewingCoverageElections": [{
+                    "planId": "PIN32",
+                    "xRef": "",
+                    "coverageType": "ESP",
+                    "rate": "0.00",
+                    "premium": "",
+                    "planName": "",
+                    "productLine": "",
+                    "waiveReason": "",
+                    "employeeCost": "",
+                    "employerCost": ""
+                }, {
+                    "planId": "V1008",
+                    "xRef": "",
+                    "coverageType": "ESP",
+                    "rate": "0.00",
+                    "premium": "",
+                    "planName": "",
+                    "productLine": "",
+                    "waiveReason": "",
+                    "employeeCost": "",
+                    "employerCost": ""
+                }],
+                "alternateCoverageElections": [],
+                "email": "",
+                "phoneNumbers": [],
+                "providerId": "",
+                "providerName": "",
+                "externalProviderId": "",
+                "pcpFirstName": "",
+                "pcpLastName": "",
+                "elections": {},
+                "medicareOverride": "N",
+                "medicareEligReason": "U",
+                "SSN": "999999999"
+            }],
+            "electedPlans": [{
+                "planId": "PIN32",
+                "xRef": "PIN32",
+                "coverageType": "ESP",
+                "rate": "69.34",
+                "premium": "384.57",
+                "planName": "PIN32",
+                "productLine": "dental",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }, {
+                "planId": "V1008",
+                "xRef": "V1008",
+                "coverageType": "ESP",
+                "rate": "13.19",
+                "premium": "54.83",
+                "planName": "V1008",
+                "productLine": "vision",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }],
+            "renewingPlans": [{
+                "planId": "PIN32",
+                "xRef": "PIN32",
+                "coverageType": "ESP",
+                "rate": "69.34",
+                "premium": "384.57",
+                "planName": "PIN32",
+                "productLine": "dental",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }, {
+                "planId": "V1008",
+                "xRef": "V1008",
+                "coverageType": "ESP",
+                "rate": "13.19",
+                "premium": "54.83",
+                "planName": "V1008",
+                "productLine": "vision",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }],
+            "alternatePlans": [],
+            "homeCounty": "",
+            "homeState": "WI",
+            "homeZip": "53221",
+            "phoneNumbers": {},
+            "hireDate": "",
+            "cobraBeginDate": "",
+            "cobraEndDate": "",
+            "cobraQualifyingEventCode": "",
+            "cobraQualifyingEvent": "",
+            "cobraQualifyingDate": "",
+            "providerId": "",
+            "providerName": "",
+            "externalProviderId": "",
+            "enrollmentStatus": "Not started",
+            "pcpMpin": "",
+            "ibrDependentData": [],
+            "elections": {},
+            "active": false,
+            "pcpFirstName": "",
+            "pcpLastName": "",
+            "salaryBasic": 0.0,
+            "salaryDouble": 0.0,
+            "zip": "53221",
+            "employeeDOE": "10/01/2017",
+            "medicareOverride": "N",
+            "employeeAddr1": "101 TEST ST.",
+            "employeeCity": "MILWAUKEE",
+            "medicareEligReason": "U",
+            "state": "WI",
+            "COBIndicator": "N",
+            "maritalStatus": "M",
+            "SSN": "999999999"
+        }, {
+            "xref": "94909635400",
+            "ssn": "999999999",
+            "status": "Active",
+            "first": "EDGAR",
+            "middle": "",
+            "last": "TEST",
+            "dateOfBirth": "06/23/1981",
+            "age": 0,
+            "genderType": "M",
+            "gender": "M",
+            "maritalStatusType": "S",
+            "salary": "0.0",
+            "email": "",
+            "cobra": "N",
+            "retired": "N",
+            "subgroupId": "ALL",
+            "subgroupName": "",
+            "dependents": [],
+            "electedPlans": [{
+                "planId": "PIN32",
+                "xRef": "PIN32",
+                "coverageType": "EMP",
+                "rate": "34.67",
+                "premium": "384.57",
+                "planName": "PIN32",
+                "productLine": "dental",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }, {
+                "planId": "V1008",
+                "xRef": "V1008",
+                "coverageType": "EMP",
+                "rate": "6.94",
+                "premium": "54.83",
+                "planName": "V1008",
+                "productLine": "vision",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }],
+            "renewingPlans": [{
+                "planId": "PIN32",
+                "xRef": "PIN32",
+                "coverageType": "EMP",
+                "rate": "34.67",
+                "premium": "384.57",
+                "planName": "PIN32",
+                "productLine": "dental",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }, {
+                "planId": "V1008",
+                "xRef": "V1008",
+                "coverageType": "EMP",
+                "rate": "6.94",
+                "premium": "54.83",
+                "planName": "V1008",
+                "productLine": "vision",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }],
+            "alternatePlans": [],
+            "homeCounty": "",
+            "homeState": "WI",
+            "homeZip": "53051",
+            "phoneNumbers": {},
+            "hireDate": "",
+            "cobraBeginDate": "",
+            "cobraEndDate": "",
+            "cobraQualifyingEventCode": "",
+            "cobraQualifyingEvent": "",
+            "cobraQualifyingDate": "",
+            "providerId": "",
+            "providerName": "",
+            "externalProviderId": "",
+            "enrollmentStatus": "Not started",
+            "pcpMpin": "",
+            "ibrDependentData": [],
+            "elections": {},
+            "active": false,
+            "pcpFirstName": "",
+            "pcpLastName": "",
+            "salaryBasic": 0.0,
+            "salaryDouble": 0.0,
+            "zip": "53051",
+            "employeeDOE": "08/01/2017",
+            "medicareOverride": "N",
+            "employeeAddr1": "101 TEST ST.",
+            "employeeCity": "MENOMONEE FALLS",
+            "medicareEligReason": "U",
+            "state": "WI",
+            "COBIndicator": "N",
+            "maritalStatus": "S",
+            "SSN": "999999999"
+        }, {
+            "xref": "95922969100",
+            "ssn": "999999999",
+            "status": "Active",
+            "first": "CASEY",
+            "middle": "J",
+            "last": "TEST",
+            "dateOfBirth": "03/19/1996",
+            "age": 0,
+            "genderType": "M",
+            "gender": "M",
+            "maritalStatusType": "S",
+            "salary": "0.0",
+            "email": "",
+            "cobra": "N",
+            "retired": "N",
+            "subgroupId": "ALL",
+            "subgroupName": "",
+            "dependents": [],
+            "electedPlans": [{
+                "planId": "PIN32",
+                "xRef": "PIN32",
+                "coverageType": "EMP",
+                "rate": "34.67",
+                "premium": "384.57",
+                "planName": "PIN32",
+                "productLine": "dental",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }, {
+                "planId": "V1008",
+                "xRef": "V1008",
+                "coverageType": "EMP",
+                "rate": "6.94",
+                "premium": "54.83",
+                "planName": "V1008",
+                "productLine": "vision",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }],
+            "renewingPlans": [{
+                "planId": "PIN32",
+                "xRef": "PIN32",
+                "coverageType": "EMP",
+                "rate": "34.67",
+                "premium": "384.57",
+                "planName": "PIN32",
+                "productLine": "dental",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }, {
+                "planId": "V1008",
+                "xRef": "V1008",
+                "coverageType": "EMP",
+                "rate": "6.94",
+                "premium": "54.83",
+                "planName": "V1008",
+                "productLine": "vision",
+                "waiveReason": "",
+                "employeeCost": "",
+                "employerCost": ""
+            }],
+            "alternatePlans": [],
+            "homeCounty": "",
+            "homeState": "WI",
+            "homeZip": "53215",
+            "phoneNumbers": {},
+            "hireDate": "",
+            "cobraBeginDate": "",
+            "cobraEndDate": "",
+            "cobraQualifyingEventCode": "",
+            "cobraQualifyingEvent": "",
+            "cobraQualifyingDate": "",
+            "providerId": "",
+            "providerName": "",
+            "externalProviderId": "",
+            "enrollmentStatus": "Not started",
+            "pcpMpin": "",
+            "ibrDependentData": [],
+            "elections": {},
+            "active": false,
+            "pcpFirstName": "",
+            "pcpLastName": "",
+            "salaryBasic": 0.0,
+            "salaryDouble": 0.0,
+            "zip": "53215",
+            "employeeDOE": "09/01/2017",
+            "medicareOverride": "N",
+            "employeeAddr1": "101 TEST ST.",
+            "employeeCity": "MILWAUKEE",
+            "medicareEligReason": "U",
+            "state": "WI",
+            "COBIndicator": "N",
+            "maritalStatus": "S",
+            "SSN": "999999999"
+        }],
+        "sites": [],
+        "subgroups": [{
+            "xref": "ALL",
+            "name": "",
+            "siteXref": "PRIMARY LOCATION - 53235",
+            "planOfferingXref": "08H2243"
+        }],
+        "planOfferingData": [{
+            "planOfferingId": "08H2243",
+            "existingPlanPkg": {
+                "covEffDate": "09/01/2017",
+                "plans": [{
+                    "planId": "PIN32",
+                    "planXref": "PIN32",
+                    "productLineType": "dental",
+                    "tierStructureId": "1",
+                    "options": [{
+                        "planOptionId": "IndNetDeductibleAmount",
+                        "planOptionValueId": "50"
+                    }, {
+                        "planOptionId": "IndOutNetDeductibleAmount",
+                        "planOptionValueId": "50"
+                    }, {
+                        "planOptionId": "FamilyInNetDeductibleAmount",
+                        "planOptionValueId": "150"
+                    }, {
+                        "planOptionId": "FamilyOutNetDeductibleAmount",
+                        "planOptionValueId": "150"
+                    }, {
+                        "planOptionId": "MajServicesInNetCoInsurancePct",
+                        "planOptionValueId": "50%"
+                    }, {
+                        "planOptionId": "MajServiceOutNetCoInsurancePct",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "MinorRestorativeInNetCoInsPct",
+                        "planOptionValueId": "80%"
+                    }, {
+                        "planOptionId": "MinorRestorativeOutNetCoInsPct",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "OrthoInNetCoinsurancePct",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "OrthodonticsCoveredOutNetInd",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "PreventiveInNetCoInsurancePct",
+                        "planOptionValueId": "100%"
+                    }, {
+                        "planOptionId": "PreventiveOutNetCoInsurancePct",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "LifetimeOrthoInNetBenAmount",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "InNetAnnualMaxBenefitAmount",
+                        "planOptionValueId": "1500"
+                    }, {
+                        "planOptionId": "OutNetAnnualMaxBenefitAmount",
+                        "planOptionValueId": "1500"
+                    }, {
+                        "planOptionId": "LifetimeOrthoOutNetBenAmount",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "WaitingPeriod",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "WaitingPeriodOrtho",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "RolloverMaxAccountIndicator",
+                        "planOptionValueId": "Y"
+                    }, {
+                        "planOptionId": "UsualCustomaryPercentile",
+                        "planOptionValueId": "MAC"
+                    }, {
+                        "planOptionId": "AnnDedMaxBenAppliesPrevDiag",
+                        "planOptionValueId": "N"
+                    }, {
+                        "planOptionId": "OrthodontiaBenefit",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "ImplantINPercent",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "ImplantOOOPercent",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "EndoPerioOralInnetPct",
+                        "planOptionValueId": "50%/50%/50%"
+                    }, {
+                        "planOptionId": "EndoPerioOralOutnetPct",
+                        "planOptionValueId": "NA/NA/NA"
+                    }, {
+                        "planOptionId": "PlanFundingDescription",
+                        "planOptionValueId": "Contributory"
+                    }, {
+                        "planOptionId": "BasicServInNetCoinsurancePct",
+                        "planOptionValueId": "50%"
+                    }, {
+                        "planOptionId": "BasicServOutNetCoinsurancePct",
+                        "planOptionValueId": "NA"
+                    }],
+                    "probationaryPeriods": [{
+                        "periodType": "D",
+                        "days": 90
+                    }],
+                    "rates": {
+                        "compositeRates": {
+                            "tier1": "34.67",
+                            "tier2": "69.34",
+                            "tier3": "72.54",
+                            "tier4": "110.75"
+                        }
+                    },
+                    "planRate": "384.57",
+                    "planPackageName": "",
+                    "ratingRegion": "",
+                    "planFamilyName": "",
+                    "planName": "",
+                    "dentDualPlanIndicator": "N",
+                    "employeeEnrollCount": 9,
+                    "policyNumber": "08H2243",
+                    "tier3Subcount": 1,
+                    "tier2Subcount": 1,
+                    "planCategory": "DPPO",
+                    "dependentEnrollCount": 2,
+                    "tier1Subcount": 7,
+                    "eventAdminInd": "N",
+                    "tier4Subcount": 0
+                }, {
+                    "planId": "V1008",
+                    "planXref": "V1008",
+                    "productLineType": "vision",
+                    "tierStructureId": "1",
+                    "options": [{
+                        "planOptionId": "VisionPlanType",
+                        "planOptionValueId": "V"
+                    }, {
+                        "planOptionId": "InNetExamCopayAmount",
+                        "planOptionValueId": "10"
+                    }, {
+                        "planOptionId": "InNetMaterialCopayAmount",
+                        "planOptionValueId": "25"
+                    }, {
+                        "planOptionId": "NumofMonthsBetweenCoveredExam",
+                        "planOptionValueId": "12"
+                    }, {
+                        "planOptionId": "FramesBenefitFrequency",
+                        "planOptionValueId": "24"
+                    }, {
+                        "planOptionId": "LensesBenefitFrequency",
+                        "planOptionValueId": "12"
+                    }, {
+                        "planOptionId": "OutNetExamMaxAmount",
+                        "planOptionValueId": "40"
+                    }, {
+                        "planOptionId": "OutNetFramesMaxAmount",
+                        "planOptionValueId": "45"
+                    }, {
+                        "planOptionId": "OutNetContactLensesMaxAmount",
+                        "planOptionValueId": "105"
+                    }, {
+                        "planOptionId": "OutNetSingleVisionLensesMaxAmt",
+                        "planOptionValueId": "40"
+                    }, {
+                        "planOptionId": "InnetworkContactLensAllowance",
+                        "planOptionValueId": "105"
+                    }, {
+                        "planOptionId": "RetailFrameAllowance",
+                        "planOptionValueId": "130"
+                    }],
+                    "probationaryPeriods": [{
+                        "periodType": "D",
+                        "days": 90
+                    }],
+                    "rates": {
+                        "compositeRates": {
+                            "tier1": "6.94",
+                            "tier2": "13.19",
+                            "tier3": "15.41",
+                            "tier4": "21.72"
+                        }
+                    },
+                    "planRate": "54.83",
+                    "planPackageName": "",
+                    "ratingRegion": "",
+                    "planFamilyName": "",
+                    "planName": "",
+                    "employeeEnrollCount": 7,
+                    "policyNumber": "08H2243",
+                    "tier3Subcount": 0,
+                    "tier2Subcount": 1,
+                    "planCategory": "VOLUNTARY",
+                    "dependentEnrollCount": 1,
+                    "tier1Subcount": 6,
+                    "eventAdminInd": "N",
+                    "tier4Subcount": 0
+                }]
+            },
+            "newPlanPkg": {
+                "plans": [{
+                    "planId": "PIN32",
+                    "planXref": "PIN32",
+                    "productLineType": "dental",
+                    "tierStructureId": "1",
+                    "options": [{
+                        "planOptionId": "IndNetDeductibleAmount",
+                        "planOptionValueId": "50"
+                    }, {
+                        "planOptionId": "IndOutNetDeductibleAmount",
+                        "planOptionValueId": "50"
+                    }, {
+                        "planOptionId": "FamilyInNetDeductibleAmount",
+                        "planOptionValueId": "150"
+                    }, {
+                        "planOptionId": "FamilyOutNetDeductibleAmount",
+                        "planOptionValueId": "150"
+                    }, {
+                        "planOptionId": "MajServicesInNetCoInsurancePct",
+                        "planOptionValueId": "50%"
+                    }, {
+                        "planOptionId": "MajServiceOutNetCoInsurancePct",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "MinorRestorativeInNetCoInsPct",
+                        "planOptionValueId": "80%"
+                    }, {
+                        "planOptionId": "MinorRestorativeOutNetCoInsPct",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "OrthoInNetCoinsurancePct",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "OrthodonticsCoveredOutNetInd",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "PreventiveInNetCoInsurancePct",
+                        "planOptionValueId": "100%"
+                    }, {
+                        "planOptionId": "PreventiveOutNetCoInsurancePct",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "LifetimeOrthoInNetBenAmount",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "InNetAnnualMaxBenefitAmount",
+                        "planOptionValueId": "1500"
+                    }, {
+                        "planOptionId": "OutNetAnnualMaxBenefitAmount",
+                        "planOptionValueId": "1500"
+                    }, {
+                        "planOptionId": "LifetimeOrthoOutNetBenAmount",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "WaitingPeriod",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "WaitingPeriodOrtho",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "RolloverMaxAccountIndicator",
+                        "planOptionValueId": "Y"
+                    }, {
+                        "planOptionId": "UsualCustomaryPercentile",
+                        "planOptionValueId": "MAC"
+                    }, {
+                        "planOptionId": "AnnDedMaxBenAppliesPrevDiag",
+                        "planOptionValueId": "N"
+                    }, {
+                        "planOptionId": "OrthodontiaBenefit",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "ImplantINPercent",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "ImplantOOOPercent",
+                        "planOptionValueId": "NA"
+                    }, {
+                        "planOptionId": "EndoPerioOralInnetPct",
+                        "planOptionValueId": "50%/50%/50%"
+                    }, {
+                        "planOptionId": "EndoPerioOralOutnetPct",
+                        "planOptionValueId": "NA/NA/NA"
+                    }, {
+                        "planOptionId": "PlanFundingDescription",
+                        "planOptionValueId": "Contributory"
+                    }, {
+                        "planOptionId": "BasicServInNetCoinsurancePct",
+                        "planOptionValueId": "50%"
+                    }, {
+                        "planOptionId": "BasicServOutNetCoinsurancePct",
+                        "planOptionValueId": "NA"
+                    }],
+                    "rates": {
+                        "compositeRates": {
+                            "tier1": "34.67",
+                            "tier2": "69.34",
+                            "tier3": "72.54",
+                            "tier4": "110.75"
+                        }
+                    },
+                    "planRate": "384.57",
+                    "planPackageName": "",
+                    "ratingRegion": "",
+                    "planFamilyName": "",
+                    "planName": "",
+                    "isShoppedPlan": false,
+                    "isPlanSelected": true,
+                    "dentDualPlanIndicator": "N",
+                    "policyNumber": "08H2243",
+                    "stepwiseQuoteID": "0014499328-0002",
+                    "originalPlanRate": "384.57",
+                    "tier3Subcount": 1,
+                    "planCategory": "DPPO",
+                    "tier4Subcount": 0,
+                    "employeeEnrollCount": 9,
+                    "renewalRateID": "2018-05-14-23.74.81.300001PR002",
+                    "tier2Subcount": 1,
+                    "costDifferentialPercentage": "+0.0%",
+                    "dependentEnrollCount": 2,
+                    "tier1Subcount": 7,
+                    "discountRatio": "1.3223"
+                }, {
+                    "planId": "V1008",
+                    "planXref": "V1008",
+                    "productLineType": "vision",
+                    "tierStructureId": "1",
+                    "options": [{
+                        "planOptionId": "VisionPlanType",
+                        "planOptionValueId": "V"
+                    }, {
+                        "planOptionId": "InNetExamCopayAmount",
+                        "planOptionValueId": "10"
+                    }, {
+                        "planOptionId": "InNetMaterialCopayAmount",
+                        "planOptionValueId": "25"
+                    }, {
+                        "planOptionId": "NumofMonthsBetweenCoveredExam",
+                        "planOptionValueId": "12"
+                    }, {
+                        "planOptionId": "FramesBenefitFrequency",
+                        "planOptionValueId": "24"
+                    }, {
+                        "planOptionId": "LensesBenefitFrequency",
+                        "planOptionValueId": "12"
+                    }, {
+                        "planOptionId": "OutNetExamMaxAmount",
+                        "planOptionValueId": "40"
+                    }, {
+                        "planOptionId": "OutNetFramesMaxAmount",
+                        "planOptionValueId": "45"
+                    }, {
+                        "planOptionId": "OutNetContactLensesMaxAmount",
+                        "planOptionValueId": "105"
+                    }, {
+                        "planOptionId": "OutNetSingleVisionLensesMaxAmt",
+                        "planOptionValueId": "40"
+                    }, {
+                        "planOptionId": "InnetworkContactLensAllowance",
+                        "planOptionValueId": "105"
+                    }, {
+                        "planOptionId": "RetailFrameAllowance",
+                        "planOptionValueId": "130"
+                    }],
+                    "rates": {
+                        "compositeRates": {
+                            "tier1": "6.94",
+                            "tier2": "13.19",
+                            "tier3": "15.41",
+                            "tier4": "21.72"
+                        }
+                    },
+                    "planRate": "54.83",
+                    "planPackageName": "",
+                    "ratingRegion": "",
+                    "planFamilyName": "",
+                    "planName": "",
+                    "isShoppedPlan": false,
+                    "isPlanSelected": true,
+                    "policyNumber": "08H2243",
+                    "stepwiseQuoteID": "0014445080-0001",
+                    "originalPlanRate": "54.83",
+                    "tier3Subcount": 0,
+                    "planCategory": "VOLUNTARY",
+                    "tier4Subcount": 0,
+                    "employeeEnrollCount": 7,
+                    "rateGuaranteePeriod": "2",
+                    "renewalRateID": "2018-05-14-23.74.81.300001PR002",
+                    "tier2Subcount": 1,
+                    "costDifferentialPercentage": "+0.0%",
+                    "dependentEnrollCount": 1,
+                    "tier1Subcount": 6,
+                    "discountRatio": "0.9739"
+                }]
+            },
+            "planMatch": [{
+                "currentPlanXref": "PIN32",
+                "renewingPlanXref": "PIN32"
+            }, {
+                "currentPlanXref": "V1008",
+                "renewingPlanXref": "V1008"
+            }],
+            "planOfferingXref": "08H2243"
+        }],
+        "submitterId": -3,
+        "EEChoiceIndicator": "N",
+        "employerApplicationData": {
+            "id": "cf563fcd-c366-4cf7-8617-31aed6613fa2",
+            "status": "Not Started",
+            "showHra": false,
+            "showHsa": false,
+            "groupName": "ACCURATE BASEMENT REPAIR, LLC",
+            "newDental": false,
+            "startDate": null,
+            "hashsaBank": false,
+            "newMedical": false,
+            "contactInfo": {
+                "last": "TEST",
+                "email": "AAA@BBB.COM",
+                "first": "ANDREA",
+                "title": "",
+                "middle": "",
+                "prefix": "",
+                "suffix": "",
+                "address": {
+                    "zip": "53235",
+                    "city": "",
+                    "type": "",
+                    "zip4": "0000",
+                    "state": "WI",
+                    "suite": "",
+                    "county": "",
+                    "street1": "101 TEST ST",
+                    "street2": "",
+                    "countyName": ""
+                },
+                "fullName": "",
+                "contactType": "",
+                "phoneNumbers": [{
+                    "ext": "",
+                    "num": "7446900",
+                    "areaCode": "414",
+                    "phoneType": "work",
+                    "phoneNumWithAreaCode": "4147446900"
+                }]
+            },
+            "hasHraField": false,
+            "completeDate": null,
+            "contactEmail": "AAA@BBB.COM",
+            "federalTaxId": "999999999",
+            "hraTypeLocked": false,
+            "billingAddress": {
+                "zip": "53237",
+                "city": "MILWAUKEE",
+                "type": "4",
+                "zip4": "",
+                "state": "WI",
+                "suite": "",
+                "county": "",
+                "street1": "101 TEST ST",
+                "street2": "",
+                "countyName": ""
+            },
+            "hasCdhpSection": false,
+            "primaryAddress": {
+                "zip": "53235",
+                "city": "MILWAUKEE",
+                "type": "3",
+                "zip4": "",
+                "state": "WI",
+                "suite": "",
+                "county": "",
+                "street1": "101 TEST ST",
+                "street2": "",
+                "countyName": ""
+            },
+            "doingBusinessAs": "ACCURATE BASEMENT REPAIR",
+            "newPrimeMedical": false,
+            "hasBasicLifePlans": false,
+            "contactPhoneNumber": {
+                "ext": "",
+                "num": "7446900",
+                "areaCode": "414",
+                "phoneType": "work",
+                "phoneNumWithAreaCode": "4147446900"
+            },
+            "hasNiceAddingPrime": false,
+            "noEligibleEmployee": 0,
+            "showYearsInBusiness": false,
+            "medicalBenefitOption": "",
+            "waitingPeriodDetails": {
+                "waitingPeriod": "1st of Policy Month following",
+                "medicalDaysOrMonth": "90 Days",
+                "medicalDaysVisible": true,
+                "previousDayOrMonth": "90 Days",
+                "waitingPeriodVisible": true,
+                "previousWaitingPeriod": "1st of Policy Month following",
+                "additionalWaitingPeriod": "1st of Policy Month following",
+                "medicalDaysDropdownList": [{
+                    "key": "Specify time-frame following date of hire",
+                    "value": [{
+                        "label": "30 Days",
+                        "value": "30 Days"
+                    }, {
+                        "label": "60 Days",
+                        "value": "60 Days"
+                    }, {
+                        "label": "One Month",
+                        "value": "One Month"
+                    }, {
+                        "label": "Three Months",
+                        "value": "Three Months"
+                    }, {
+                        "label": "Two Months",
+                        "value": "Two Months"
+                    }]
+                }, {
+                    "key": "1st of Policy Month following",
+                    "value": [{
+                        "label": "30 Days",
+                        "value": "30 Days"
+                    }, {
+                        "label": "60 Days",
+                        "value": "60 Days"
+                    }, {
+                        "label": "One Month",
+                        "value": "One Month"
+                    }, {
+                        "label": "Three Months",
+                        "value": "Three Months"
+                    }, {
+                        "label": "Two Months",
+                        "value": "Two Months"
+                    }]
+                }],
+                "isAdditionalWaitingPeriod": false,
+                "waitingPeriodDropdownList": [{
+                    "label": "1st of Policy Month following Date of Hire",
+                    "value": "1st of Policy Month following Date of Hire"
+                }, {
+                    "label": "1st of Policy Month following",
+                    "value": "1st of Policy Month following"
+                }, {
+                    "label": "Date of Hire (no waiting period)",
+                    "value": "Date of Hire (no waiting period)"
+                }, {
+                    "label": "Specify time-frame following date of hire",
+                    "value": "Specify time-frame following date of hire"
+                }],
+                "waitingPeriodForNewMedical": false,
+                "waitingPeriodClassNameVisible": true,
+                "additionalWaitingPeriodVisible": true,
+                "additionalWaitingPeriodDropdownList": [{
+                    "key": "1st of Policy Month following Date of Hire",
+                    "value": [{
+                        "label": "1st of Policy Month following Date of Hire",
+                        "value": "1st of Policy Month following Date of Hire"
+                    }, {
+                        "label": "1st of Policy Month following",
+                        "value": "1st of Policy Month following"
+                    }]
+                }, {
+                    "key": "1st of Policy Month following",
+                    "value": [{
+                        "label": "1st of Policy Month following Date of Hire",
+                        "value": "1st of Policy Month following Date of Hire"
+                    }, {
+                        "label": "1st of Policy Month following",
+                        "value": "1st of Policy Month following"
+                    }]
+                }, {
+                    "key": "Date of Hire (no waiting period)",
+                    "value": [{
+                        "label": "Date of Hire (no waiting period)",
+                        "value": "Date of Hire (no waiting period)"
+                    }, {
+                        "label": "Specify time-frame following date of hire",
+                        "value": "Specify time-frame following date of hire"
+                    }]
+                }, {
+                    "key": "Specify time-frame following date of hire",
+                    "value": [{
+                        "label": "Date of Hire (no waiting period)",
+                        "value": "Date of Hire (no waiting period)"
+                    }, {
+                        "label": "Specify time-frame following date of hire",
+                        "value": "Specify time-frame following date of hire"
+                    }]
+                }]
+            },
+            "primeMedAddingNiceMed": false,
+            "containsMedicalBenefit": false,
+            "requestedEffectiveDate": "09/01/2019",
+            "medicalConditionalEnroll": {
+                "isNHP": false,
+                "fteVisible": false,
+                "atneVisible": false,
+                "naCombination": false,
+                "stateCombination": false,
+                "workerCompensation": false,
+                "isHoursPerWeekEditable": true,
+                "domesticPartnerEditable": false,
+                "workerCompCoverageEditable": false,
+                "isContinuationStatusVisible": false
+            },
+            "showMedicalBenefitOption": false,
+            "existingPrimeNewPrimeNice": false,
+            "workerCompCoverageRequired": false,
+            "ancillaryAddingPrimeMedical": false,
+            "billingAddressSameAsPrimary": "N"
+        },
+        "submitterName": "Internal I User",
+        "usageRenewalDate": "09/01/2019",
+        "multiSiteProgramCode": "SS",
+        "status": "Ready"
+    },
+    "totalEmployeeEnrolled": 0,
+    "createdAt": 1549525389389,
+    "addendumIndicator": false,
+    "copyType": "View",
+    "isQuoteModified": false,
+    "isQuoteViewed": true,
+    "employerInformationCompleted": true,
+    "updatedAt": 1554719377923
+}

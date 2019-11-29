@@ -1,0 +1,10 @@
+today's things
+
+.Junit
+**wherever we need to stub methods(like database calls, rest calls)
+**we need to use when thenReturn of Mockito
+**for some db or rest call where values are returned
+**then we have to prepare that data ourseleves and return it.
+
+***wherever there is a method(db or rest) returning nothing
+-->we use Mockito.doNothing
