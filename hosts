@@ -1,0 +1,55 @@
+127.0.0.1	localhost
+127.0.1.1	amanv-OptiPlex-3020
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+10.1.2.171 vuhgqa01a.ct.com
+10.1.2.21 svn.ct.com
+10.1.2.150 coors.wks.ct.com
+192.168.140.60 uhgatlsgqa01.ct.com
+104.130.178.104 connecture.com
+10.1.2.18 build03.ct.com
+10.1.2.21 nexus.ct.com
+172.16.138.24
+192.168.56.102
+10.1.2.45 cnxwkssql02.ct.com
+192.168.140.13 cnxatlsql09.ct.com
+10.1.2.56 ia-alpha.ct.com
+10.1.2.21 build02.ct.com
+10.1.2.21 sonar.ct.com
+192.168.140.8 cnxatlsgaa01.ct.com
+10.1.2.21 svn.ct.com
+10.1.2.56 ia-alpha.ct.com
+10.1.2.18 build03.ct.com
+10.1.2.18 jenkins.ct.com
+172.16.34.24 connxapp-dev.emids.com
+192.168.141.43 ia-alpha-atl.ct.com
+216.87.148.114 ia-alpha-atl.ct.com
+192.168.140.23 via75qa01.ct.com
+192.168.140.70 via76qa01.ct.com
+192.168.140.29  CNXATLSGQD06.ct.com
+192.168.140.22  phatlsgqa01.ct.com
+192.168.230.167 phsgusgaa01.cnxuat.com
+66.179.61.110   ph-uat01.healthinsurance-asp.com
+10.1.2.150            coors.wks.ct.com
+192.168.140.29 vautotestqa01.ct.com
+10.1.2.18   jenkins.ct.com
+10.1.2.104 CNXBRKSGQA03.ct.com
+10.1.2.171 vuhgdev02.ct.com
+10.1.2.103 CNXBRKSGQA02.ct.com
+192.168.230.135 uhg-esb-internal.cnxuat.com
+10.1.2.37 esb-uhg
+192.168.140.48 cnxatlsgda02.ct.com
+192.168.140.112 docatlsgaa01.ct.com
+192.168.140.72  uhgatlsgqa02.ct.com
+192.168.140.48 cnxatlsgda02
+172.16.138.134 uhgps.emids.com
+10.1.2.171 vuhgqa02a.ct.com
+192.168.140.157 cnxatlsgqa12.ct.com
+192.168.140.170 uhgatlsgqa04.ct.com
+127.0.0.1 localhost.localdomain localhost
+
