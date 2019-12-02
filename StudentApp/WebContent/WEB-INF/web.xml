@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>StudentApp</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <!--loginfront-->
+    <servlet>
+  	<servlet-name>LoginFront</servlet-name>
+  	<servlet-class>com.jspiders.servlet.LoginFront</servlet-class>
+  </servlet>
+  <servlet-mapping><servlet-name>LoginFront</servlet-name>
+  <url-pattern>/visit</url-pattern>
+  </servlet-mapping>
+  <!--end loginfront-->
+  
+  <!-- viewbasicinfo servlet -->
+  <servlet>
+  	<servlet-name>ViewBasicInfo</servlet-name>
+  	<servlet-class>com.jspiders.servlet.ViewBasicInfo</servlet-class>
+  </servlet>
+  <servlet-mapping><servlet-name>ViewBasicInfo</servlet-name>
+  <url-pattern>/viewstudentsdetails</url-pattern>
+  </servlet-mapping>
+  <!-- end viewbasicinfo servlet -->
+  
+  
+    <!-- viewcompletestudentinfo servlet -->
+  <servlet>
+  	<servlet-name>ViewCompleteInfo</servlet-name>
+  	<servlet-class>com.jspiders.servlet.StudentCompleteInfo</servlet-class>
+  </servlet>
+  <servlet-mapping><servlet-name>ViewCompleteInfo</servlet-name>
+  <url-pattern>/studentscompletedetails</url-pattern>
+  </servlet-mapping>
+  <!-- end viewcompletestudentinfo servlet -->
+  
+  <servlet>
+  	<servlet-name>ViewStudentsInfo</servlet-name>
+  	<servlet-class>com.jspiders.servlet.ViewAllInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping><servlet-name>ViewStudentsInfo</servlet-name>
+  <url-pattern>/viewall</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+  	<servlet-name>SearchStudentServlet</servlet-name>
+  	<servlet-class>com.jspiders.servlet.SearchStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping><servlet-name>SearchStudentServlet</servlet-name>
+  <url-pattern>/viewstudent</url-pattern>
+  </servlet-mapping>
+  
+  <!--createprofileservlet-->
+  <servlet>
+  	<servlet-name>CreateProfile</servlet-name>
+  	<servlet-class>com.jspiders.servlet.CreateProfile</servlet-class>
+  </servlet>
+    <servlet-mapping><servlet-name>CreateProfile</servlet-name>
+  <url-pattern>/createprofile</url-pattern>
+  </servlet-mapping>
+  <!--end create profile-->
+  
+    <!--studentfilter-->
+  <servlet>
+  	<servlet-name>SearchStudentByDiffInputs</servlet-name>
+  	<servlet-class>com.jspiders.servlet.SearchStudentByDiffInputs</servlet-class>
+  </servlet>
+    <servlet-mapping><servlet-name>SearchStudentByDiffInputs</servlet-name>
+  <url-pattern>/searchstudent</url-pattern>
+  </servlet-mapping>
+  <!--end student filter-->
+  
+  <!--login servlet-->
+    <servlet>
+    	<servlet-name>Login</servlet-name>
+  		<servlet-class>com.jspiders.servlet.Login</servlet-class>
+  	</servlet>
+		<servlet-mapping><servlet-name>Login</servlet-name>
+		<url-pattern>/login</url-pattern></servlet-mapping>  
+  <!--end login servlet-->
+  
+  <!--dashboard servlet-->
+  <servlet>
+	<servlet-name>DashBoard</servlet-name>
+  		<servlet-class>com.jspiders.servlet.DashBoard</servlet-class>
+  	</servlet>
+		<servlet-mapping><servlet-name>DashBoard</servlet-name>
+		<url-pattern>/dashboard</url-pattern></servlet-mapping>
+		
+	<servlet>
+		<servlet-name>Header</servlet-name>
+  		<servlet-class>com.jspiders.servlet.Header</servlet-class>
+  	</servlet>
+		<servlet-mapping><servlet-name>Header</servlet-name>
+		<url-pattern>/header</url-pattern></servlet-mapping>	  
+  <!--end dashboard-->		
+  
+  <!--change password section-->
+    <servlet>
+	<servlet-name>ChangePassword</servlet-name>
+  		<servlet-class>com.jspiders.servlet.ChangePassword</servlet-class>
+  	</servlet>
+		<servlet-mapping><servlet-name>ChangePassword</servlet-name>
+		<url-pattern>/changepassword</url-pattern></servlet-mapping>
+		
+ <servlet>
+	<servlet-name>ResetPassword</servlet-name>
+  		<servlet-class>com.jspiders.servlet.ResetPassword</servlet-class>
+  	</servlet>
+		<servlet-mapping><servlet-name>ResetPassword</servlet-name>
+		<url-pattern>/resetpassword</url-pattern></servlet-mapping>
+	<!--end change password-->	
+		
+	<!--logout-->	
+		<servlet>
+	<servlet-name>Logout</servlet-name>
+  		<servlet-class>com.jspiders.servlet.Logout</servlet-class>
+  	</servlet>
+		<servlet-mapping><servlet-name>Logout</servlet-name>
+		<url-pattern>/logout</url-pattern></servlet-mapping>
+		<!--end logout-->	
+</web-app>

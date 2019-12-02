@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title><img src="img/gandhijisarvashikhsha.jpeg"/> Student Profile</title>
+	
+	<link rel=stylesheet href=css/studentcompleteform.css>
+</head>
+<body style="background-image:url(http://localhost:8080/StudentApp/img/student-information-form.jpg);">
+
+<h1 style="color: brown;">Fill Up the Details to be a member of JSpiders</h1>
+<form id='student_profile' action="http://localhost:8080/StudentApp/createprofile" method="post">
+	<div class="section_div1">
+		<div class = "inner_section">
+		<fieldset class="sect_border">
+			<legend>Basic Info</legend>
+			 <table>
+				<tr>
+					<td><label class="label_style">Regno :</label></td>
+					<td><input type="text" id="rno" name="regno"></td>
+				</tr>
+				<tr>
+					<td><label class="label_style">Password :</label></td>
+					<td><input type="password" name="pswrd"></td>
+				</tr>
+				<tr>
+					<td><label class="label_style">IsAdmin?</label></td>
+					<td>
+					<select name="isadmin">
+						<option>----------------</option>
+						<option value="1">Yes</option>
+						<option value="0">No</option>
+					</select>
+					</td>
+				</tr>
+			</table> 		
+		</fieldset>
+		</div>
+
+		<div  class = "inner_section2">
+		<fieldset class="sect_border">
+			<legend>Course Details:s</legend>
+
+			<table>
+				<tr>
+					<td><input type="checkbox" name="course" value="1">
+					<label class="label_style">Core Java</label></td>
+					<td><input type="checkbox" name="course" value="2">
+					<label class="label_style">SQL</label></td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="course" value="3">
+					<label class="label_style">J2EE</label></td>
+					<td><input type="checkbox" name="course" value="4">
+					<label class="label_style">Spring</label></td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="course" value="5">
+					<label class="label_style">HTML/CSS</label></td>
+					<td><input type="checkbox" name="course" value="6">
+					<label class="label_style">Client Scripting</label></td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="course" value="7">
+					<label class="label_style">Hibernate</label></td>
+					<td><input type="checkbox" name="course" value="8">
+					<label class="label_style">Mathematical Apti</label></td>
+				</tr>
+			</table>
+		</fieldset>
+		</div>
+	</div>
+
+	<div class="section_div1">
+		<div class = "inner_section">
+		<fieldset class="sect_border">
+			<legend>Guardian Info</legend>
+			<table>
+				<tr>
+					<td><label class="label_style">Guardian First Name:</label></td>
+					<td><input type="text" name="guarFName"></td>
+				</tr>
+				<tr>
+					<td><label class="label_style">Guardian Last Name:</label></td>
+					<td><input type="text" name="guarLName"></td>
+				</tr>
+			</table>
+		</fieldset>
+		</div>
+
+		<div class = "inner_section2">
+		<fieldset class="sect_border">
+			<legend>Students Complete Info</legend>
+			<table>
+				<tr>
+					<td><label class="label_style">Student First Name:</label></td>
+					<td><input type="text" name="stuFName"></td>
+				</tr>
+				<tr>
+					<td><label class="label_style">Student Middle Name:</label></td>
+					<td><input type="text" name="stuMName"></td>
+				</tr>
+				<tr>
+					<td><label class="label_style">Student Last Name:</label></td>
+					<td><input type="text" name="stuLName"></td>
+				</tr>
+			</table>
+		</fieldset>
+		</div>
+	</div>
+	
+	
+	<div class="section_div2">
+		<div class = "inner_section">
+		<fieldset class="sect_border">
+			<legend>Student Present Address Info:</legend>
+			<table>
+				<tr>
+					<td><label class="label_style">Home No:</label></td>
+					<td><input type="text" id="homeno" name="homeno"></td>
+				</tr>
+				<tr>
+					<td><label class="label_style">Street/Block:</label></td>
+					<td><input type="text" id="street" name="street"></td>
+				</tr>
+				<tr>
+					<td><label class="label_style">Area:</label></td>
+					<td><input type="text" id="area" name="area"></td>
+				</tr>
+				<tr>
+					<td><label class="label_style">City:</label></td>
+					<td><input type="text" id="city" name="city"></td>
+				</tr>
+				<tr>
+					<td><label class="label_style">Country:</label></td>
+					<td><input type="text" id="country" name="country"></td>
+				</tr>
+				<tr>
+					<td><label class="label_style">Pincode:</label></td>
+					<td><input type="text" id="pincode" name="pincode"></td>
+				</tr>
+			</table>
+		</fieldset>
+		</div>
+
+		<div class = "inner_section2">
+		<fieldset class="sect_border">
+			<legend>Student Permanent Address Info:</legend>
+			<table>
+				<tr><td><input type="checkbox" id="autoFillAdd" onclick="func()" name="check_permadd">
+				<label class="label_style">Same As Present</label></td></tr>
+				<tr>
+					<td><label class="label_style">Home No:</label></td>
+					<td><input type="text" id="per_homeno" name="per_homeno"></td>
+				</tr>
+				<tr>
+					<td><label class="label_style">Street/Block:</label></td>
+					<td><input type="text" id="per_street" name="per_street"></td>
+				</tr>
+				<tr>
+					<td><label class="label_style">Area:</label></td>
+					<td><input type="text" id="per_area" name="per_area"></td>
+				</tr>
+				<tr>
+					<td><label class="label_style">City:</label></td>
+					<td><input type="text" id="per_city" name="per_city"></td>
+				</tr>
+				<tr>
+					<td><label class="label_style">Country:</label></td>
+					<td><input type="text" id="per_country" name="per_country"></td>
+				</tr>
+				<tr>
+					<td><label class="label_style">Pincode:</label></td>
+					<td><input type="text" id="per_pincode" name="per_pincode"></td>
+				</tr>
+			</table>
+		</fieldset>
+		</div>
+	</div>
+	<input type="submit" id="create" value="submit"/>
+</form>
+
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="js/student-complete-form.js"></script>
+
+</body>
+</html>
