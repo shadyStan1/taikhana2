@@ -1,0 +1,24 @@
+ @Override
+public List<Titulos> searchTitulosByRazonSocial(String rSocial) {
+    Session currentSession = sessionFactory.getCurrentSession();
+    Criteria c = currentSession.createCriteria(Titulos.class);
+    c.add(Restrictions.like("RazonSocial", "%" + rSocial.toLowerCase() + "%"));
+    List<Titulos> titulosEncontrados = (List<Titulos>)c.list();
+    return titulosEncontrados;
+}
+
+@Override
+public List<Titulos> searchTitulosByNombre(String apPaterno, String apMaterno, String nombres) {
+    Session currentSession = sessionFactory.getCurrentSession();
+    Criteria c = currentSession.createCriteria(Titulos.class);
+    Criterion or = Restrictions.or(
+                        Restrictions.like("ApellidoPaterno", "%"+apPaterno.toLowerCase()+"%"), 
+                        Restrictions.like("ApellidoMaterno", "%"+apMaterno.toLowerCase()+"%")
+        );
+    Criterion or2 = Restrictions.or(
+                        or, 
+                        Restrictions.like("ApellidoMaterno", "%"+apMaterno.toLowerCase()+"%"));
+    c.add(or2);
+    List<Titulos> titulosEncontradosNombre = (List<Titulos>)c.list();
+    return titulosEncontradosNombre;
+}

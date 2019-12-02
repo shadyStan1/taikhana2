@@ -1,0 +1,6 @@
+Criteria criteria = getSession().createCriteria(clazz); 
+Criterion rest1= Restrictions.and(Restrictions.eq(A, "X"), 
+           Restrictions.in("B", Arrays.asList("X",Y)));
+Criterion rest2= Restrictions.and(Restrictions.eq(A, "Y"), 
+           Restrictions.eq(B, "Z"));
+criteria.add(Restrictions.or(rest1, rest2));
